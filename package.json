@@ -1,0 +1,26 @@
+{
+  "name": "react-tailwind-ghpages",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://your-username.github.io/your-repo-name",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.30",
+    "autoprefixer": "^10.4.17",
+    "gh-pages": "^6.0.0"
+  },
+  "type": "module"
+}
