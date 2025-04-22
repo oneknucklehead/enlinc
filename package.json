@@ -2,7 +2,7 @@
   "name": "react-tailwind-ghpages",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://your-username.github.io/your-repo-name",
+  "homepage": "https://oneknucklehead.github.io/enlinc",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,16 +11,19 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "lucide-react": "^0.501.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0"
+    "react-router-dom": "^6.22.0",
+    "react-scroll": "^1.9.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.17",
     "gh-pages": "^6.0.0",
     "postcss": "^8.4.30",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.17",
     "vite": "^5.0.0"
   },
   "type": "module"
