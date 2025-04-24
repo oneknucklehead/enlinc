@@ -119,7 +119,7 @@ const Navbar = () => {
           {menuOpen && (
             <div
               ref={mobileNavRef}
-              className="absolute top-20 left-0 w-full bg-white shadow-md rounded-b-2xl px-6 py-4 flex flex-col gap-4 xl:hidden z-40"
+              className="absolute top-20 left-0 w-full bg-white shadow-md rounded-2xl px-6 py-4 flex flex-col gap-4 xl:hidden z-40"
             >
               {navItems.map((item) => (
                 <div key={item.label} className="flex flex-col">
