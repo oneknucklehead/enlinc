@@ -130,6 +130,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* TRUST SECTION */}
       <div classname="w-full">
         <Container>
@@ -349,14 +350,16 @@ const Home = () => {
       </div>
       {/* REVIEWS SECTIONS */}
       <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] h-fit py-12 px-4">
-        <div>
-          <h3 className="text-3xl xl:text-4xl text-white text-center">
-            Why Business Owners Trust En linc
-          </h3>
-        </div>
-        <div>
-          <ReviewSlider />
-        </div>
+        <Container>
+          <div>
+            <h3 className="text-3xl xl:text-4xl text-white text-center">
+              Why Business Owners Trust En linc
+            </h3>
+          </div>
+          <div>
+            <ReviewSlider />
+          </div>
+        </Container>
       </div>
       {/* FAQ SECTION */}
       <div className="py-12 px-4">
