@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "../components/Container";
-import ContentSection from "../sections/ContentSection";
-import Button from "../components/Button";
-import MultiStepForm from "../components/MultiStepForm";
-import FormBanner from "../sections/FormBanner";
-import FeatureCard2 from "../components/FeatureCard2";
+import Container from "../../components/Container";
+import ContentSection from "../../sections/ContentSection";
+import Button from "../../components/Button";
+import MultiStepForm from "../../components/MultiStepForm";
+import FormBanner from "../../sections/FormBanner";
+import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
-import Banner from "../components/Banner";
+import Banner from "../../components/Banner";
 
 const MediumBusiness = () => {
   const cardData = [

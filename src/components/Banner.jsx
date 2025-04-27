@@ -4,7 +4,7 @@ const Banner = ({ imgSrc = img, children }) => {
   return (
     <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] py-24 px-4">
       <div className="flex flex-col-reverse lg:flex-row gap-8 justify-center items-center max-w-6xl mx-auto px-4">
-        <img src={imgSrc} alt="banner image" />
+        <img src={imgSrc} alt="banner image" className="" />
         {children ? (
           <div>{children}</div>
         ) : (

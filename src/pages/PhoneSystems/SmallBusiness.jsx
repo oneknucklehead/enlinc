@@ -1,15 +1,15 @@
 import React from "react";
-import Container from "../components/Container";
-import ContentSection from "../sections/ContentSection";
-import Button from "../components/Button";
-import MultiStepForm from "../components/MultiStepForm";
-import savings from "../assets/images/Savings.png";
-import FeatureCard2 from "../components/FeatureCard2";
+import Container from "../../components/Container";
+import ContentSection from "../../sections/ContentSection";
+import Button from "../../components/Button";
+import MultiStepForm from "../../components/MultiStepForm";
+import savings from "../../assets/images/Savings.png";
+import FeatureCard2 from "../../components/FeatureCard2";
 import { Phone, PhoneForwarded } from "lucide-react";
-import FeatureCard3 from "../components/FeatureCard3";
-import Banner from "../components/Banner";
+import FeatureCard3 from "../../components/FeatureCard3";
+import Banner from "../../components/Banner";
 
-const PSSmallBusiness = () => {
+const SmallBusiness = () => {
   const cardData = [
     {
       logo: <PhoneForwarded className="h-5 w-5" />,
@@ -277,4 +277,4 @@ const PSSmallBusiness = () => {
   );
 };
 
-export default PSSmallBusiness;
+export default SmallBusiness;

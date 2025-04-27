@@ -1,10 +1,10 @@
 import React from "react";
-import Container from "../components/Container";
-import ContentSection from "../sections/ContentSection";
-import Button from "../components/Button";
-import FormBanner from "../sections/FormBanner";
-import FeatureCard2 from "../components/FeatureCard2";
-import Banner from "../components/Banner";
+import Container from "../../components/Container";
+import ContentSection from "../../sections/ContentSection";
+import Button from "../../components/Button";
+import FormBanner from "../../sections/FormBanner";
+import FeatureCard2 from "../../components/FeatureCard2";
+import Banner from "../../components/Banner";
 
 const Enterprise = () => {
   const cardData = [

@@ -76,7 +76,11 @@ const StepTwo = ({ register, errors }) => (
     {errors.phone && <p className="text-red-500">{errors.phone.message}</p>}
   </div>
 );
-
+// STEP 2 POSTAL CODE
+// STEP 3 FULL NAME
+// STEP 4 COMPANY NAME
+// STEP 5 EMAIL ADDRESS
+// STEP 6 PHONE NUMBER
 const StepThree = ({ watch }) => {
   const data = watch();
   return (

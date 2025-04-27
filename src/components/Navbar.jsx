@@ -32,7 +32,7 @@ const navItems = [
   },
   {
     label: "Industries",
-    link: "/industries",
+    link: "#",
     subMenu: [
       { name: "Automotive", link: "/industries/automotive" },
       { name: "Construction", link: "/industries/construction" },
