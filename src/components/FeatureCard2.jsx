@@ -1,0 +1,18 @@
+import { Phone } from "lucide-react";
+import React from "react";
+
+const FeatureCard2 = ({
+  logo = <Phone className="w-5 h-5" />,
+  title,
+  description,
+}) => {
+  return (
+    <div className="bg-white border rounded-md scale-95 hover:scale-100 cursor-pointer transition-all p-4 text-center flex flex-col justify-center items-center gap-4">
+      <div className="bg-[#2A6A9E] p-2 rounded-full text-white">{logo}</div>
+      <h4>{title}</h4>
+      <p className="text-sm text-gray-500">{description}</p>
+    </div>
+  );
+};
+
+export default FeatureCard2;

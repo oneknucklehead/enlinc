@@ -23,6 +23,7 @@ import { useEffect, useState } from "react";
 import ReviewSlider from "../components/ReviewSlider";
 import Accordion from "../components/Accordion";
 import { Star } from "lucide-react";
+import FAQSection from "../sections/FAQSection";
 
 const brandArr = [logo, logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
@@ -194,7 +195,7 @@ const Home = () => {
       <div className="w-full h-fit pt-12 pb-16 px-4">
         <Container>
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="relative">
+            <div className="relative  px-4">
               <div className="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto">
                 {/* Background layer */}
                 <div className="absolute top-4 -left-4 w-full h-full bg-gradient-to-t from-[#142462] to-[#2A6A9E] rounded-xl z-0" />
@@ -362,16 +363,7 @@ const Home = () => {
         </Container>
       </div>
       {/* FAQ SECTION */}
-      <div className="py-12 px-4">
-        <Container>
-          <div>
-            <h3 className="text-3xl lg:text-4xl text-center">
-              Frequently asked questions
-            </h3>
-          </div>
-          <Accordion />
-        </Container>
-      </div>
+      <FAQSection />
     </div>
   );
 };
