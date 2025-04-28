@@ -18,7 +18,7 @@ const navItems = [
   },
   {
     label: "Products",
-    link: "/products",
+    link: "#",
     subMenu: [
       {
         name: "Business Phone Systems",

@@ -66,10 +66,6 @@ const MediumBusiness = () => {
                   Leading Small Business Phone System Experts
                 </p>
               </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
-              </div>
             </div>
           </ContentSection>
         </Container>
@@ -92,9 +88,6 @@ const MediumBusiness = () => {
                 comprehensive end to end solution that seamlessly connects your
                 locations, people and customers together.
               </p>
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
-              </div>
             </div>
           </ContentSection>
         </Container>
@@ -154,10 +147,6 @@ const MediumBusiness = () => {
                   help you understand how various features will benefit your
                   business.
                 </p>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>

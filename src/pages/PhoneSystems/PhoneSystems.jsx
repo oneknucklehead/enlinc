@@ -23,52 +23,52 @@ import FormBanner from "../../sections/FormBanner";
 const PhoneSystems = () => {
   const cardData = [
     {
-      title: "Voicemail to Email",
+      title: "Voicemail-to-Email Integration",
       description:
-        "Receive voicemail messages straight to your inbox, so you can listen to your messages anytime, anywhere on your computer or mobile device.",
+        "Get voicemail messages delivered directly to your email inbox—access and listen to them anytime, anywhere from your mobile phone or computer. Perfect for staying connected and responsive on the go.",
       logo: <Mail className="h-5 w-5" />,
     },
     {
-      title: "Hunt Group",
+      title: "Smart Call Distribution (Hunt Group Feature)",
       description:
-        "Distribute your incoming calls to the relevant phone line after a caller makes a choice regarding the purpose of their call.",
+        "Automatically transfer incoming calls using a voice menu system—no receptionist or manual operator needed. Improve efficiency and ensure callers reach the right team or department with ease.",
       logo: <Share2 className="h-5 w-5" />,
     },
     {
-      title: "Auto attendant",
+      title: "Virtual Receptionist (Auto Attendant Feature)",
       description:
-        "Transfer calls via a voice menu system without the need of having a telephone operator or receptionist.",
+        "Keep callers engaged with on-hold music or messages, reducing hang-ups while they wait to be connected to the right person.",
       logo: <Settings className="h-5 w-5" />,
     },
     {
-      title: "Music on hold",
+      title: "Hold Music Feature",
       description:
-        "Prevent your callers from hanging up the phone by keeping them engaged while waiting to speak with the person on the other line.",
+        "Keep callers engaged with on-hold music or messages, reducing hang-ups while they wait to be connected to the right person.",
+      logo: <Database className="h-5 w-5" />,
+    },
+    {
+      title: "Call Anywhere, Anytime",
+      description:
+        "Access all the features of a full business phone system on your mobile device—stay connected and manage calls from anywhere, anytime.",
       logo: <Music className="h-5 w-5" />,
     },
     {
-      title: "Call anywhere",
+      title: "Built-In Audio Conferencing",
       description:
-        "Receive all the capabilities of a full business phone desk on your mobile device, so you can take your work with you wherever you go.",
+        "Host virtual meetings with multiple participants using high-quality business conference calling—ideal for seamless team collaboration and client communication.",
       logo: <Phone className="h-5 w-5" />,
     },
     {
-      title: "Conference Calls",
+      title: "Recorded Calls Made Easy",
       description:
-        "Conduct virtual meetings over the phone with numerous people using high quality conference call functionality.",
+        "Improve customer service by recording business calls and saving them as digital audio files—ideal for quality control, staff training, and compliance.",
       logo: <Users className="h-5 w-5" />,
     },
     {
-      title: "Call Recording",
+      title: "Call Reporting & Analytics",
       description:
-        "Build a better customer experience by recording and saving your telephone conversations in a digital audio file format.",
+        "Track all phone activity, call usage, and costs in real time with our advanced call accounting software—ideal for monitoring performance and managing telecom expenses.",
       logo: <CircleDot className="h-5 w-5" />,
-    },
-    {
-      title: "Call Accounting",
-      description:
-        "Capture all of your phone records, usage and costs using our specialised software or hardware.",
-      logo: <Database className="h-5 w-5" />,
     },
   ];
 
@@ -98,13 +98,9 @@ const PhoneSystems = () => {
               </h1>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Save Money And Make Communication Easy With Australia’s
-                  Leading Small Business Phone System Experts
+                  Affordable, Reliable Phone Systems for Businesses Across
+                  Australia — Powered by EN-LINC
                 </p>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>
@@ -116,26 +112,31 @@ const PhoneSystems = () => {
           <ContentSection>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                The Leaders in VoIP and Office Phone System Technology
+                Leaders in VoIP and Office Phone System Technology — EN-LINC
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Hence the emergence of a multitude of office telephone systems
-                  and VoIP Phones in Australia. On-site IP Phones, cloud-hosted
-                  or office phones, hybrid VoIP phone systems or IP, PABX, video
-                  conferencing, call management functionality. We cannot imagine
-                  a world without an office telephone and VoIP phone technology.
+                  Today’s businesses depend on advanced office telephone systems
+                  and VoIP technology to stay connected, efficient, and
+                  competitive. Whether you need on-site IP phones, cloud-hosted
+                  PBX solutions, hybrid VoIP systems, or powerful call
+                  management and video conferencing tools, EN-LINC delivers
+                  cutting-edge communication solutions tailored for Australian
+                  businesses. In today's world, office phones and VoIP phone
+                  systems are essential to maintaining seamless operations
+                  across every industry.
                 </p>
                 <div className="py-4">
                   <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                    What Is The Best Kind of Office Phone System?
+                    Choosing the Best Office Phone System for Your Business
                   </p>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Deciding on the best phone system for your office can be
-                    tough. Every business is different and what works for one
-                    office might not work for another. With dozens of office
-                    phone and VoIP Phones on the market, there are a few things
-                    you need to consider.
+                    Finding the right office phone system isn’t
+                    one-size-fits-all. Every business has unique needs, and the
+                    ideal solution depends on your operations, team size, and
+                    communication style. With so many VoIP phone systems and
+                    office phone options available, EN-LINC helps simplify the
+                    decision-making process by focusing on what matters most:
                     <ul className="space-y-4 py-4">
                       <li className="flex items-start gap-3">
                         {/* SVG Bullet */}
@@ -150,7 +151,8 @@ const PhoneSystems = () => {
                         </svg>
                         {/* Text */}
                         <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                          What kind of office phone system do you want?
+                          <b>Technology preference:</b> VoIP (internet-based) vs
+                          traditional landline.
                         </span>
                       </li>
                       <li className="flex items-start gap-3">
@@ -166,10 +168,8 @@ const PhoneSystems = () => {
                         </svg>
                         {/* Text */}
                         <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                          Are you comfortable using a Voice over Internet
-                          Protocol (VoIP) business phone systems, which runs
-                          over the internet, or do you want to stick with a
-                          reliable landline telephone service?
+                          <b>Scalability:</b> How many phone lines and user
+                          extensions you’ll need.
                         </span>
                       </li>
                       <li className="flex items-start gap-3">
@@ -185,7 +185,9 @@ const PhoneSystems = () => {
                         </svg>
                         {/* Text */}
                         <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                          How many phone lines and extensions do you need?
+                          <b>Functionality:</b> Features like call forwarding,
+                          conferencing, voicemail-to-email, and mobile
+                          integration.
                         </span>
                       </li>
                       <li className="flex items-start gap-3">
@@ -201,17 +203,13 @@ const PhoneSystems = () => {
                         </svg>
                         {/* Text */}
                         <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                          How do you want staff to use the system? This is where
-                          having the right features counts.
+                          <b>User experience:</b> How easily your staff can
+                          adopt and benefit from the system.
                         </span>
                       </li>
                     </ul>
                   </p>
                 </div>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>
@@ -222,24 +220,25 @@ const PhoneSystems = () => {
           <ContentSection reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                The Cost of Setting up an Office Phone System
+                The Cost of Setting Up an Office Phone System with EN-LINC
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  If you’re starting up your business, you may wish to save on
-                  costs by using a domestic phone system. Office phone system’s
-                  generally cost more; however, it’s what you’re getting for
-                  your money that sets them apart. Research the various features
-                  of office phone systems and consider whether they would be of
-                  benefit to you. Office phone systems, however, generally offer
-                  cheaper phone line packages. This may be more suitable if you
-                  are making and receiving a higher volume of calls in the long
-                  run.
+                  When starting a new business, it might be tempting to cut
+                  costs by using a domestic phone system. However, investing in
+                  a professional office phone system delivers far greater value
+                  over time. While business phone systems may have a higher
+                  upfront cost, the advanced features, reliability, and
+                  scalability they offer make a significant difference to your
+                  daily operations. At EN-LINC, we help businesses understand
+                  the real value behind office phone system investments. With
+                  options like VoIP, hosted PBX, and hybrid solutions, our
+                  systems often include more affordable call packages—ideal for
+                  businesses handling a high volume of calls. By choosing the
+                  right communication solution, you can improve efficiency,
+                  enhance customer experience, and reduce long-term phone line
+                  expenses.
                 </p>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>
@@ -248,7 +247,7 @@ const PhoneSystems = () => {
       <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] py-12">
         <Container>
           <h1 className="text-center text-white text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-            Features you must have for your Business
+            Must-Have Features for Modern Business Phone Systems
           </h1>
           {/* <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-white">
             We have everything your small business needs to manage your calls
@@ -274,38 +273,37 @@ const PhoneSystems = () => {
             <ContentSection>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                  One System – Countless Possibilities
+                  Unlock Endless Communication Possibilities with EN-LINC
                 </h1>
                 <div>
                   {/* <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
                     What is Lorem Ipsum?
                   </p> */}
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    When it comes to your business, we understand that you’re
-                    looking for the best of the best – whatever it takes. If
-                    you’re looking for a phone system unparalleled by any other,
-                    then the search ends here.Future proof your business and
-                    grow with us by taking advantage of our premium business
-                    phone system and competitive pricing. We offer you the tools
-                    that you need to grow your business all in one convenient
-                    place.
+                    At EN-LINC, we believe your business deserves more than just
+                    a basic phone system—you need a complete communication
+                    platform built to evolve with you. Our cutting-edge VoIP and
+                    business phone solutions are designed to keep your team
+                    connected, productive, and ready for future growth. With
+                    flexible packages, competitive pricing, and enterprise-grade
+                    features, EN-LINC gives your business everything it needs to
+                    stay ahead—voice, video, mobile, and cloud
+                    communications—all from one trusted provider.
                   </p>
                 </div>
                 <div>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                    Upgrade Your Phone System Today
+                    Take Your Business Communications to the Next Level
                   </p>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Make the switch today to explore the comprehensive range of
-                    communication solutions we offer – all for an affordable
-                    monthly rate. If you’re looking for a phone system that
-                    gives your business its best chances at success, the search
-                    ends here. Get started by contacting us via our website
-                    today!
+                    Don’t let outdated phone systems hold your business back.
+                    EN-LINC makes upgrading easy, affordable, and future-proof.
+                    Experience the benefits of a modern, reliable business phone
+                    system designed to support your success now and into the
+                    future. Ready to switch? Connect with our team today and
+                    discover how EN-LINC can transform the way your business
+                    communicates.
                   </p>
-                </div>
-                <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                  <Button classname={"px-8 py-2"}>Start your free demo</Button>
                 </div>
               </div>
             </ContentSection>

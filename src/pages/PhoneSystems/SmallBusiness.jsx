@@ -97,9 +97,6 @@ const SmallBusiness = () => {
                   standard dummy text ever since the 1500s,
                 </p>
               </div>
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
-              </div>
             </div>
           </ContentSection>
         </Container>
@@ -172,9 +169,6 @@ const SmallBusiness = () => {
                   standard dummy text ever since the 1500s,
                 </p>
               </div>
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
-              </div>
             </div>
           </ContentSection>
         </Container>
@@ -229,9 +223,6 @@ const SmallBusiness = () => {
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s,
                   </p>
-                </div>
-                <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                  <Button classname={"px-8 py-2"}>Start your free demo</Button>
                 </div>
               </div>
             </ContentSection>

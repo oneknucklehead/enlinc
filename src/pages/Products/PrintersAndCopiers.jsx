@@ -1,0 +1,183 @@
+import React from "react";
+import FeatureCard2 from "../../components/FeatureCard2";
+import Container from "../../components/Container";
+import Button from "../../components/Button";
+import ContentSection from "../../sections/ContentSection";
+import { PhoneForwarded } from "lucide-react";
+
+const PrintersAndCopiers = () => {
+  const cardData = [
+    {
+      logo: <PhoneForwarded className="h-5 w-5" />,
+
+      title: "Small Businesses",
+      description:
+        "Compact and efficient printers that provide high-quality output without taking up much space, perfect for small offices.",
+    },
+    {
+      title: "Medium to Large Enterprises",
+      description:
+        "High-capacity printers and copiers that handle large volumes of work efficiently, equipped with advanced features to support busy office environments.",
+    },
+    {
+      title: "Industry-Specific Solutions",
+      description:
+        "Specialised printers and copiers designed for industries such as healthcare, legal, and education, providing features that cater to their unique demands.",
+    },
+  ];
+  return (
+    <div className="">
+      <div className="px-4 mt-[92px] py-24">
+        <Container>
+          <ContentSection reverse={true}>
+            <div className="text-center md:text-start flex flex-col gap-6">
+              <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+                Business Printers And Copiers
+              </h1>
+              <div>
+                <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                  In the modern workplace, having reliable and efficient office
+                  equipment is crucial to maintaining productivity. Business
+                  printers and copiers are essential tools for day-to-day
+                  operations.
+                </p>
+              </div>
+            </div>
+          </ContentSection>
+        </Container>
+      </div>
+      <div className="px-4 py-24">
+        <Container>
+          {/* <div className="px-4 flex justify-center flex-col gap-4 pb-24">
+            <h1 className="text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+              Cisco: Pioneering Connectivity and Collaboration
+            </h1>
+            <p className="text-center xl:text-lg font-gabarito-reg-400">
+              Cisco is a global leader in networking and IT, known for its
+              robust, scalable, and secure communication solutions. Cisco’s
+              products and technologies are designed to enhance connectivity,
+              collaboration, and security for businesses of all sizes.
+            </p>
+          </div> */}
+          <ContentSection>
+            <div className="flex flex-col gap-6">
+              <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+                The Importance of Business Printers and Copiers
+              </h3>
+              <p>
+                Business printers and copiers are indispensable in any office
+                setting for several reasons:
+              </p>
+              <div>
+                <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                  <ul className="space-y-4 py-2">
+                    <li className="flex items-start gap-3">
+                      {/* SVG Bullet */}
+                      <svg
+                        className="w-7 h-7 text-[#2A6A9E]  flex-shrink-0 mt-1"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M5 13l4 4L19 7" />
+                      </svg>
+                      {/* Text */}
+                      <span className="text-gray-700 transition-colors duration-300 hover:text-black">
+                        <b>High-Quality Output: </b>
+                        Professional-grade printers and copiers produce
+                        high-quality documents, presentations, and marketing
+                        materials that reflect your company’s professionalism.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      {/* SVG Bullet */}
+                      <svg
+                        className="w-7 h-7 text-[#2A6A9E]  flex-shrink-0 mt-1"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M5 13l4 4L19 7" />
+                      </svg>
+                      {/* Text */}
+                      <span className="text-gray-700 transition-colors duration-300 hover:text-black">
+                        <b>Increased Productivity: </b>
+                        Modern multifunction printers and copiers streamline
+                        workflow by combining printing, scanning, copying, and
+                        faxing into one efficient device.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      {/* SVG Bullet */}
+                      <svg
+                        className="w-7 h-7 text-[#2A6A9E]  flex-shrink-0 mt-1"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M5 13l4 4L19 7" />
+                      </svg>
+                      {/* Text */}
+                      <span className="text-gray-700 transition-colors duration-300 hover:text-black">
+                        <b>Cost Efficiency: </b>
+                        Investing in reliable printers and copiers can reduce
+                        outsourcing costs and improve overall efficiency.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      {/* SVG Bullet */}
+                      <svg
+                        className="w-7 h-7 text-[#2A6A9E]  flex-shrink-0 mt-1"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M5 13l4 4L19 7" />
+                      </svg>
+                      {/* Text */}
+                      <span className="text-gray-700 transition-colors duration-300 hover:text-black">
+                        <b>Scalability: </b>
+                        Business printers and copiers can easily scale to meet
+                        the growing demands of your business, ensuring that you
+                        always have the capacity you need.
+                      </span>
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </ContentSection>
+        </Container>
+      </div>
+      <div className="w-full bg-[#fafafa] py-24">
+        <Container>
+          <h1 className="text-center text-black text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+            Tailored Solutions for Every Business
+          </h1>
+          <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-[#142462]/80">
+            Enlinc understands that different businesses have different needs.
+            That’s why we offer tailored solutions to ensure you get the right
+            printer and copier for your specific requirements:
+          </p>
+          <div className="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
+            {cardData.map((data, index) => (
+              <div className="flex" key={index}>
+                <FeatureCard2
+                  logo={data.logo}
+                  title={data.title}
+                  description={data.description}
+                />
+              </div>
+            ))}
+          </div>
+        </Container>
+      </div>
+    </div>
+  );
+};
+
+export default PrintersAndCopiers;

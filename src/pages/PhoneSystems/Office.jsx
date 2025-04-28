@@ -41,10 +41,6 @@ const Office = () => {
                   that cater to the diverse needs of modern businesses.
                 </p>
               </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
-              </div>
             </div>
           </ContentSection>
         </Container>
@@ -68,10 +64,6 @@ const Office = () => {
                   ensuring efficient call handling, reducing costs, and
                   improving overall communication.
                 </p>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>
@@ -173,10 +165,6 @@ const Office = () => {
                     </li>
                   </ul>
                 </p>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>

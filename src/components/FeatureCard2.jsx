@@ -16,7 +16,9 @@ const FeatureCard2 = ({
       >
         {logo}
       </div>
-      <h4>{title}</h4>
+      <h4 className="text-base md:text-xl font-gabarito-semibold-600">
+        {title}
+      </h4>
       <p className="text-sm text-gray-500">{description}</p>
     </div>
   );

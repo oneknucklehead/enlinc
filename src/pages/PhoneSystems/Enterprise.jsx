@@ -42,10 +42,6 @@ const Enterprise = () => {
                   robust performance.
                 </p>
               </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
-              </div>
             </div>
           </ContentSection>
         </Container>
@@ -67,10 +63,6 @@ const Enterprise = () => {
                   on-premises, in the cloud, or as a hybrid solution, combining
                   the best of both worlds.
                 </p>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>
@@ -190,10 +182,6 @@ const Enterprise = () => {
                     </li>
                   </ul>
                 </p>
-              </div>
-
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
               </div>
             </div>
           </ContentSection>

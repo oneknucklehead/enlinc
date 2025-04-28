@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import dummy from "../assets/images/dummy.jpg";
+import ModalButton from "../components/ModalButton";
 
 const ContentSection = ({
   reverse = false,
@@ -19,6 +20,7 @@ const ContentSection = ({
   img = dummy,
   children,
 }) => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <div>
       <div className="w-full max-w-7xl mx-auto h-fit">
@@ -51,7 +53,7 @@ const ContentSection = ({
           <div
             className={`col-span-1 ${
               reverse ? "order-1" : "order-2"
-            } flex justify-center items-center`}
+            } flex flex-col justify-center gap-6`}
           >
             {/* <div className="flex flex-col gap-6">
                 <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
@@ -84,6 +86,11 @@ const ContentSection = ({
                 </Button>
               </div> */}
             {children}
+            <ModalButton
+              text={"Start your free demo"}
+              isModalOpen={isModalOpen}
+              setModalOpen={setModalOpen}
+            />
           </div>
         </div>
       </div>

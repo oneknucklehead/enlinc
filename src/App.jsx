@@ -20,6 +20,11 @@ import Legal from "./pages/Industries/Legal";
 import RealEstate from "./pages/Industries/RealEstate";
 import Vet from "./pages/Industries/Vet";
 import Wellness from "./pages/Industries/Wellness";
+import BusinessPhoneSystems from "./pages/Products/BusinessPhoneSystems";
+import ManagedITServices from "./pages/Products/ManagedITServices";
+import SecurityCameras from "./pages/Products/SecurityCameras";
+import InternetAndVoice from "./pages/Products/InternetAndVoice";
+import PrintersAndCopiers from "./pages/Products/PrintersAndCopiers";
 
 function App() {
   return (
@@ -56,6 +61,28 @@ function App() {
           />
           <Route path="/industries/vet" element={<Vet />} />
           <Route path="/industries/wellness" element={<Wellness />} />
+          {/* PRODUCTS */}
+          <Route
+            path="/products/business-phone-systems"
+            element={<BusinessPhoneSystems />}
+          />
+          <Route
+            path="/products/managed-it-services"
+            element={<ManagedITServices />}
+          />
+          <Route
+            path="/products/security-cameras"
+            element={<SecurityCameras />}
+          />
+          <Route
+            path="/products/internet-and-voice"
+            element={<InternetAndVoice />}
+          />
+          <Route
+            path="/products/printers-and-copiers"
+            element={<PrintersAndCopiers />}
+          />
+
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

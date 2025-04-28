@@ -2,33 +2,33 @@ import content from "../assets/images/content.jpg";
 
 const tabs = [
     {
-        title: 'What is lorem ipsum?',
+        title: 'Get Started, Your Way',
         description:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "Need it fast? We can have your new business phone system up and running in as little as 3 business days. No delays, no drama—just smooth, professional setup customised to your schedule. Want to take it slow? That’s totally fine too. Whether you’re ready to roll or easing into it, we’ll handle the switch at your pace—seamlessly, securely, and with zero stress.",
         image: content,
     },
     {
-        title: 'Why do we use it?',
+        title: 'Upskill Your Staff with Ease',
         description:
-            'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+            'Equip your team with the skills they need to get the most out of your new business phone system. We offer hands-on training and easy-to-follow resources that help your staff confidently navigate call features, voicemail setup, softphones, mobile apps, and more.',
         image: content,
     },
     {
-        title: 'Where does it come from?',
+        title: 'Smart Setup, Customised for You',
         description:
-            'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in classical Latin literature from 45 BC.',
+            'At EN-LINC, we don’t believe in one-size-fits-all. Our business phone systems are professionally configured to match your specific workflows, team structure, and call handling needs. From auto-attendant scripts to call routing, voicemail, and user permissions, every setting is fine-tuned for your business. ',
         image: content,
     },
     {
-        title: 'Where can I get some?',
+        title: 'Smart Handover. Confident Users.',
         description:
-            'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
+            'We ensure a smooth transition by delivering full knowledge transfer, hands-on training, and easy-to-use guides tailored to your system. From VoIP features and call flows to admin controls and reporting tools, we make sure your team is confident, capable, and fully in control. ',
         image: content,
     },
     {
-        title: 'Who uses lorem ipsum?',
+        title: 'Support That Never Sleeps',
         description:
-            'Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.',
+            "Our 24/7 Australian-based support team is ready to assist with everything from technical troubleshooting to account management and system updates. Whether you're running VoIP, Hosted PBX, or integrated cloud communications, we ensure your business stays online, responsive, and secure.With guaranteed SLAs, fast response times, and real human help whenever you need it, you can count on support that never sleeps—so you never miss a beat.",
         image: content,
     },
 ];

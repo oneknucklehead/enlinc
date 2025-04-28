@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../../components/Container";
 import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
@@ -7,8 +7,10 @@ import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
 import bannerImg from "../../assets/images/bannerImg.jpg";
+import ModalButton from "../../components/ModalButton";
 
 const Automotive = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
       title: "Engage With Customers At The Right Time And Place",
@@ -46,9 +48,6 @@ const Automotive = () => {
                   and workflow automation.
                 </p>
               </div>
-              <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                <Button classname={"px-8 py-2"}>Start your free demo</Button>
-              </div>
             </div>
           </ContentSection>
         </Container>
@@ -77,7 +76,11 @@ const Automotive = () => {
             ))}
           </div>
           <div className="flex justify-center pt-8">
-            <Button classname={"px-8 py-2"}>Start your free demo</Button>
+            <ModalButton
+              text={"Start your free demo"}
+              isModalOpen={isModalOpen}
+              setModalOpen={setModalOpen}
+            />
           </div>
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
@@ -121,10 +124,6 @@ const Automotive = () => {
                     improve conversion. Improve even more going forward with
                     coaching and post-call analytics.
                   </p>
-                </div>
-
-                <div className="flex justify-center items-center lg:justify-start lg:items-start">
-                  <Button classname={"px-8 py-2"}>Start your free demo</Button>
                 </div>
               </div>
             </ContentSection>

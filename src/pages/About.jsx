@@ -84,42 +84,46 @@ function About() {
   return (
     <div>
       {/* HERO SECTION */}
-      <div className="px-4 mt-[92px] py-12">
+      <div className="px-4 mt-[92px]">
         <Container>
-          <ContentSection reverse={true}>
-            <div className="flex flex-col gap-6">
-              <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
-                Boost Productivity with Affordable, Future-Proof Tech
-              </h3>
-              <div>
-                <p className="xl:text-lg font-gabarito-semibold-600">
-                  What is Lorem Ipsum?
-                </p>
-                <p className="text-sm xl:text-base">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
-                </p>
+          <div className="py-24">
+            <ContentSection reverse={true}>
+              <div className="flex flex-col gap-6">
+                <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
+                  Boost Productivity with Affordable, Future-Proof Tech
+                </h3>
+                <div>
+                  <p className="xl:text-lg font-gabarito-semibold-600">
+                    What is Lorem Ipsum?
+                  </p>
+                  <p className="text-sm xl:text-base">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                </div>
               </div>
-            </div>
-          </ContentSection>
-          <ContentSection>
-            <div className="flex flex-col gap-6">
-              <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
-                Boost Productivity with Affordable, Future-Proof Tech
-              </h3>
-              <div>
-                <p className="xl:text-lg font-gabarito-semibold-600">
-                  What is Lorem Ipsum?
-                </p>
-                <p className="text-sm xl:text-base">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
-                </p>
+            </ContentSection>
+          </div>
+          <div className="py-24">
+            <ContentSection>
+              <div className="flex flex-col gap-6">
+                <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
+                  Boost Productivity with Affordable, Future-Proof Tech
+                </h3>
+                <div>
+                  <p className="xl:text-lg font-gabarito-semibold-600">
+                    What is Lorem Ipsum?
+                  </p>
+                  <p className="text-sm xl:text-base">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                </div>
               </div>
-            </div>
-          </ContentSection>
+            </ContentSection>
+          </div>
           {/* TEAM SECTION */}
           <div className="py-4">
             <h3 className="text-4xl text-center pb-4">Executive Team</h3>
@@ -202,7 +206,7 @@ function About() {
           </div>
         </Container>
       </div>
-      <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] h-fit py-12 px-4">
+      {/* <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] h-fit py-12 px-4">
         <Container>
           <div className="text-white flex flex-col gap-4 justify-center items-center">
             <h1 className="text-4xl text-center">Careers at Enlinc</h1>
@@ -220,7 +224,7 @@ function About() {
             </button>
           </div>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 }
