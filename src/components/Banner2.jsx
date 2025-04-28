@@ -18,7 +18,7 @@ const Banner2 = ({ imgSrc = img, children, reverse = false }) => {
             reverse ? "order-2" : "order-1"
           }`}
         >
-          <div className="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl  mx-auto">
+          <div className="hidden lg:block relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl  mx-auto">
             {/* Background layer */}
             <div className="border-white border-2 absolute top-4 left-4 w-full h-full rounded-xl z-0" />
 
@@ -27,7 +27,7 @@ const Banner2 = ({ imgSrc = img, children, reverse = false }) => {
               <img
                 src={imgSrc}
                 alt="banner image"
-                className="hidden lg:block rounded-lg w-full h-full object-cover aspect-square"
+                className="rounded-lg w-full h-full object-cover aspect-square"
               />
             </div>
           </div>

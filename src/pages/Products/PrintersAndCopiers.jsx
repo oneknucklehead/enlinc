@@ -32,14 +32,15 @@ const PrintersAndCopiers = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Business Printers And Copiers
+                Business Printers and Copiers
               </h1>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  In the modern workplace, having reliable and efficient office
-                  equipment is crucial to maintaining productivity. Business
-                  printers and copiers are essential tools for day-to-day
-                  operations.
+                  In today’s fast-paced work environment, dependable and
+                  high-performing office equipment is key to sustaining
+                  efficiency. ENLINC’s range of business printers and copiers
+                  are vital assets, supporting seamless document management and
+                  everyday operational workflows.
                 </p>
               </div>
             </div>
@@ -62,11 +63,11 @@ const PrintersAndCopiers = () => {
           <ContentSection>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                The Importance of Business Printers and Copiers
+                Why Business Printers and Copiers Matter
               </h3>
               <p>
-                Business printers and copiers are indispensable in any office
-                setting for several reasons:
+                In any professional setting, reliable printing and copying
+                solutions play a critical role in supporting daily operations:
               </p>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
@@ -84,10 +85,11 @@ const PrintersAndCopiers = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>High-Quality Output: </b>
-                        Professional-grade printers and copiers produce
-                        high-quality documents, presentations, and marketing
-                        materials that reflect your company’s professionalism.
+                        <b>Professional-Grade Results</b>
+                        ENLINC’s advanced printers and copiers deliver crisp,
+                        high-quality documents and marketing materials that
+                        showcase your brand’s professionalism and attention to
+                        detail.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -103,10 +105,11 @@ const PrintersAndCopiers = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Increased Productivity: </b>
-                        Modern multifunction printers and copiers streamline
-                        workflow by combining printing, scanning, copying, and
-                        faxing into one efficient device.
+                        <b>Streamlined Workflow Efficiency</b>
+                        Our multifunction devices combine printing, scanning,
+                        copying, and faxing into a single, powerful solution —
+                        simplifying everyday tasks and boosting office
+                        productivity.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -122,9 +125,10 @@ const PrintersAndCopiers = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Cost Efficiency: </b>
-                        Investing in reliable printers and copiers can reduce
-                        outsourcing costs and improve overall efficiency.
+                        <b>Cost-Effective Operations</b>
+                        By bringing printing and document management in-house,
+                        businesses can significantly reduce outsourcing expenses
+                        and improve operational efficiency.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -140,10 +144,11 @@ const PrintersAndCopiers = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Scalability: </b>
-                        Business printers and copiers can easily scale to meet
-                        the growing demands of your business, ensuring that you
-                        always have the capacity you need.
+                        <b>Scalable to Your Needs</b>
+                        As your organisation grows, ENLINC’s flexible printing
+                        and copying solutions easily scale to meet increased
+                        demand, ensuring your equipment keeps pace with your
+                        business evolution.
                       </span>
                     </li>
                   </ul>

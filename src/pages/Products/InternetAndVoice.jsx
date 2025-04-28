@@ -9,21 +9,19 @@ import Banner from "../../components/Banner";
 const InternetAndVoice = () => {
   const cardData = [
     {
-      logo: <PhoneForwarded className="h-5 w-5" />,
-
-      title: "Business Fibre",
+      title: "Ultra-Fast Fibre Connectivity",
       description:
-        "Our fibre optic internet solutions deliver ultra-fast speeds, ensuring your business has the bandwidth required for heavy data usage, video conferencing, and more.",
+        "Harness the power of high-speed fibre networks, providing your business with the speed and reliability needed for intensive tasks like cloud operations, video meetings, and large-scale data transfers.",
     },
     {
-      title: "NBN Enterprise Ethernet:",
+      title: "Enterprise-Grade Ethernet Solutions",
       description:
-        "For businesses needing a dedicated and reliable connection, our NBN Enterprise Ethernet provides high-speed, symmetrical internet with guaranteed performance.",
+        "For organisations requiring dedicated bandwidth and maximum uptime, ENLINC’s Enterprise Ethernet delivers a private, high-capacity connection with symmetrical upload and download speeds, backed by guaranteed service levels.",
     },
     {
-      title: "Scalable Plans",
+      title: "Customisable Internet Packages",
       description:
-        "We offer scalable internet plans that grow with your business. Whether you are a small startup or a large enterprise, we have a plan to fit your needs.",
+        "Whether you’re launching a startup or expanding a national enterprise, ENLINC offers flexible Internet options that adapt as your business grows — ensuring you always stay connected without compromise.",
     },
   ];
   return (
@@ -81,12 +79,13 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Seamless Communication: </b>
-                        Reliable internet and voice services are essential for
-                        seamless communication. Whether it's a video conference
-                        call, VoIP phone system, or cloud-based collaboration
-                        tools, having a stable connection ensures uninterrupted
-                        operations.
+                        <b>Uninterrupted Communication</b>
+                        Seamless communication is the backbone of any successful
+                        business. ENLINC’s dependable Internet and Voice
+                        services support everything from high-quality video
+                        conferencing and VoIP phone systems to cloud-based
+                        collaboration tools — ensuring your team stays connected
+                        without disruption.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -102,10 +101,11 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Enhanced Productivity: </b>
-                        High-speed internet allows for faster data transfer,
-                        efficient cloud computing, and real-time collaboration,
-                        significantly boosting productivity.
+                        <b>Drive Greater Productivity</b>
+                        With ENLINC’s high-speed connectivity, your business
+                        benefits from faster data transfers, smoother cloud
+                        operations, and real-time collaboration, helping your
+                        teams work smarter and more efficiently.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -121,9 +121,11 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Customer Satisfaction: </b>
-                        Quick and efficient communication with clients enhances
-                        customer service, leading to higher satisfaction and
+                        <b>Boost Customer Experience</b>
+                        Quick, reliable communication is key to delivering
+                        outstanding customer service. ENLINC’s solutions empower
+                        your business to respond faster and more effectively,
+                        building stronger relationships and enhancing client
                         loyalty.
                       </span>
                     </li>
@@ -137,12 +139,11 @@ const InternetAndVoice = () => {
       <div className="w-full bg-[#fafafa] py-24">
         <Container>
           <h1 className="text-center text-black text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-            Enlinc's Business Internet Solutions
+            Business Internet Services by ENLINC
           </h1>
           <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-[#142462]/80">
-            Enlinc Australia provides a range of high-speed internet services
-            tailored to meet the needs of businesses of all sizes. Our offerings
-            include:
+            ENLINC empowers Australian businesses with fast, secure, and
+            future-proof Internet solutions designed to scale with your success.
           </p>
           <div className="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
             {cardData.map((data, index) => (
@@ -159,21 +160,10 @@ const InternetAndVoice = () => {
       </div>
       <div className="px-4 py-24">
         <Container>
-          {/* <div className="px-4 flex justify-center flex-col gap-4 pb-24">
-            <h1 className="text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Cisco: Pioneering Connectivity and Collaboration
-            </h1>
-            <p className="text-center xl:text-lg font-gabarito-reg-400">
-              Cisco is a global leader in networking and IT, known for its
-              robust, scalable, and secure communication solutions. Cisco’s
-              products and technologies are designed to enhance connectivity,
-              collaboration, and security for businesses of all sizes.
-            </p>
-          </div> */}
           <ContentSection reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Key Features of Our Business Internet Services
+                What Sets ENLINC’s Internet Solutions Apart
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
@@ -191,9 +181,10 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>High-Speed Connectivity</b>
-                        Experience speeds up to 1000Mbps, allowing for rapid
-                        data transfers and efficient operations.
+                        <b>Blazing-Fast Speeds</b>
+                        Unlock connectivity speeds of up to 1000Mbps, enabling
+                        seamless data exchange, faster cloud access, and
+                        efficient digital operations.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -209,10 +200,11 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Reliability</b>
-                        Our internet services are designed to provide consistent
-                        and reliable connectivity, minimising downtime and
-                        ensuring business continuity.
+                        <b>Unmatched Reliability</b>
+                        Our business-grade Internet services are built for
+                        stability, reducing downtime and maintaining continuous
+                        performance to keep your operations moving without
+                        interruption.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -228,9 +220,10 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Scalability</b>
-                        Easily upgrade your plan as your business grows,
-                        ensuring you always have the bandwidth you need.
+                        <b>Growth-Ready Scalability</b>
+                        As your business evolves, ENLINC’s flexible Internet
+                        options make it easy to scale up your bandwidth,
+                        ensuring you’re always equipped for expanding demands.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -246,10 +239,10 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>24/7 Support</b>
-                        Our dedicated support team is available around the clock
-                        to assist with any issues, ensuring your internet
-                        connection remains stable and reliable.
+                        <b>24/7 Expert Support</b>
+                        Our dedicated technical team is on hand around the clock
+                        to resolve any connectivity issues quickly, so you can
+                        focus on running your business with confidence.
                       </span>
                     </li>
                   </ul>

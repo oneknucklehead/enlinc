@@ -13,21 +13,21 @@ const Wellness = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "Create Powerful Connections with Clients and Teams",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "Use EN-LINC’s intelligent automations, dynamic workflows, timely alerts, and smart resources to deliver consistent, high-impact programs — ensuring outstanding results, every time.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title: "Empowering Personalized Care with Efficiency and Reliability",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "Give your team instant access to AI-powered resources tailored to each client interaction — anytime, anywhere. Seamlessly collaborate with clients and colleagues through EN-LINC’s all-in-one platform, ensuring outstanding service no matter the location.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "Enhance Client Journeys with Smart, Automated Care",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "Boost client wellbeing and engagement using EN-LINC’s intelligent workflows throughout every step of their wellness journey. Effortlessly share session summaries, action plans, and automate schedules, reminders, and follow-ups — ensuring consistent, personalized care at every touchpoint.",
       image: img,
     },
   ];
@@ -38,15 +38,15 @@ const Wellness = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Collaboration Solutions To Unlock The Ultimate In Wellness And
-                Lifestyle For Your Clients
+                Inspire Wellness and Achieve More with Smart Collaboration
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Enable your workforce with the tools to unlock client
-                  potential. AI enabled platform that supercharges wellness
-                  teams.
+                  Equip your teams with EN-LINC’s AI-powered solutions designed
+                  to maximize client outcomes. Our intelligent platform boosts
+                  the performance of wellness and lifestyle teams, helping
+                  deliver exceptional service and measurable results.
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Wellness = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Sky Is The Limit From A Solid Foundation
+              Wellness Powered by Smart Connections.
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               On Time And On Budget Starts Here
@@ -85,7 +85,8 @@ const Wellness = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                Client-First Collaboration to Drive Team Efficiency and Better
+                Outcomes
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Maximise The Success Of Your Sales Team
@@ -95,34 +96,50 @@ const Wellness = () => {
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    The Future of Wellness Delivery Starts with EN-LINC
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    Empower clients to take control of their health and
+                    wellbeing with easy access to personalized tools and
+                    information. EN-LINC’s flexible platform allows clients to
+                    review past and upcoming care programs anytime, anywhere —
+                    supporting a more informed, engaged, and healthier journey.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Boost Team Productivity and Engagement
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Elevate staff performance with EN-LINC’s intelligent
+                    platform, featuring adaptive coaching, training resources,
+                    and workflow automation. By eliminating tedious tasks, we
+                    help your team focus on what matters most — delivering
+                    exceptional client care and maximizing operational
+                    efficiency.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Simplify Follow-ups with Smart Automation
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    Save valuable time and improve appointment outcomes with
+                    EN-LINC’s automated appointment reminders and instant
+                    voicemail drops — helping you stay connected without the
+                    manual effort.
+                  </p>
+                </div>
+                <div>
+                  <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
+                    Deliver on the Promise of Wellness with EN-LINC
+                  </h1>
+                  <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                    Gain actionable insights at every level of your organization
+                    with EN-LINC’s powerful analytics tools. Improve operational
+                    efficiency, enhance patient satisfaction, and sustain
+                    exceptional care delivery by identifying smarter strategies
+                    through real-time performance tracking.
                   </p>
                 </div>
               </div>
@@ -134,11 +151,12 @@ const Wellness = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Set a New Standard in Client Care with EN-LINC
             </h1>
             <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
-              Extract the very best from your sales team by enabling them with
-              all the information, insights and tools to give them the edge.
+              Equip your team with cutting-edge tools, actionable insights, and
+              real-time information — empowering them to perform at their best,
+              deliver exceptional service, and stay ahead of the competition.
             </p>
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo

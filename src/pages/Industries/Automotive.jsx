@@ -13,21 +13,22 @@ const Automotive = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "Connect With Customers Exactly When and Where It Matters",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "Leverage EN-LINC’s intelligent automations and smart workflows to deliver personalized experiences that engage customers at the perfect moment — wherever they are.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title:
+        "Unlock Actionable Insights Across the Customer Journey to Boost Sales",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "Gain complete visibility across every communication channel with EN-LINC’s advanced tracking tools. Identify the campaigns, keywords, and interactions that drive engagement and fuel higher conversion rates.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "24/7 Customer Support Without the Overhead",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "Deliver round-the-clock service with EN-LINC’s intelligent conversational AI. Whether answering questions, booking appointments, or offering tailored recommendations, our adaptive solutions connect seamlessly to your approved knowledge base — ensuring customer satisfaction without additional staffing costs.",
       image: img,
     },
   ];
@@ -38,14 +39,15 @@ const Automotive = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Build Customer Loyalty And Supercharge Sales
+                Drive Customer Loyalty and Accelerate Business Growth
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Empower your team at every stage of the automotive customer
-                  journey with Ai-powered business intelligence, live coaching,
-                  and workflow automation.
+                  Equip your team across every touchpoint of the customer
+                  journey with EN-LINC’s AI-driven insights, real-time support
+                  tools, and intelligent workflow automation — all designed to
+                  boost performance and deliver measurable results.
                 </p>
               </div>
             </div>
@@ -57,11 +59,12 @@ const Automotive = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Effective And Customised Customer Engagement
+              Personalized Customer Engagement That Delivers Real-Time Impact
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Experiences That Are Precisely Tailored For That Customer At That
-              Time
+              Create meaningful interactions with experiences tailored precisely
+              to each customer's needs — exactly when they need it — powered by
+              EN-LINC’s smart communication and AI-driven solutions.
             </h1>
           </div>
           <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
@@ -85,7 +88,7 @@ const Automotive = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                EN-LINC Sales Solutions: Powered by AI for Smarter Connections
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Maximise The Success Of Your Sales Team
@@ -95,34 +98,37 @@ const Automotive = () => {
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    Empower Your Sales Team to Drive More Engagement
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    Boost your team's success with EN-LINC’s smart tools like
+                    auto-diallers and instant voicemail drops — helping you
+                    reach more customers, book more appointments, and maximize
+                    every sales opportunity.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Never Miss a Customer Enquiry Again
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Our intelligent call-routing ensures every customer
+                    interaction is captured and directed to the right team
+                    member. With call transcriptions and actionable insights
+                    sent straight to stakeholders, EN-LINC helps you streamline
+                    follow-ups and improve response times.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Turn Conversations Into Conversions
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    With real-time AI sentiment tracking, your sales team
+                    receives live coaching cues and resources to navigate
+                    objections and close deals faster. Post-call analytics
+                    provide valuable feedback to continuously sharpen skills and
+                    drive higher conversion rates.
                   </p>
                 </div>
               </div>
@@ -134,11 +140,12 @@ const Automotive = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Equip Your Team for Success with EN-LINC
             </h1>
             <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
-              Extract the very best from your sales team by enabling them with
-              all the information, insights and tools to give them the edge.
+              Empower your sales team with the insights, tools, and real-time
+              intelligence they need to stay ahead — delivering stronger
+              results, smarter engagement, and higher conversions.
             </p>
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo

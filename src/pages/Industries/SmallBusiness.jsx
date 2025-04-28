@@ -13,21 +13,21 @@ const SmallBusiness = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "Seamless Collaboration to Connect Teams and Clients",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "Share critical information with all stakeholders anytime, anywhere through EN-LINC’s intuitive platform. Whether it’s calls, messages, or meetings, engage effortlessly and keep your business moving forward with smooth, reliable communication.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title: "Real-Time Insights for Smarter Operational Efficiency",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "Gain full visibility into your workflows and interactions with EN-LINC’s AI-powered tracking. Instantly identify gaps, correct issues early, and build smarter processes that prevent future mistakes — keeping your operations running at peak performance.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "Transform Client Experiences with Intelligent Automation",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "Enhance satisfaction and streamline service delivery using EN-LINC’s AI-powered workflows. Effortlessly share session summaries, action plans, and automate next steps with interactive schedules, smart reminders, and real-time information requests.",
       image: img,
     },
   ];
@@ -38,14 +38,14 @@ const SmallBusiness = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Collaboration Solutions Designed To Grow Your Business
+                Accelerate Business Success with Smarter Collaboration
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Enable your team with the tools to unlock operational
-                  efficiencies and provide optimal customer outcomes. AI enabled
-                  platform that supercharges individual and team productivity.
+                  Empower your teams with AI-enhanced tools that streamline
+                  operations, boost productivity, and consistently deliver
+                  superior customer experiences — driving real, scalable growth.
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ const SmallBusiness = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Sky Is The Limit From A Solid Foundation
+              Join Today. Transform Operations Overnight.
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               On Time And On Budget Starts Here
@@ -84,7 +84,7 @@ const SmallBusiness = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                Result-Driven Collaboration, Powered by Automation
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Maximise The Success Of Your Sales Team
@@ -94,34 +94,37 @@ const SmallBusiness = () => {
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    Your Real-Time AI Assistant, Always On
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    Stay organized and informed with EN-LINC’s automated
+                    assistant. Every call and meeting is transcribed,
+                    time-stamped, and summarized — with key action points
+                    automatically sent to all relevant stakeholders, ensuring
+                    nothing important is ever missed.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Seamless Work-Anywhere Flexibility
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Enable your team to collaborate effortlessly from anywhere
+                    with EN-LINC’s easy-to-use platform. Integrated progress
+                    tracking keeps everyone aligned and triggers smart
+                    automations to keep projects moving forward without delays.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Next-Generation Virtual Meetings
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    Host high-quality HD video meetings with customers and teams
+                    from any location. Enjoy clear, uninterrupted sessions,
+                    complete with automatic recording, transcription, and action
+                    point summaries — seamlessly integrated into workflows and
+                    stakeholder communications.
                   </p>
                 </div>
               </div>
@@ -133,11 +136,17 @@ const SmallBusiness = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Achieve Better Outcomes for Your Business and Clients
             </h1>
             <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
-              Extract the very best from your sales team by enabling them with
-              all the information, insights and tools to give them the edge.
+              At EN-LINC, we help you unlock higher performance across your
+              workforce and contractor teams. By providing secure, AI-powered
+              tools, your staff can work smarter, eliminate unnecessary delays,
+              and complete tasks with speed and precision. Our intelligent
+              solutions are designed to maximise operational efficiency, empower
+              better decision-making, and ensure every project is delivered with
+              excellence — driving stronger results for your business and
+              outstanding service for your clients.
             </p>
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo

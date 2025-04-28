@@ -12,21 +12,21 @@ const Construction = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "Keep Projects Moving with 24/7 Seamless Connectivity",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "Stay connected anytime, anywhere with EN-LINC’s intuitive mobile platform. Whether it’s calls, messages, or meetings, effortlessly engage stakeholders and keep your projects on track — no matter where business takes you.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title: "Unlock Operational Efficiency with AI-Powered Insights",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "Leverage EN-LINC’s AI-driven tracking across all interactions and workflows to gain critical insights into your operational performance. Identify and resolve issues in real-time, ensuring smoother project execution and preventing future challenges.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "Effortless Integrations with EN-LINC’s Plug-and-Play Solutions",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "Enable your team to streamline workflows instantly with EN-LINC’s ready-to-use system integrations and flexible, secure API options — driving operational efficiency without the delays or complexity.",
       image: img,
     },
   ];
@@ -37,14 +37,16 @@ const Construction = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Nexgen's Platform Helps To Build Stronger Teamwork That Drives
-                Operational Efficiency
+                Streamline Teamwork and Boost Efficiency with EN-LINC’s Smart
+                Platform
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Single, easy-to-use app that connects stakeholders including
-                  project managers, suppliers, contractors and more.
+                  Bring your entire team together — from project managers to
+                  suppliers and contractors — with a single, easy-to-use app
+                  designed to simplify collaboration and drive operational
+                  excellence.
                 </p>
               </div>
             </div>
@@ -56,10 +58,12 @@ const Construction = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Sky Is The Limit From A Solid Foundation
+              Achieve Greater Heights with a Strong Foundation
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              On Time And On Budget Starts Here
+              With EN-LINC’s powerful communication and IT solutions, delivering
+              projects on time and within budget becomes the standard — laying
+              the groundwork for lasting success.
             </h1>
           </div>
           <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
@@ -83,44 +87,52 @@ const Construction = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                AI-Powered Automations and Smart Workflows
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Maximise The Success Of Your Sales Team
+                Streamline every project interaction with EN-LINC’s intelligent
+                automation — delivering real-time tracking, actionable insights,
+                and enhanced operational efficiency.
               </h1>
             </div>
             <ContentSection>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    Automate Escalations and Streamline Workflows with EN-LINC
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    Stay in control with EN-LINC’s unified collaboration
+                    platform, where every interaction is intelligently tracked.
+                    Leverage AI-powered workflows to automate routine tasks,
+                    enhance efficiency, and proactively address potential issues
+                    before they escalate.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Your Real-Time AI Assistant for Smarter Meetings
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Never miss a detail with EN-LINC’s automated meeting
+                    assistant. Every call and meeting is transcribed,
+                    time-stamped, and summarized — with key action items
+                    automatically sent to the inboxes of all relevant
+                    stakeholders, keeping your projects on track and your team
+                    fully informed.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Work Seamlessly, Anywhere and Anytime
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    EN-LINC empowers teams to collaborate effortlessly — whether
+                    remote, on-site, or across borders. Our secure,
+                    high-definition video conferencing solutions enable
+                    real-time inspections, team meetings, and project reviews
+                    with smooth, reliable connectivity from anywhere in the
+                    world.
                   </p>
                 </div>
               </div>
@@ -132,11 +144,12 @@ const Construction = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Deliver Better Results for Your Business and Clients
             </h1>
             <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
-              Extract the very best from your sales team by enabling them with
-              all the information, insights and tools to give them the edge.
+              Empower your teams and contractors with EN-LINC’s secure,
+              AI-driven tools — boosting productivity, minimizing delays, and
+              ensuring projects are completed on time and within budget.
             </p>
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo
