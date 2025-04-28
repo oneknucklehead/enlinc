@@ -9,19 +9,19 @@ import Banner from "../../components/Banner";
 const Enterprise = () => {
   const cardData = [
     {
-      title: "Control",
+      title: "Complete Control",
       description:
-        "On-premises systems provide businesses with complete control over their phone system, including customization and integration with existing IT infrastructure.",
+        "Manage every aspect of your phone system, from advanced customizations to seamless integration with your existing IT environment — all on your terms.",
     },
     {
-      title: "Security",
+      title: "Enhanced Security",
       description:
-        "With on-premises systems, businesses can implement their own security measures, ensuring that sensitive communications are protected.",
+        "With an on-premises setup, you control your security protocols, ensuring sensitive communications and data are protected according to your standards.",
     },
     {
-      title: "Reliability",
+      title: "Greater Reliability",
       description:
-        "On-premises systems are not dependent on internet connectivity, ensuring reliable performance even in the event of internet outages.",
+        "Stay connected even during internet outages. On-premises PBX systems operate independently of internet connections, delivering consistent, uninterrupted performance.",
     },
   ];
   return (
@@ -36,10 +36,10 @@ const Enterprise = () => {
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Nexgen Australia provides state-of-the-art enterprise phone
-                  systems designed to meet the complex needs of modern
-                  businesses, offering advanced features, scalability, and
-                  robust performance.
+                  EN-LINC delivers advanced enterprise phone systems built for
+                  modern Australian businesses—offering scalable VoIP solutions,
+                  powerful features, and reliable performance to support complex
+                  communication needs.
                 </p>
               </div>
             </div>
@@ -52,16 +52,18 @@ const Enterprise = () => {
           <ContentSection reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Understanding Enterprise Phone Systems
+                Everything You Need to Know About Enterprise Phone Systems
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Enterprise phone systems are sophisticated telecommunication
-                  solutions that handle high call volumes, support multiple
-                  extensions, and offer a range of advanced features tailored to
-                  large organisations. These systems can be deployed
-                  on-premises, in the cloud, or as a hybrid solution, combining
-                  the best of both worlds.
+                  Enterprise phone systems are advanced business communication
+                  solutions designed to manage high call volumes, support
+                  multiple users and departments, and deliver robust,
+                  feature-rich functionality for large organisations. These
+                  systems can be deployed as on-premise, cloud-based, or hybrid
+                  solutions—offering maximum flexibility, scalability, and
+                  control to meet the complex needs of enterprise-level
+                  operations.
                 </p>
               </div>
             </div>
@@ -71,12 +73,14 @@ const Enterprise = () => {
       <div className="w-full bg-[#fafafa] py-24">
         <Container>
           <h1 className="text-center text-black text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-            Advantages of On-Premises PBX Systems
+            The Business Advantages of Hosting Your Own PBX System
           </h1>
           <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-[#142462]/80">
-            On-premises PBX systems also offer distinct advantages, particularly
-            for businesses that require more control over their
-            telecommunication infrastructure:
+            On-premises PBX systems provide unique benefits for businesses that
+            need greater control, security, and customisation over their
+            telecommunication infrastructure. These in-house solutions are ideal
+            for organisations that demand advanced call management, direct
+            hardware oversight, and tailored system configurations.
           </p>
           <div className="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
             {cardData.map((data, index) => (
@@ -97,13 +101,14 @@ const Enterprise = () => {
           <ContentSection>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Why Choose Nexgen Australia?
+                Why Choose EN-LINC for Your Enterprise Phone System?
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Choosing Nexgen Australia for your enterprise phone system
-                  needs ensures you receive top-quality products and exceptional
-                  service. Here’s why you should partner with us:
+                  Partnering with EN-LINC means choosing a trusted Australian
+                  provider committed to delivering high-quality enterprise phone
+                  systems and exceptional customer service. Here's why
+                  businesses across Australia rely on us:
                   <ul className="space-y-4 py-2">
                     <li className="flex items-start gap-3">
                       {/* SVG Bullet */}
@@ -118,10 +123,12 @@ const Enterprise = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Expertise and Experience:</b> With years of
-                        experience in the telecommunications industry, our team
-                        has the knowledge and expertise to provide the best
-                        enterprise phone system solutions.
+                        <b>Industry Expertise and Proven Experience</b>With
+                        years of experience in the telecommunications industry,
+                        EN-LINC’s team brings the knowledge, insights, and
+                        technical skills needed to deliver enterprise-grade
+                        communication solutions that support your business
+                        growth.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -137,10 +144,11 @@ const Enterprise = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Tailored Solutions:</b> We understand that every
-                        business is unique. Our solutions are customised to meet
-                        your specific needs and requirements, ensuring optimal
-                        performance and efficiency.
+                        <b>Customised Solutions for Every Business</b> We
+                        understand that no two businesses are alike. EN-LINC
+                        designs tailored phone system solutions to meet your
+                        specific needs, ensuring maximum performance,
+                        scalability, and cost-efficiency.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -156,10 +164,11 @@ const Enterprise = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Reliable Support:</b> Our dedicated support team is
-                        always available to assist you with installation,
-                        maintenance, and any technical issues, ensuring your
-                        system runs smoothly.
+                        <b>Dedicated Local Support, 24/7</b>Our Australian-based
+                        support team is always available to assist you—from
+                        installation and setup to ongoing maintenance and
+                        troubleshooting—keeping your communication systems
+                        running flawlessly.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -175,9 +184,11 @@ const Enterprise = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Cutting-EdgeTechnology:</b> We stay at the forefront
-                        of technological advancements to provide you with the
-                        most effective and reliable communication solutions.
+                        <b>Cutting-Edge Technology for Modern Enterprises</b>
+                        At EN-LINC, we stay ahead of the curve, providing the
+                        latest innovations in VoIP, hosted PBX, and hybrid
+                        communication systems to ensure your business stays
+                        connected, competitive, and future-ready.
                       </span>
                     </li>
                   </ul>

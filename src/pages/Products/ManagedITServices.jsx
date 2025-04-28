@@ -8,40 +8,39 @@ import { PhoneForwarded } from "lucide-react";
 const ManagedITServices = () => {
   const cardData = [
     {
-      logo: <PhoneForwarded className="h-5 w-5" />,
-      title: " Proactive Monitoring and Maintenance",
+      title: "Proactive System Monitoring and Maintenance",
       description:
-        "Our team continuously monitors your IT systems to detect and resolve issues before they impact your operations. Regular maintenance ensures your systems remain up-to-date and perform optimally.",
+        "We keep your systems healthy with real-time monitoring, automated updates, and preventive maintenance—resolving issues before they can disrupt your operations.",
     },
     {
-      title: "Data Backup and Recovery",
+      title: "Secure Data Backup and Rapid Recovery",
       description:
-        "We provide a comprehensive range of cybersecurity services, including threat detection, firewall management, and antivirus protection, to keep your business secure.",
+        "Protect critical business data with our secure backup solutions. If unexpected data loss occurs, our fast recovery processes minimise downtime and restore your information quickly and safely.",
     },
     {
-      title: "Cybersecurity Solutions",
+      title: "Advanced Cybersecurity Protection",
       description:
-        "Automate call handling with a virtual receptionist that can direct calls to the appropriate department or individual.",
+        "Safeguard your business with multi-layered security strategies, including threat detection, managed firewalls, endpoint protection, and ransomware defence.",
     },
     {
-      title: "24/7 IT Support",
+      title: "Round-the-Clock IT Support",
       description:
-        "Our IT support team is available around the clock to assist with any technical issues, ensuring minimal disruption to your business operations.",
+        "Our dedicated Australian-based support team is available 24/7 to troubleshoot technical issues, ensuring your systems stay operational and your teams stay productive.",
     },
     {
-      title: "Network Management",
+      title: "Optimised Network Management",
       description:
-        "We manage your network infrastructure to ensure reliable and high-performance connectivity, supporting your business’s communication and data needs.",
+        "We oversee your entire network environment—from routers to Wi-Fi access points—to guarantee fast, stable, and secure connectivity across all your business locations.",
     },
     {
-      title: "Cloud Services",
+      title: "Tailored Cloud Solutions",
       description:
-        "Our cloud services help you migrate to the cloud, manage your cloud infrastructure, and leverage cloud computing benefits for increased flexibility and efficiency.",
+        "EN-LINC helps you transition to the cloud seamlessly, offering cloud infrastructure management, data migration services, and scalable hosting options to enhance business agility.",
     },
     {
-      title: "IT Consulting",
+      title: "Strategic IT Consulting Services",
       description:
-        "Our IT consulting services provide strategic guidance to help you plan and implement technology solutions that align with your business objectives.",
+        "Plan smarter and scale faster with expert guidance from EN-LINC’s IT consultants, ensuring every technology investment drives real business results.",
     },
   ];
   return (
@@ -51,15 +50,16 @@ const ManagedITServices = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Manage IT Services
+                Managed IT Services
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Managed IT Services provide businesses with comprehensive IT
-                  support and management, allowing them to focus on their core
-                  activities while ensuring their technology needs are met by
-                  experts.
+                  At EN-LINC, our Managed IT Services take the complexity out of
+                  technology management. We deliver proactive support,
+                  continuous monitoring, and expert solutions, allowing your
+                  business to stay focused on growth while we handle your IT
+                  infrastructure with precision and care.
                 </p>
               </div>
             </div>
@@ -70,12 +70,13 @@ const ManagedITServices = () => {
       <div className="w-full bg-[#fafafa] py-24">
         <Container>
           <h1 className="text-center text-black text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-            Enlinc Australia’s Managed IT Services
+            EN-LINC’s Managed IT Services
           </h1>
           <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-[#142462]/80">
-            At enlinc Australia, we offer a comprehensive suite of Managed IT
-            Services tailored to meet the specific needs of your business. Our
-            solutions include:
+            EN-LINC delivers complete Managed IT Services designed to keep your
+            business technology secure, reliable, and ready for growth. Our
+            flexible solutions are built to meet your unique operational needs,
+            so you can focus on what matters most—running your business.
           </p>
           <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-4 py-8">
             {cardData.map((data, index) => (

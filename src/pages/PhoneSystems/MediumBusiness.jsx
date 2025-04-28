@@ -11,44 +11,44 @@ import Banner from "../../components/Banner";
 const MediumBusiness = () => {
   const cardData = [
     {
-      title: "Voicemail to Email",
+      title: "Voicemail-to-Email Integration",
       description:
-        "Receive voicemail messages straight to your inbox, so you can listen to your messages anytime, anywhere on your computer or mobile device.",
+        "Get voicemail messages delivered directly to your email inbox—access and listen to them anytime, anywhere from your mobile phone or computer. Perfect for staying connected and responsive on the go.",
     },
     {
-      title: "Call Anywhere",
+      title: "Smart Call Distribution (Hunt Group Feature)",
       description:
-        "Receive all the capabilities of a full business phone desk on your mobile device, so you can take your work with you wherever you go.",
+        "Automatically route incoming calls to the right department or team member based on the caller’s selection—streamlining communication and improving customer experience.",
     },
     {
-      title: "Hunt Group",
+      title: "Virtual Receptionist (Auto Attendant Feature)",
       description:
-        "Distribute your incoming calls to the relevant phone line after a caller makes a choice regarding the purpose of their call.",
+        "Automatically transfer incoming calls using a voice menu system—no receptionist or manual operator needed. Improve efficiency and ensure callers reach the right team or department with ease.",
     },
     {
-      title: "Conference Calls",
+      title: "Hold Music Feature",
       description:
-        "Conduct virtual meetings over the phone with numerous people using high quality conference call functionality.",
+        "Keep callers engaged with on-hold music or messages, reducing hang-ups while they wait to be connected to the right person.",
     },
     {
-      title: "Auto Attendant",
+      title: "Call Anywhere, Anytime",
       description:
-        "Transfer calls via a voice menu system without the need of having a telephone operator or receptionist.",
+        "Access all the features of a full business phone system on your mobile device—stay connected and manage calls from anywhere, anytime.",
     },
     {
-      title: "Call Recording",
+      title: "Built-In Audio Conferencing",
       description:
-        "Build a better customer experience by recording and saving your telephone conversations in a digital audio file format.",
+        "Host virtual meetings with multiple participants using high-quality business conference calling—ideal for seamless team collaboration and client communication.",
     },
     {
-      title: "Music on Hold",
+      title: "Recorded Calls Made Easy",
       description:
-        "Prevent your callers from hanging up the phone by keeping them engaged while waiting to speak with the person on the other line.",
+        "Improve customer service by recording business calls and saving them as digital audio files—ideal for quality control, staff training, and compliance.",
     },
     {
-      title: "Call Accounting",
+      title: "Call Reporting & Analytics",
       description:
-        "Capture all of your phone records, usage and costs using our specialised software or hardware.",
+        "Track all phone activity, call usage, and costs in real time with our advanced call accounting software—ideal for monitoring performance and managing telecom expenses.",
     },
   ];
   return (
@@ -62,8 +62,8 @@ const MediumBusiness = () => {
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Save Money And Make Communication Easy With Australia’s
-                  Leading Small Business Phone System Experts
+                  Lower Your Phone Bills and Streamline Communication with
+                  Australia’s Leading Business VoIP Experts.
                 </p>
               </div>
             </div>
@@ -76,17 +76,28 @@ const MediumBusiness = () => {
           <ContentSection>
             <div className="flex flex-col justify-center gap-6">
               <h1 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Medium Business Phone Systems
+                Medium Business Phone Systems Built to Grow With You
               </h1>
               <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                If you’re a thriving business, you need a phone system that
-                offers more than just a simple way to make and receive calls.
-                For a business your size, you need to support all of the ways
-                you communicate with customers, clients and co-workers now and
-                into the future. At Nexgen we have the solution. Our phone
-                system specialists have the industry know-how to provide a
-                comprehensive end to end solution that seamlessly connects your
-                locations, people and customers together.
+                As your business grows, so do your communication needs.
+                Medium-sized businesses require more than just basic calling—you
+                need a scalable phone system that supports every channel your
+                team and customers use to stay connected, now and into the
+                future.
+                <br />
+                <br />
+                At EN-LINC, we specialise in delivering end-to-end business
+                phone solutions designed for growing Australian companies. Our
+                industry experts will tailor a system that seamlessly connects
+                your teams across multiple locations, ensures crystal-clear VoIP
+                calling, and enhances collaboration with advanced features like
+                call routing, conferencing, CRM integration, and remote access
+                tools.
+                <br />
+                <br />
+                Whether you're scaling operations or integrating multiple
+                offices, EN-LINC provides reliable, cost-effective business
+                phone systems that keep you connected and competitive.
               </p>
             </div>
           </ContentSection>
@@ -95,13 +106,13 @@ const MediumBusiness = () => {
       <div className="w-full bg-[#fafafa] py-24">
         <Container>
           <h1 className="text-center text-black text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-            Game Changing Medium Phone System Must Have Features
+            Top Must-Have Phone System Features for Medium-Sized Businesses
           </h1>
           <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-[#142462]/80">
-            If you want the value of a business phone system with features
-            designed for large enterprise – at a price you can afford, then
-            you’ve come to the right place. Businesses today demand a host of
-            phone features to keep them at the top of their game. These include:
+            If you’re looking for an enterprise-grade business phone system
+            packed with powerful features—without the hefty price tag—you’re in
+            the right place. Today’s growing businesses need advanced
+            communication tools to stay competitive, connected, and efficient.
           </p>
           <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-8">
             {cardData.map((data, index) => (
@@ -123,29 +134,36 @@ const MediumBusiness = () => {
           <ContentSection reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Discover the Enlinc difference
+                See Why EN-LINC Is Australia’s Trusted Telecom Partner
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  We’re the largest partner of CISCO, Avaya, Panasonic and NEC
-                  phone systems in Australia, which means we know our stuff when
-                  it comes to helping businesses choose the best phone system
-                  for their needs. These super brands have been around for a
-                  century and they continue to lead the way in phone system
-                  technology.
+                  At EN-LINC, we deliver premium phone systems for medium-sized
+                  businesses by partnering with some of the world’s most trusted
+                  tech brands—including Google, Samsung, Microsoft, AWS, and
+                  Ericsson-LG. Our collaboration with nbn™, Lancom Systems, and
+                  Ubiquiti Networks ensures fast, seamless connectivity, while
+                  advanced surveillance from HKVision keeps your business
+                  secure. We also offer high-performance telecom hardware from
+                  Yealink, Jabra GN, Asus, Billion Electric, and Kyocera—giving
+                  you enterprise-grade communication tools tailored to your
+                  growing needs.
                   <br />
-                  We can solve your biggest communication challenges at a cost
-                  you can afford. By partnering with industry-leading brands
-                  like NEC, we can offer you the very best in business phone
-                  system technology, to ensure you get the most out of your
-                  investment.
                   <br />
-                  You can depend on us for expert advice, ongoing support and
-                  reliable performance. From determining your specific needs to
-                  successfully rolling out your new system, we make it easy to
-                  deploy, operate and manage your phone service. We can even
-                  help you understand how various features will benefit your
-                  business.
+                  With years of experience supporting Australian businesses, We
+                  specialize in providing scalable and cost-effective business
+                  phone systems. Whether you need to upgrade an outdated setup,
+                  unify multiple locations, or eliminate confusing telecom
+                  bills, our team will create a solution that streamlines
+                  communication and reduces operational costs.
+                  <br />
+                  <br />
+                  From professional service firms to tech startups and
+                  multi-site companies, our expert consultants help you select
+                  the right VoIP or hosted PBX system based on how your team
+                  works. Enjoy crystal-clear calls, remote-ready features,
+                  flexible plans, and 24/7 Australian-based support—all in one
+                  easy-to-manage platform.
                 </p>
               </div>
             </div>

@@ -9,19 +9,19 @@ import FormBanner from "../../sections/FormBanner";
 const Office = () => {
   const cardData = [
     {
-      title: "Cloud-Based Phone Systems",
+      title: "Cloud Communication Solutions",
       description:
-        "Our cloud-based solutions provide flexibility, scalability, and ease of management, with features such as automatic updates, disaster recovery, and remote access.",
+        "EN-LINC’s cloud-driven phone systems offer unmatched flexibility and effortless scalability, designed to keep your office connected from anywhere. Enjoy benefits like automatic system updates, built-in disaster recovery, and secure remote access—so your team stays productive no matter where they work.",
     },
     {
-      title: "On-Premises PBX Systems",
+      title: "On-Site PBX Solutions for Total Communication Control",
       description:
-        "For businesses that require complete control over their telecommunication infrastructure, our on-premises PBX systems offer robust performance and advanced features.",
+        "EN-LINC’s on-premises PBX systems deliver powerful performance and full control over your office’s communication network. Built for businesses that demand reliability, advanced features, and secure in-house management, our solutions ensure your operations run smoothly and efficiently.",
     },
     {
-      title: "Hybrid Phone Systems",
+      title: "Hybrid Communication Systems for Smarter Offices",
       description:
-        "Combining the reliability of on-premises systems with the flexibility of cloud solutions, our hybrid systems offer the best of both worlds.",
+        "EN-LINC’s hybrid phone solutions seamlessly blend the stability of on-site systems with the agility of cloud technology, giving your office the perfect balance of control, flexibility, and future-readiness.",
     },
   ];
 
@@ -37,8 +37,8 @@ const Office = () => {
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  At Nexgen Australia, we offer advanced office phone systems
-                  that cater to the diverse needs of modern businesses.
+                  Stay ahead with EN-LINC’s flexible office phone systems,
+                  designed for the demands of growing Australian businesses.
                 </p>
               </div>
             </div>
@@ -51,18 +51,19 @@ const Office = () => {
           <ContentSection reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Understanding Office Phone Systems
+                Choosing the Right Office Phone System for Your Business
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Office phone systems are essential telecommunication tools
-                  that facilitate internal and external communication within an
-                  organisation. They come in various forms, including
-                  traditional PBX systems, VoIP systems, and hybrid systems that
-                  combine the best features of both. The right office phone
-                  system can significantly impact your business operations by
-                  ensuring efficient call handling, reducing costs, and
-                  improving overall communication.
+                  Reliable communication is the backbone of every successful
+                  business. Office phone systems—whether traditional PBX, VoIP,
+                  or hybrid models—provide the foundation for efficient internal
+                  collaboration and external customer service. EN-LINC offers
+                  smart, future-ready phone solutions designed to streamline
+                  operations, cut communication costs, and enhance productivity.
+                  With the right system in place, your business can manage calls
+                  more effectively, support remote teams, and stay connected
+                  with customers, all while preparing for future growth.
                 </p>
               </div>
             </div>
@@ -72,12 +73,14 @@ const Office = () => {
       <div className="w-full bg-[#fafafa] py-24">
         <Container>
           <h1 className="text-center text-black text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-            Enlinc Office Phone System Solutions
+            Empowering Office Communications with EN-LINC
           </h1>
           <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-[#142462]/80">
-            At enlinc Australia, we offer a range of office phone system
-            solutions tailored to meet the specific needs of modern businesses.
-            Our solutions include:
+            At EN-LINC, we craft intelligent office communication solutions that
+            drive collaboration, streamline workflows, and future-proof your
+            workplace. Our advanced office phone systems are built to adapt to
+            your business, ensuring crystal-clear connections and effortless
+            management for every team size.
           </p>
           <div className="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
             {cardData.map((data, index) => (
@@ -98,13 +101,13 @@ const Office = () => {
           <ContentSection>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Advantages of Hybrid Phone Systems
+                Why Choose EN-LINC’s Hybrid Phone Systems?
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Hybrid office phone systems combine the best features of
-                  cloud-based and on-premises systems, offering a flexible and
-                  reliable solution for businesses:
+                  Our hybrid communication solutions combine the strengths of
+                  cloud technology and on-site systems, creating a flexible,
+                  resilient, and future-ready platform for modern offices:
                   <ul className="space-y-4 py-2">
                     <li className="flex items-start gap-3">
                       {/* SVG Bullet */}
@@ -119,10 +122,10 @@ const Office = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Flexibility and Control: </b> With years of Hybrid
-                        systems provide the flexibility of cloud-based systems
-                        with the control and customization options of
-                        on-premises systems.
+                        <b>Ultimate Flexibility and Customisation</b> Enjoy the
+                        freedom of cloud connectivity while maintaining full
+                        control over your internal infrastructure, with options
+                        tailored precisely to your office needs.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -138,10 +141,10 @@ const Office = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b> Redundancy: </b>
-                        By combining cloud and on-premises solutions, hybrid
-                        systems offer redundancy, ensuring reliable performance
-                        even in the event of system failures.
+                        <b>Built-In Redundancy for Uninterrupted Operations</b>
+                        Hybrid setups provide a dual layer of reliability,
+                        safeguarding your communications even during unexpected
+                        system issues or outages.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
@@ -157,10 +160,10 @@ const Office = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Scalability: </b>
-                        Hybrid systems can be easily scaled to accommodate
-                        business growth, providing a future-proof solution that
-                        evolves with your needs.
+                        <b>Effortless Scalability to Support Your Growth</b>
+                        Expand your system easily as your business grows,
+                        ensuring seamless communication without costly overhauls
+                        or disruptions.
                       </span>
                     </li>
                   </ul>

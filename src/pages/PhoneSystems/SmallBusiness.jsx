@@ -12,45 +12,44 @@ import Banner from "../../components/Banner";
 const SmallBusiness = () => {
   const cardData = [
     {
-      logo: <PhoneForwarded className="h-5 w-5" />,
-      title: "Voicemail to Email",
+      title: "Voicemail-to-Email Integration",
       description:
-        "Receive voicemail messages straight to your inbox, so you can listen to your messages anytime, anywhere on your computer or mobile device.",
+        "Get voicemail messages delivered directly to your email inbox—access and listen to them anytime, anywhere from your mobile phone or computer. Perfect for staying connected and responsive on the go.",
     },
     {
-      title: "Hunt Group",
+      title: "Smart Call Distribution (Hunt Group Feature)",
       description:
-        "Distribute your incoming calls to the relevant phone line after a caller makes a choice regarding the purpose of their call.",
+        "Automatically route incoming calls to the right department or team member based on the caller’s selection—streamlining communication and improving customer experience.",
     },
     {
-      title: "Auto attendant",
+      title: "Virtual Receptionist (Auto Attendant Feature)",
       description:
-        "Transfer calls via a voice menu system without the need of having a telephone operator or receptionist.",
+        "Automatically transfer incoming calls using a voice menu system—no receptionist or manual operator needed. Improve efficiency and ensure callers reach the right team or department with ease.",
     },
     {
-      title: "Music on hold",
+      title: "Hold Music Feature",
       description:
-        "Prevent your callers from hanging up the phone by keeping them engaged while waiting to speak with the person on the other line.",
+        "Keep callers engaged with on-hold music or messages, reducing hang-ups while they wait to be connected to the right person.",
     },
     {
-      title: "Call anywhere",
+      title: "Call Anywhere, Anytime",
       description:
-        "Receive all the capabilities of a full business phone desk on your mobile device, so you can take your work with you wherever you go.",
+        "Access all the features of a full business phone system on your mobile device—stay connected and manage calls from anywhere, anytime.",
     },
     {
-      title: "Conference Calls",
+      title: "Built-In Audio Conferencing",
       description:
-        "Conduct virtual meetings over the phone with numerous people using high quality conference call functionality.",
+        "Host virtual meetings with multiple participants using high-quality business conference calling—ideal for seamless team collaboration and client communication.",
     },
     {
-      title: "Call Recording",
+      title: "Recorded Calls Made Easy",
       description:
-        "Build a better customer experience by recording and saving your telephone conversations in a digital audio file format.",
+        "Improve customer service by recording business calls and saving them as digital audio files—ideal for quality control, staff training, and compliance.",
     },
     {
-      title: "Call Accounting",
+      title: "Call Reporting & Analytics",
       description:
-        "Capture all of your phone records, usage and costs using our specialised software or hardware.",
+        "Track all phone activity, call usage, and costs in real time with our advanced call accounting software—ideal for monitoring performance and managing telecom expenses.",
     },
   ];
   const cardData2 = [
@@ -72,29 +71,16 @@ const SmallBusiness = () => {
     <div className=" py-12">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection video={true}>
+          <ContentSection video={true} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Boost Productivity with Affordable, Future-Proof Tech
+                Small Business Phone Systems
               </h1>
+
               <div>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                  What is Lorem Ipsum?
-                </p>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
-                </p>
-              </div>
-              <div>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                  What is Lorem Ipsum?
-                </p>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
+                  Lower Your Phone Bills and Streamline Communication with
+                  Australia’s Leading Business VoIP Experts.
                 </p>
               </div>
             </div>
@@ -147,26 +133,24 @@ const SmallBusiness = () => {
           <ContentSection>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Boost Productivity with Affordable, Future-Proof Tech
+                Small Business Phone Systems
               </h1>
               <div>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                  What is Lorem Ipsum?
-                </p>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
-                </p>
-              </div>
-              <div>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                  What is Lorem Ipsum?
-                </p>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
+                  If you run a small business, your reputation depends on every
+                  customer interaction. Missed calls or poor call quality can
+                  cost you more than just business—they can damage trust. That’s
+                  why you need a reliable, high-performance phone system that
+                  gives you complete control over your communications.
+                  <br />
+                  <br />
+                  At EN-LINC, we go beyond basic phone hardware. Our small
+                  business phone solutions combine crystal-clear VoIP calling,
+                  smart call management features, and local Australian support
+                  to help you stay connected, serve customers better, and boost
+                  productivity. We're not just a provider—we’re your
+                  communication partner, helping your business grow with
+                  confidence.
                 </p>
               </div>
             </div>
@@ -176,12 +160,15 @@ const SmallBusiness = () => {
       <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] py-12">
         <Container>
           <h1 className="text-center text-white text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-            Must-have small phone system features
+            What to Look for in a Small Business VoIP Phone System
           </h1>
           <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-white">
-            We have everything your small business needs to manage your calls
-            with ease! Some of the common phone features you shouldn't be
-            without include:
+            We offer all the essential tools your small business needs to manage
+            calls efficiently and professionally. Our feature-rich business
+            phone systems come equipped with everything you need to stay
+            connected, boost productivity, and deliver a seamless customer
+            experience. Here are some must-have phone system features every
+            small business should look for:
           </p>
           <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-8">
             {cardData.map((data, index) => (
@@ -202,26 +189,36 @@ const SmallBusiness = () => {
             <ContentSection reverse={true}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                  Boost Productivity with Affordable, Future-Proof Tech
+                  See Why EN-LINC Is Australia’s Trusted Telecom Partner
                 </h1>
                 <div>
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                    What is Lorem Ipsum?
-                  </p>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
-                  </p>
-                </div>
-                <div>
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                    What is Lorem Ipsum?
-                  </p>
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
+                    At EN-LINC, we collaborate with industry leaders like
+                    Google, Samsung, Microsoft, AWS, and Ericsson-LG to deliver
+                    cutting-edge business solutions. Our partnerships with nbn,
+                    Lancom Systems, and Ubiquiti Networks ensure seamless
+                    connectivity, while HKVision enhances your business security
+                    with advanced surveillance technology. We provide
+                    high-performance hardware from brands like Asus, Yealink,
+                    Jabra GN, and Billion Electric, alongside Kyocera office
+                    solutions, offering reliable, scalable, and customizable IT
+                    solutions.
+                    <br />
+                    <br />
+                    With years of experience, EN-LINC specializes in providing
+                    small business telephone systems with personalized service
+                    and expert support. We assess your current phone setup and
+                    offer tailored solutions to ensure efficiency and
+                    cost-effectiveness. If your existing system isn’t working,
+                    we’ll fix it, and if you’re juggling multiple phone bills,
+                    we’ll consolidate them for you.
+                    <br />
+                    <br />
+                    Whether you run a home-based business, service-based
+                    company, or startup, EN-LINC’s team of consultants will help
+                    you choose the right phone system to meet your unique needs.
+                    Stay connected and productive with our secure, scalable, and
+                    affordable telecom solutions.
                   </p>
                 </div>
               </div>

@@ -33,13 +33,14 @@ const InternetAndVoice = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Business Internet and Voice
+                Business Internet and Voice Solutions
               </h1>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Business Internet and Voice solutions designed to keep your
-                  operations running smoothly, ensuring you stay connected with
-                  clients, colleagues, and partners.
+                  ENLINC delivers powerful Business Internet and Voice services
+                  designed to keep your operations seamless and connected —
+                  empowering reliable communication with your clients, teams,
+                  and partners at all times.
                 </p>
               </div>
             </div>
@@ -62,7 +63,7 @@ const InternetAndVoice = () => {
           <ContentSection>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Why Business Internet and Voice Solutions Matter
+                Why Reliable Business Internet and Voice Solutions Are Essential
               </h3>
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
