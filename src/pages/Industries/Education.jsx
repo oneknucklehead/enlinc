@@ -13,21 +13,21 @@ const Education = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "Empower Students with Interactive Virtual Classrooms",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "Boost engagement and collaboration through EN-LINC’s dynamic online learning environments — making education more accessible and connected.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title: "Empower Educators with Smarter Tools",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "Boost flexibility and productivity with EN-LINC’s faculty workspace — giving instant access to all classes, communications, and resources, past and present.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "Smarter Communication Control for Administrators",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "Manage messaging with precision and instantly connect with any group of stakeholders — anytime, anywhere — through EN-LINC’s intelligent platform.",
       image: img,
     },
   ];
@@ -38,14 +38,14 @@ const Education = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Bringing Students and Faculty Together - Anywhere, Anytime
+                Smarter Connections for Modern Education
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Enable your team with the tools to unlock operational
-                  efficiencies and provide optimal client outcomes. AI enabled
-                  platform that supercharges finance teams.
+                  Bring students and faculty together with EN-LINC’s AI-driven
+                  tools — designed to boost collaboration, streamline
+                  operations, and optimize outcomes.
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Education = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Sky Is The Limit From A Solid Foundation
+              Where Smarter Academic Collaboration Begins
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               On Time And On Budget Starts Here
@@ -84,7 +84,7 @@ const Education = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                Real-Time Control Over Departments and Groups
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Maximise The Success Of Your Sales Team
@@ -94,34 +94,29 @@ const Education = () => {
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    Use Any Device, Anywhere
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    EN-LINC runs seamlessly on existing devices — making
+                    deployment fast, cost-effective, and easy to scale.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Scale Instantly, With Zero Hassle
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Quickly add or remove users, teams, or faculties
+                    individually or in bulk — all with just a few clicks.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Seamless Collaboration From Anywhere
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    Enable faculty and staff to connect and work together
+                    effortlessly — whether remote, hybrid, or on campus.
                   </p>
                 </div>
               </div>
@@ -133,12 +128,12 @@ const Education = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Ready to Accelerate Learning?
             </h1>
-            <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
+            {/* <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
               Extract the very best from your sales team by enabling them with
               all the information, insights and tools to give them the edge.
-            </p>
+            </p> */}
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo
             </button>

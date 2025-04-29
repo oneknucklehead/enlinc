@@ -13,21 +13,21 @@ const Healthcare = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "Streamline the Patient Journey with Smart Workflows",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "Unlock EN-LINC’s patient-focused solutions to simplify interactions, improve care delivery, and elevate patient experiences.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title: "Smarter Tools for Better Patient Care",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "Use EN-LINC’s AI-powered solutions to boost team performance, streamline workflows, and deliver consistently positive patient outcomes.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "Efficiency That Powers Personalized Care",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "Leverage EN-LINC’s simple, AI-driven insights to deliver high-engagement, tailored care across every step of the patient journey.",
       image: img,
     },
   ];
@@ -38,15 +38,14 @@ const Healthcare = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Unlock The Power Of Automation And Collaboration For Better
-                Healthcare Solutions.
+                Transform Healthcare with Smart Automation and Collaboration
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Leverage the power of AI to optimise patient outcomes. Our
-                  platform and tools unleash the power of your workforce to
-                  transform patient care.
+                  Harness EN-LINC’s AI-powered platform to optimize patient
+                  outcomes, streamline care delivery, and empower your workforce
+                  to deliver better results.
                 </p>
               </div>
             </div>
@@ -58,7 +57,7 @@ const Healthcare = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Sky Is The Limit From A Solid Foundation
+              Focused on Delivering Exceptional Patient Care
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               On Time And On Budget Starts Here
@@ -85,7 +84,7 @@ const Healthcare = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                Step Into the Future of Patient Care
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Maximise The Success Of Your Sales Team
@@ -95,34 +94,34 @@ const Healthcare = () => {
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    Boost Team Productivity and Engagement
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    Equip your staff with EN-LINC’s adaptive platform —
+                    featuring coaching, training, and automation tools that free
+                    up time, drive professional growth, and keep teams focused
+                    on delivering outstanding patient care.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Smarter Telecom Solutions for Care Delivery
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Access real-time insights across your organization to
+                    improve operational efficiency, enhance patient
+                    satisfaction, and ensure sustainable, high-quality care
+                    delivery.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Secure, Confidential Patient Data Protection
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    Patient privacy is at the core of EN-LINC’s technology. Our
+                    security-first platform protects all healthcare data —
+                    giving you and your patients total peace of mind.
                   </p>
                 </div>
               </div>
@@ -134,11 +133,12 @@ const Healthcare = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Lead the Future of Patient Care
             </h1>
             <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
-              Extract the very best from your sales team by enabling them with
-              all the information, insights and tools to give them the edge.
+              Equip your teams with EN-LINC’s intelligent solutions to deliver
+              exceptional care, improve outcomes, and enhance operational
+              performance every day.
             </p>
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo

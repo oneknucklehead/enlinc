@@ -13,21 +13,21 @@ const Legal = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "One Platform. Endless Ways to Connect.",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "With EN-LINC’s unified communication app, you can easily call, fax, message, or meet — all from your exclusive business number — creating a seamless experience for clients and coworkers alike.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title: "Fast, Seamless Call Redirection for Better Service",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "With EN-LINC’s intuitive platform, easily transfer calls or interactions — whether manually or through a virtual receptionist — to connect clients to the right person quickly and improve service efficiency.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "Instant Integration, Infinite Flexibility",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "Our plug-and-play library offers ready-to-use connections with platforms like Microsoft Workspace — plus a secure, configurable API that lets you build custom solutions without the complexity.",
       image: img,
     },
   ];
@@ -38,13 +38,15 @@ const Legal = () => {
           <ContentSection reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Next Generation Communication Platform For Law Offices
+                Modern Communication, Built for Law Offices
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Meet, message and call in one welcoming workspace. Connect
-                  with anyone at anytime
+                  Bring your firm together with EN-LINC’s integrated platform —
+                  combining meetings, messaging, and calls into one secure,
+                  intuitive space, so you can connect instantly and collaborate
+                  effortlessly.
                 </p>
               </div>
             </div>
@@ -56,7 +58,7 @@ const Legal = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Sky Is The Limit From A Solid Foundation
+              Get Started Today. Collaborate Smarter by Tomorrow.
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               On Time And On Budget Starts Here
@@ -83,7 +85,7 @@ const Legal = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                Real-Time Client Interaction Tracking Made Simple
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Maximise The Success Of Your Sales Team
@@ -93,34 +95,32 @@ const Legal = () => {
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    Complete Interaction Tracking
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    Automatically log every call, message, and meeting for easy
+                    recovery of billable minutes and accurate reporting —
+                    anytime, anywhere.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Real-Time AI Transcriptions
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Capture and transcribe calls and meetings instantly, with
+                    time-stamped action items and speaker breakdowns for fast,
+                    accessible records.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Unlimited Recordings
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    Record every conversation without limits. Post-call
+                    summaries and full transcripts are delivered directly to
+                    your inbox — no storage caps.
                   </p>
                 </div>
               </div>
@@ -132,11 +132,11 @@ const Legal = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Stronger Protection, Smarter Communication
             </h1>
             <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
-              Extract the very best from your sales team by enabling them with
-              all the information, insights and tools to give them the edge.
+              Safeguard client outcomes and streamline firm operations with
+              EN-LINC’s traceable, optimized communication workflows.
             </p>
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo

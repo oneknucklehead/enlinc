@@ -13,21 +13,21 @@ const RealEstate = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
     {
-      title: "Engage With Customers At The Right Time And Place",
+      title: "Flexible Communication, Your Way",
       description:
-        "Context-aware automations and workflows can create personalised customer experiences to engage with them at the right time no matter where they are.",
+        "Stay connected and productive with EN-LINC — whether through calls, messages, or meetings — anytime, anywhere, on your terms.",
       image: img,
     },
     {
-      title: "Key Insights Into The Buyers Journey To Improve Sales",
+      title: "Align Teams and Clients Instantly",
       description:
-        "Comprehensive tracking across all communication channels enables access to key insights. Discover which campaigns, keywords or interactions are driving conversions and engagement.",
+        "Share important updates quickly and clearly with EN-LINC — driving faster decisions, smoother collaboration, and accelerated deal-making.",
       image: img,
     },
     {
-      title: "Quality 24/7 Customer Support Without The Resource Cost",
+      title: "Instant Meetings for Faster Results",
       description:
-        "Give customers 24/7 access to get answers to questions, schedule appointments or get vehicle recommendations. Conversational adaptive AI has it covered by connecting to your specified and approved knowledge base.",
+        "With EN-LINC, set up scheduled or on-the-spot meetings effortlessly — keeping your team connected and accelerating business outcomes.",
       image: img,
     },
   ];
@@ -38,13 +38,14 @@ const RealEstate = () => {
           <ContentSection reverse={true} video={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Your Prime Location For Team Collaboration
+                One App. Total Team Connectivity.
               </h1>
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Single, easy-to-use app that connects stakeholders including
-                  property managers, agents, brokers and more.
+                  Streamline collaboration across all stakeholders with
+                  EN-LINC’s easy-to-use platform — designed for property
+                  professionals and beyond.
                 </p>
               </div>
             </div>
@@ -56,7 +57,7 @@ const RealEstate = () => {
         <Container>
           <div className="flex flex-col justify-center items-center">
             <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-              Sky Is The Limit From A Solid Foundation
+              The Platform Where Connections Drive Success
             </p>
             <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               On Time And On Budget Starts Here
@@ -83,7 +84,7 @@ const RealEstate = () => {
           <div className="py-24">
             <div className="flex flex-col justify-center items-center">
               <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
-                Enlinc Sales Powered By AI
+                AI-Enhanced Communication for Stronger Client Connections
               </p>
               <h1 className="pb-12 pt-2 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Maximise The Success Of Your Sales Team
@@ -93,34 +94,31 @@ const RealEstate = () => {
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make More Connections With More Buyers
+                    Never Miss a Call Again
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Leverage tools like power dialler and Voicemail Drop to
-                    reach more customers and book more appointments.
+                    EN-LINC’s intelligent routing and smart scheduling ensure
+                    seamless management of all inbound and outbound
+                    communications.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Make Missed Enquiries A Thing Of The Past
+                    Close Deals Faster — Buying, Renting, or Selling
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    Smart-routing makes sure that important customer enquiries
-                    are never dropped, but are guided through workflows to make
-                    sure they get to the right agent. Calls are transcribed with
-                    associated action items that are delivered to the inbox of
-                    all relevant stakeholders.
+                    Automatic call logging and transcription provide instant
+                    access to insights and action items — helping you move deals
+                    forward without delays.
                   </p>
                 </div>
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
-                    Convert More Conversations
+                    Streamline Appointment Follow-Ups
                   </h1>
                   <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                    With AI sentiment tracking capability, sales are empowered
-                    with real-time hints and resources to overcome objection and
-                    improve conversion. Improve even more going forward with
-                    coaching and post-call analytics.
+                    Save time with EN-LINC’s automated reminders and voicemail
+                    drops — keeping your schedule full and your clients engaged.
                   </p>
                 </div>
               </div>
@@ -132,12 +130,12 @@ const RealEstate = () => {
         <Banner2 imgSrc={bannerImg}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Get Your Team Started With Nexgen Today
+              Ready to Accelerate Learning?
             </h1>
-            <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
+            {/* <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
               Extract the very best from your sales team by enabling them with
               all the information, insights and tools to give them the edge.
-            </p>
+            </p> */}
             <button className="border-2 border-white rounded-full px-8 py-2">
               Start your free demo
             </button>
