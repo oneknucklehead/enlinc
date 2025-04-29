@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import logo from "../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,7 +22,10 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl">Services</h3>
             <div className="flex flex-col">
-              <a href="#">Lorem Ipsum dolor</a>
+              <Link to={"/phone-systems"}>Phone Systems</Link>
+              <a href="https://enlinc.speedtestcustom.com/">
+                Enlinc Speed Test
+              </a>
               <a href="#">Lorem Ipsum dolor</a>
               <a href="#">Lorem Ipsum dolor</a>
               <a href="#">Lorem Ipsum dolor</a>
@@ -30,10 +34,9 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl">Navigation</h3>
             <div className="flex flex-col">
-              <a href="#">Lorem Ipsum dolor</a>
-              <a href="#">Lorem Ipsum dolor</a>
-              <a href="#">Lorem Ipsum dolor</a>
-              <a href="#">Lorem Ipsum dolor</a>
+              <Link to={"/phone-systems"}>Phone Systems</Link>
+              <Link to={"/phone-systems/small-business"}>Small Business</Link>
+              <Link to={"/contact"}>Contact Us</Link>
             </div>
           </div>
           <div>
