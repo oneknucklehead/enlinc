@@ -93,7 +93,12 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <div className="fixed w-full top-5 z-50">
+    <div
+      className="fixed w-full top-5 z-50"
+      data-aos="fade-down"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+    >
       <Container>
         <nav className="bg-white shadow-md rounded-2xl px-6 py-4 flex items-center justify-between relative z-50">
           {/* <nav className="fixed top-0 left-0 w-full bg-white shadow-md rounded-none px-6 py-4 flex items-center justify-between z-50"> */}

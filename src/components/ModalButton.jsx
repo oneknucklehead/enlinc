@@ -3,7 +3,13 @@ import Button from "./Button";
 import Modal from "./Modal";
 import MultiStepForm from "./MultiStepForm";
 
-const ModalButton = ({ setModalOpen, isModalOpen, text, classname }) => {
+const ModalButton = ({
+  setModalOpen,
+  isModalOpen,
+  text,
+  classname,
+  // fade = "left",
+}) => {
   return (
     <div>
       <Button

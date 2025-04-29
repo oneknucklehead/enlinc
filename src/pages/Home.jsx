@@ -80,24 +80,42 @@ const Home = () => {
           <img src={bgImg} className="absolute -bottom-44 -right-28 " />
           <div className="relative flex flex-col justify-center items-center gap-4 h-full w-full">
             <div className="text-center max-w-5xl">
-              <h1 className="text-5xl xl:text-6xl">
-                Stay Ahead with Scalable,
-              </h1>
-              <h1 className=" font-gabarito-bold-700 text-5xl xl:text-6xl">
-                {" "}
-                Intelligent Tech Designed for Tomorrow
-              </h1>
+              <div
+                data-aos="fade-down"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                <h1 className="text-5xl xl:text-6xl">
+                  Stay Ahead with Scalable,
+                </h1>
+              </div>
+              <div
+                data-aos="fade-down"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <h1 className=" font-gabarito-bold-700 text-5xl xl:text-6xl">
+                  {" "}
+                  Intelligent Tech Designed for Tomorrow
+                </h1>
+              </div>
               {/* <h1 className="font-bold text-5xl xl:text-6xl">
                 Zero Headaches.
               </h1> */}
             </div>
-            <p className="text-sm xl:text-base text-center">
-              We empower Australian small businesses with reliable,
-              cost-effective business phone systems that are built to scale.
-              <br /> Our future-ready VoIP and hosted PBX solutions come backed
-              by 24/7 local support, ensuring secure, uninterrupted
-              communication every step of the way.
-            </p>
+            <div
+              data-aos="fade-down"
+              data-aos-delay="350"
+              data-aos-duration="1000"
+            >
+              <p className="text-sm xl:text-base text-center">
+                We empower Australian small businesses with reliable,
+                cost-effective business phone systems that are built to scale.
+                <br /> Our future-ready VoIP and hosted PBX solutions come
+                backed by 24/7 local support, ensuring secure, uninterrupted
+                communication every step of the way.
+              </p>
+            </div>
             <div className="flex gap-2">
               <ModalButton
                 text={"Book a Demo"}
@@ -105,6 +123,9 @@ const Home = () => {
                 setModalOpen={setModalOpen}
               />
               <Button
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
                 onClick={() => setModalOpen2(true)}
                 classname={"py-[6px] px-4 text-[#142462] text-sm xl:text-base"}
                 outline={true}
@@ -147,9 +168,9 @@ const Home = () => {
               </Modal>
             </div>
             <div className="flex w-full justify-center py-12">
-              <div className="hidden xl:block -rotate-12 p-[2px] h-fit rounded-lg bg-gradient-to-r from-[#0EA4DE] to-[#142462]">
-                <div className="rounded-md bg-white flex justify-center items-center gap-2  py-2 pl-2">
-                  <img src={googleLogo} alt="google" />
+              <div className="hidden xl:block  animate-float -rotate-12 p-[2px] h-fit rounded-lg bg-gradient-to-r from-[#0EA4DE] to-[#142462]">
+                <div className="rounded-md  bg-white flex justify-center items-center gap-2  py-2 pl-2">
+                  <img loading="lazy" src={googleLogo} alt="google" />
                   <div className="pr-3">
                     <div className="flex gap-2">
                       <Star className="fill-yellow-400 text-yellow-400" />
@@ -165,12 +186,21 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="sm:mr-16 md:mr-32">
-                <img src={homeMainImg} className="aspect-square" />
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="350"
+                className="sm:mr-16 md:mr-32"
+              >
+                <img
+                  loading="lazy"
+                  src={homeMainImg}
+                  className="aspect-square"
+                />
               </div>
-              <div className="hidden xl:block rotate-12 p-[2px] h-fit rounded-lg bg-gradient-to-r from-[#0EA4DE] to-[#142462]">
+              <div className="hidden xl:block  animate-float  rotate-12 p-[2px] h-fit rounded-lg bg-gradient-to-r from-[#0EA4DE] to-[#142462]">
                 <div className="rounded-md bg-white flex justify-center items-center gap-2  py-2 pl-2">
-                  <img src={headphoneLogo} alt="headphone" />
+                  <img loading="lazy" src={headphoneLogo} alt="headphone" />
                   <div className="pr-3">
                     <div className="text-lg text-[#F3C200] font-gabarito-semibold-600">
                       24/7 Australia
@@ -191,13 +221,17 @@ const Home = () => {
       <div classname="w-full">
         <Container>
           <div className="py-12 px-4">
-            <p className="text-3xl text-center pb-12">
+            <p
+              className="text-3xl text-center pb-12"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               Trusted by over 2k+ companies
             </p>
             <div className="flex flex-wrap justify-center items-center gap-12">
               {brandArr.map((brand, index) => (
                 <div key={index} className="">
-                  <img src={brand} />
+                  <img loading="lazy" src={brand} />
                 </div>
               ))}
             </div>
@@ -210,13 +244,24 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-12 md:gap-4">
             <div className="text-white space-y-2">
               <span>
-                <img src={savings} alt="savings" />
+                <img loading="lazy" src={savings} alt="savings" />
               </span>
-              <h3 className="text-3xl">
+              <h3
+                className="text-3xl"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
                 Smarter Phone Systems, Bigger Savings –{" "}
                 <b>Slash Call Costs by Up to 75%</b>
               </h3>
-              <p>Over 500 companies have already switched to En-Linc</p>
+              <p
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+              >
+                Over 500 companies have already switched to En-Linc
+              </p>
             </div>
             <div className="flex sm:justify-center sm:items-center">
               <div className="flex flex-col bg-white w-full sm:max-w-lg rounded-md p-8 gap-2">
@@ -251,7 +296,12 @@ const Home = () => {
         <Container>
           <div className="grid lg:grid-cols-2 gap-8 py-24">
             <div className="relative  px-4">
-              <div className="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto">
+              <div
+                data-aos="fade-right"
+                data-aos-delay="150"
+                data-aos-duration="1000"
+                className="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto"
+              >
                 {/* Background layer */}
                 <div className="absolute top-4 -left-4 w-full h-full bg-gradient-to-t from-[#142462] to-[#2A6A9E] rounded-xl z-0" />
 
@@ -265,7 +315,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="absolute hidden md:block top-[50%] -left-36 lg:-left-28 xl:-left-44 z-10 w-full">
-                <div className="relative max-w-xs mx-auto">
+                <div className="relative animate-float max-w-xs mx-auto">
                   {/* Background layer */}
                   <div className="absolute top-4 -left-4 w-full h-full rounded-2xl border-2 border-[#0EA4DE] z-0" />
 
@@ -296,19 +346,38 @@ const Home = () => {
             </div>
             <div className="flex justify-center items-center">
               <div className="flex flex-col gap-6">
-                <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
+                <h3
+                  className="text-3xl xl:text-4xl font-gabarito-semibold-600"
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   Drive Productivity with Smart, Affordable Business Technology
                 </h3>
-                <p>
+                <p
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
                   Empower your team with future-proof communication tools
                   designed to enhance efficiency and support long-term business
                   growth.
                 </p>
                 <div>
-                  <p className="xl:text-lg font-gabarito-semibold-600">
+                  <p
+                    className="xl:text-lg font-gabarito-semibold-600"
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                  >
                     Transparent, Cost-Effective VoIP Solutions
                   </p>
-                  <p className="text-sm xl:text-base">
+                  <p
+                    className="text-sm xl:text-base"
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                  >
                     At EN-LINC, we provide flexible, cloud-based phone systems
                     with clear pricing and zero hidden costs—helping Australian
                     businesses plan confidently while reducing communication
@@ -316,10 +385,20 @@ const Home = () => {
                   </p>
                 </div>
                 <div>
-                  <p className="xl:text-lg font-gabarito-semibold-600">
+                  <p
+                    className="xl:text-lg font-gabarito-semibold-600"
+                    data-aos="fade-left"
+                    data-aos-delay="500"
+                    data-aos-duration="1000"
+                  >
                     Future-Proof Phone Systems for Small & Growing Businesses
                   </p>
-                  <p className="text-sm xl:text-base">
+                  <p
+                    className="text-sm xl:text-base"
+                    data-aos="fade-left"
+                    data-aos-delay="600"
+                    data-aos-duration="1000"
+                  >
                     Our cloud-hosted solutions evolve with your business
                     needs—whether you're adding new team members, opening new
                     locations, or shifting to hybrid work. Scale with ease, stay
@@ -338,7 +417,12 @@ const Home = () => {
           </div>
           <div className="grid lg:grid-cols-2 gap-8 py-24">
             <div className="relative order-2  px-4">
-              <div className="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto">
+              <div
+                data-aos="fade-left"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                className="relative max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto"
+              >
                 {/* Background layer */}
                 <div className="absolute top-4 -left-4 w-full h-full bg-gradient-to-t from-[#142462] to-[#2A6A9E] rounded-xl z-0" />
 
@@ -352,7 +436,7 @@ const Home = () => {
                 </div>
               </div>
               <div>
-                <div className="absolute hidden md:block top-[50%] left-36 lg:left-28 xl:left-80 z-10 w-full max-w-xs">
+                <div className="absolute animate-float hidden md:block top-[50%] translate-x-16 left-[55%] lg:left-[45%] xl:left-72 2xl:left-96 z-10 w-full max-w-xs">
                   <div className="relative w-fit max-w-xs mx-auto">
                     {/* Background layer */}
                     <div className="absolute top-4 left-4 w-full h-full rounded-2xl border-2 border-[#0EA4DE] z-0" />
@@ -371,22 +455,41 @@ const Home = () => {
             </div>
             <div className="flex justify-center items-center">
               <div className="flex flex-col gap-6">
-                <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
+                <h3
+                  className="text-3xl xl:text-4xl font-gabarito-semibold-600"
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                >
                   Secure Business Communication Backed by Local Australian
                   Support
                 </h3>
-                <p>
+                <p
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                >
                   Stay confidently connected with EN-LINC’s secure,
                   enterprise-grade phone and internet solutions—designed to
                   deliver reliable performance for every customer and client
                   interaction.
                 </p>
                 <div>
-                  <p className="xl:text-lg font-gabarito-semibold-600">
+                  <p
+                    className="xl:text-lg font-gabarito-semibold-600"
+                    data-aos="fade-right"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                  >
                     Reliable & Secure Connectivity for Small to Medium
                     Businesses
                   </p>
-                  <p className="text-sm xl:text-base">
+                  <p
+                    className="text-sm xl:text-base"
+                    data-aos="fade-right"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                  >
                     Ensure every call, message, and connection is protected and
                     crystal-clear. Our network infrastructure is built for
                     business continuity, safeguarding your communications with
@@ -394,10 +497,20 @@ const Home = () => {
                   </p>
                 </div>
                 <div>
-                  <p className="xl:text-lg font-gabarito-semibold-600">
+                  <p
+                    className="xl:text-lg font-gabarito-semibold-600"
+                    data-aos="fade-right"
+                    data-aos-delay="500"
+                    data-aos-duration="1000"
+                  >
                     24/7 Australian-Based Support You Can Count On
                   </p>
-                  <p className="text-sm xl:text-base">
+                  <p
+                    className="text-sm xl:text-base"
+                    data-aos="fade-right"
+                    data-aos-delay="600"
+                    data-aos-duration="1000"
+                  >
                     Enjoy personalised service from EN-LINC’s locally-based
                     support team. We’re here around the clock to resolve issues
                     quickly, offer expert advice, and ensure your systems are
@@ -406,6 +519,7 @@ const Home = () => {
                 </div>
 
                 <ModalButton
+                  fade="right"
                   text={"Get Started"}
                   isModalOpen={isModalOpen3}
                   setModalOpen={setModalOpen3}
@@ -419,15 +533,26 @@ const Home = () => {
       <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] h-fit py-12 px-4">
         <Container>
           <div className="">
-            <h3 className="text-center text-white m-8 text-3xl xl:text-4xl font-gabarito-bold-700">
+            <h3
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              className="text-center text-white m-8 text-3xl xl:text-4xl font-gabarito-bold-700"
+            >
               What Your Business Needs
             </h3>
             {/* <div className="flex"> */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-7xl justify-center items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-7xl">
               {/* <div className="flex gap-8"> */}
               {featureData.map((data, index) => (
                 // <div className="">
-                <FeatureCard text={data.text} description={data.description} />
+
+                <FeatureCard
+                  key={index}
+                  index={index}
+                  text={data.text}
+                  description={data.description}
+                />
                 // </div>
               ))}
               {/* <FeatureCard />
@@ -443,7 +568,12 @@ const Home = () => {
       {/* CONTENT SWITCHER SECTION */}
       <div className="py-12 px-4">
         <Container>
-          <h3 className="text-center font-gabarito-semibold-600 text-3xl lg:text-4xl mb-4">
+          <h3
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            className="text-center font-gabarito-semibold-600 text-3xl lg:text-4xl mb-4"
+          >
             Seamless Onboarding Included with Every Plan!
           </h3>
           {/* <p className="text-center text-base lg:text-lg mb-4">
@@ -500,7 +630,12 @@ const Home = () => {
       <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] h-fit py-12 px-4">
         <Container>
           <div>
-            <h3 className="text-3xl xl:text-4xl text-white text-center">
+            <h3
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              className="text-3xl xl:text-4xl text-white text-center"
+            >
               Why Business Owners Trust En linc
             </h3>
           </div>

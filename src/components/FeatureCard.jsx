@@ -4,9 +4,15 @@ import React from "react";
 const FeatureCard = ({
   text = "Lorem Ipsum",
   description = "Lorem Ipsum is simply dummy text of the printing",
+  index = 1,
 }) => {
   return (
-    <div className="bg-white flex h-full gap-4 items-center max-w-sm mx-auto rounded-md py-4 px-4 lg:px-6">
+    <div
+      data-aos="fade-up"
+      data-aos-delay={`${index}00`}
+      data-aos-duration="1000"
+      className="bg-white flex w-full h-full gap-4 items-center max-w-sm mx-auto rounded-md py-4 px-4 lg:px-6"
+    >
       {/* Background layer */}
 
       {/* Foreground card */}

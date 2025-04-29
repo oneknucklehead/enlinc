@@ -2,8 +2,13 @@ import React, { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import faqData from "../data/AccordionData";
 
-const AccordionItem = ({ faq, isOpen, onClick }) => (
-  <div className="border-b-2 border-[#2A6A9E]">
+const AccordionItem = ({ faq, isOpen, onClick, index = 1 }) => (
+  <div
+    data-aos="fade-up"
+    data-aos-delay={`${index}00`}
+    data-aos-duration="1000"
+    className="border-b-2 border-[#2A6A9E]"
+  >
     <button
       onClick={onClick}
       className="flex justify-between items-center w-full py-4 text-left"
@@ -38,6 +43,7 @@ const Accordion = () => {
         <AccordionItem
           key={idx}
           faq={faq}
+          index={idx}
           isOpen={openIndex === idx}
           onClick={() => toggle(idx)}
         />
