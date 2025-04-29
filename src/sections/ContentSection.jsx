@@ -3,6 +3,7 @@ import dummy from "../assets/images/dummy.jpg";
 import ModalButton from "../components/ModalButton";
 
 const ContentSection = ({
+  btnEnabled = true,
   reverse = false,
   video = false,
   videoLink = (
@@ -86,11 +87,13 @@ const ContentSection = ({
                 </Button>
               </div> */}
             {children}
-            <ModalButton
-              text={"Start your free demo"}
-              isModalOpen={isModalOpen}
-              setModalOpen={setModalOpen}
-            />
+            {btnEnabled && (
+              <ModalButton
+                text={"Start your free demo"}
+                isModalOpen={isModalOpen}
+                setModalOpen={setModalOpen}
+              />
+            )}
           </div>
         </div>
       </div>

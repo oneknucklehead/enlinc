@@ -87,38 +87,69 @@ function About() {
       <div className="px-4 mt-[92px]">
         <Container>
           <div className="py-24">
-            <ContentSection reverse={true}>
+            <ContentSection btnEnabled={false} reverse={true}>
               <div className="flex flex-col gap-6">
                 <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
-                  Boost Productivity with Affordable, Future-Proof Tech
+                  Your Partner in Intelligent, Customizable Communication
+                  Solutions
                 </h3>
                 <div>
-                  <p className="xl:text-lg font-gabarito-semibold-600">
+                  {/* <p className="xl:text-lg font-gabarito-semibold-600">
                     What is Lorem Ipsum?
-                  </p>
-                  <p className="text-sm xl:text-base">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
+                  </p> */}
+                  <p className="text-base xl:text-lg">
+                    At EN-LINC, we deliver forward-thinking technology designed
+                    to enhance productivity, boost efficiency, and support
+                    sustainable growth for businesses across Australia.
                   </p>
                 </div>
               </div>
             </ContentSection>
           </div>
           <div className="py-24">
-            <ContentSection>
+            <ContentSection btnEnabled={false}>
               <div className="flex flex-col gap-6">
                 <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
-                  Boost Productivity with Affordable, Future-Proof Tech
+                  About Us
                 </h3>
                 <div>
-                  <p className="xl:text-lg font-gabarito-semibold-600">
+                  {/* <p className="xl:text-lg font-gabarito-semibold-600">
                     What is Lorem Ipsum?
-                  </p>
-                  <p className="text-sm xl:text-base">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
+                  </p> */}
+                  <p className="text-base xl:text-lg">
+                    EN-LINC is a proudly Australian-owned telecommunications
+                    company, committed to delivering tailored business solutions
+                    designed specifically for small and medium-sized enterprises
+                    (SMEs). We understand the common frustrations that
+                    businesses experience with traditional telecom providers —
+                    slow support, rigid packages, and solutions that don’t quite
+                    fit. That’s why at EN-LINC, exceptional customer service and
+                    custom-fit solutions are at the heart of everything we do.
+                    <br />
+                    <br />
+                    Our comprehensive service portfolio covers everything modern
+                    businesses need to stay connected and competitive —
+                    including business phone systems, cloud communications,
+                    high-speed internet services, secure network solutions, and
+                    CCTV monitoring. We also provide office essentials such as
+                    printers, branded stationery, and toner cartridges to
+                    support your everyday operations. With EN-LINC, accessing
+                    essential technology and services is simple, reliable, and
+                    completely hassle-free.
+                    <br />
+                    <br />
+                    Security and peace of mind are a key part of our offering.
+                    Our secure network setups and advanced CCTV monitoring
+                    systems allow you to manage and protect your business easily
+                    — even with just a swipe from your device.
+                    <br />
+                    <br />
+                    At EN-LINC, our focus is simple: Your business always comes
+                    first. We deliver reliable telecommunications, IT, and
+                    office solutions that take the pressure off, so you can
+                    focus on what matters most — growing your business. With our
+                    expert team behind you, achieving smarter, more efficient
+                    communication has never been easier.
                   </p>
                 </div>
               </div>
