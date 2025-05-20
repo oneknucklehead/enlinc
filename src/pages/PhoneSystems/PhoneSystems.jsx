@@ -93,10 +93,19 @@ const PhoneSystems = () => {
         <Container>
           <ContentSection video={true} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
-              <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+              <h1
+                className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
                 Phone Systems
               </h1>
-              <div>
+              <div
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
                   Affordable, Reliable Phone Systems for Businesses Across
                   Australia — Powered by EN-LINC
@@ -111,11 +120,21 @@ const PhoneSystems = () => {
         <Container>
           <ContentSection>
             <div className="flex flex-col gap-6">
-              <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+              <h3
+                data-aos="fade-left"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
+              >
                 Leaders in VoIP and Office Phone System Technology — EN-LINC
               </h3>
               <div>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                <p
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  className="text-center md:text-start xl:text-lg font-gabarito-reg-400"
+                >
                   Today’s businesses depend on advanced office telephone systems
                   and VoIP technology to stay connected, efficient, and
                   competitive. Whether you need on-site IP phones, cloud-hosted
@@ -127,10 +146,20 @@ const PhoneSystems = () => {
                   across every industry.
                 </p>
                 <div className="py-4">
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                    className="text-center md:text-start xl:text-lg font-gabarito-semibold-600"
+                  >
                     Choosing the Best Office Phone System for Your Business
                   </p>
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                    className="text-center md:text-start xl:text-lg font-gabarito-reg-400"
+                  >
                     Finding the right office phone system isn’t
                     one-size-fits-all. Every business has unique needs, and the
                     ideal solution depends on your operations, team size, and
@@ -219,11 +248,21 @@ const PhoneSystems = () => {
         <Container>
           <ContentSection reverse={true}>
             <div className="flex flex-col gap-6">
-              <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+              <h3
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
+              >
                 The Cost of Setting Up an Office Phone System with EN-LINC
               </h3>
               <div>
-                <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                <p
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  className="text-center md:text-start xl:text-lg font-gabarito-reg-400"
+                >
                   When starting a new business, it might be tempting to cut
                   costs by using a domestic phone system. However, investing in
                   a professional office phone system delivers far greater value
@@ -246,7 +285,12 @@ const PhoneSystems = () => {
       </div>
       <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] py-12">
         <Container>
-          <h1 className="text-center text-white text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            className="text-center text-white text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
+          >
             Must-Have Features for Modern Business Phone Systems
           </h1>
           {/* <p className="text-center xl:text-lg font-gabarito-reg-400 p-2 text-white">
@@ -258,6 +302,7 @@ const PhoneSystems = () => {
             {cardData.map((data, index) => (
               <div className="flex" key={index}>
                 <FeatureCard2
+                  index={index}
                   logo={data.logo}
                   title={data.title}
                   description={data.description}
@@ -272,14 +317,24 @@ const PhoneSystems = () => {
           <div className="py-24">
             <ContentSection>
               <div className="text-center md:text-start flex flex-col gap-6">
-                <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+                <h1
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
+                >
                   Unlock Endless Communication Possibilities with EN-LINC
                 </h1>
                 <div>
                   {/* <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
                     What is Lorem Ipsum?
                   </p> */}
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                    className="text-center md:text-start xl:text-lg font-gabarito-reg-400"
+                  >
                     At EN-LINC, we believe your business deserves more than just
                     a basic phone system—you need a complete communication
                     platform built to evolve with you. Our cutting-edge VoIP and
@@ -292,10 +347,20 @@ const PhoneSystems = () => {
                   </p>
                 </div>
                 <div>
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-semibold-600">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                    className="text-center md:text-start xl:text-lg font-gabarito-semibold-600"
+                  >
                     Take Your Business Communications to the Next Level
                   </p>
-                  <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                    className="text-center md:text-start xl:text-lg font-gabarito-reg-400"
+                  >
                     Don’t let outdated phone systems hold your business back.
                     EN-LINC makes upgrading easy, affordable, and future-proof.
                     Experience the benefits of a modern, reliable business phone
@@ -310,20 +375,7 @@ const PhoneSystems = () => {
           </div>
         </Container>
         <div className="w-full mx-auto">
-          <Banner>
-            <div className="text-white max-w-xl flex flex-col gap-4 justify-center h-full">
-              <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-                Upgrade to the latest small business phone system technology and
-                save up to 70% Off on your calls
-              </h1>
-              <p className="text-center lg:text-start xl:text-lg font-gabarito-reg-400">
-                Start your free demo below
-              </p>
-              <button className="border-2 border-white rounded-full px-8 py-2">
-                Start your free demo
-              </button>
-            </div>
-          </Banner>
+          <Banner />
         </div>
       </div>
     </div>

@@ -123,9 +123,6 @@ const Home = () => {
                 setModalOpen={setModalOpen}
               />
               <Button
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
                 onClick={() => setModalOpen2(true)}
                 classname={"py-[6px] px-4 text-[#142462] text-sm xl:text-base"}
                 outline={true}

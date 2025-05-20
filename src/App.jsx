@@ -25,6 +25,8 @@ import ManagedITServices from "./pages/Products/ManagedITServices";
 import SecurityCameras from "./pages/Products/SecurityCameras";
 import InternetAndVoice from "./pages/Products/InternetAndVoice";
 import PrintersAndCopiers from "./pages/Products/PrintersAndCopiers";
+import Industries from "./pages/Industries/Industries";
+import Products from "./pages/Products/Products";
 
 function App() {
   return (
@@ -48,6 +50,7 @@ function App() {
           <Route path="/phone-systems/office" element={<Office />} />
           <Route path="/phone-systems/brands" element={<Brands />} />
           {/* INDUSTRY */}
+          <Route path="/industries" element={<Industries />} />
           <Route path="/industries/automotive" element={<Automotive />} />
           <Route path="/industries/accountants" element={<Accountants />} />
           <Route path="/industries/construction" element={<Construction />} />
@@ -62,6 +65,7 @@ function App() {
           <Route path="/industries/vet" element={<Vet />} />
           <Route path="/industries/wellness" element={<Wellness />} />
           {/* PRODUCTS */}
+          <Route path="/products" element={<Products />} />
           <Route
             path="/products/business-phone-systems"
             element={<BusinessPhoneSystems />}

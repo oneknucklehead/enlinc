@@ -27,11 +27,19 @@ const ContentSection = ({
       <div className="w-full max-w-7xl mx-auto h-fit">
         <div className={`w-full grid lg:grid-cols-2 gap-8 px-4 `}>
           {video ? (
-            <div className={`col-span-1 ${reverse ? "order-2" : "order-1"}`}>
+            <div
+              data-aos={`fade-${reverse ? "left" : "right"}`}
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              className={`col-span-1 ${reverse ? "order-2" : "order-1"}`}
+            >
               {videoLink}
             </div>
           ) : (
             <div
+              data-aos={`fade-${reverse ? "left" : "right"}`}
+              data-aos-delay="100"
+              data-aos-duration="1000"
               className={`col-span-1 flex justify-center items-center px-4 ${
                 reverse ? "order-2" : "order-1"
               }`}

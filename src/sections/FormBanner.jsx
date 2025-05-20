@@ -9,16 +9,36 @@ const FormBanner = () => {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-12 md:gap-4">
           <div className="text-white space-y-2">
-            <span>
+            <span
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
               <img src={savings} alt="savings" />
             </span>
-            <h3 className="text-3xl">
+            <h3
+              className="text-3xl"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
               Smarter Phone Systems, Bigger Savings –{" "}
               <b>Slash Call Costs by Up to 75%</b>
             </h3>
-            <p>Over 500 companies have already switched to En-Linc</p>
+            <p
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              Over 500 companies have already switched to En-Linc
+            </p>
           </div>
-          <div className="flex sm:justify-center sm:items-center">
+          <div
+            className="flex sm:justify-center sm:items-center"
+            data-aos="fade-left"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
             <div className="flex flex-col bg-white w-full sm:max-w-lg rounded-md p-8 gap-2">
               <div className="flex gap-2 items-center">
                 <svg

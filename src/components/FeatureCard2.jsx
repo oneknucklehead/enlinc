@@ -6,9 +6,15 @@ const FeatureCard2 = ({
   logo = <Phone className="w-5 h-5" />,
   title,
   description,
+  index = 1,
 }) => {
   return (
-    <div className="bg-white border hover:border-black hover:shadow-md duration-300 rounded-md scale-95 hover:scale-100 cursor-pointer transition-all p-4 text-center flex flex-col justify-center items-center gap-4">
+    <div
+      data-aos="fade-up"
+      data-aos-delay={`${index}00`}
+      data-aos-duration="1000"
+      className="bg-white border hover:border-black hover:shadow-md duration-300 rounded-md scale-95 hover:scale-100 cursor-pointer transition-all p-4 text-center flex flex-col justify-center items-center gap-4"
+    >
       <div
         className={`${
           image ? "bg-transparent" : "bg-[#2A6A9E]"
