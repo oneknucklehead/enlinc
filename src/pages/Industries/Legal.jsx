@@ -9,6 +9,12 @@ import Banner2 from "../../components/Banner2";
 import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
 
+import img1 from "../../assets/images/Legal/1.jpg";
+import img2 from "../../assets/images/Legal/2.jpg";
+import img3 from "../../assets/images/Legal/3.jpg";
+import img4 from "../../assets/images/Legal/4.jpg";
+import img5 from "../../assets/images/Legal/5.jpg";
+
 const Legal = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
@@ -16,26 +22,26 @@ const Legal = () => {
       title: "One Platform. Endless Ways to Connect.",
       description:
         "With EN-LINC’s unified communication app, you can easily call, fax, message, or meet — all from your exclusive business number — creating a seamless experience for clients and coworkers alike.",
-      image: img,
+      image: img1,
     },
     {
       title: "Fast, Seamless Call Redirection for Better Service",
       description:
         "With EN-LINC’s intuitive platform, easily transfer calls or interactions — whether manually or through a virtual receptionist — to connect clients to the right person quickly and improve service efficiency.",
-      image: img,
+      image: img2,
     },
     {
       title: "Instant Integration, Infinite Flexibility",
       description:
         "Our plug-and-play library offers ready-to-use connections with platforms like Microsoft Workspace — plus a secure, configurable API that lets you build custom solutions without the complexity.",
-      image: img,
+      image: img3,
     },
   ];
   return (
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img4} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Modern Communication, Built for Law Offices
@@ -91,7 +97,7 @@ const Legal = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img5}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">

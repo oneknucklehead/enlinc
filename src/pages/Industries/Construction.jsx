@@ -8,6 +8,15 @@ import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
 import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
+
+import img1 from "../../assets/images/Construction/1.jpg";
+import img2 from "../../assets/images/Construction/2.png";
+import img3 from "../../assets/images/Construction/3.jpg";
+import img4 from "../../assets/images/Construction/4.png";
+import img5 from "../../assets/images/Construction/5.png";
+import img6 from "../../assets/images/Construction/6.jpg";
+import img7 from "../../assets/images/Construction/7.png";
+
 const Construction = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
@@ -15,26 +24,26 @@ const Construction = () => {
       title: "Keep Projects Moving with 24/7 Seamless Connectivity",
       description:
         "Stay connected anytime, anywhere with EN-LINC’s intuitive mobile platform. Whether it’s calls, messages, or meetings, effortlessly engage stakeholders and keep your projects on track — no matter where business takes you.",
-      image: img,
+      image: img1,
     },
     {
       title: "Unlock Operational Efficiency with AI-Powered Insights",
       description:
         "Leverage EN-LINC’s AI-driven tracking across all interactions and workflows to gain critical insights into your operational performance. Identify and resolve issues in real-time, ensuring smoother project execution and preventing future challenges.",
-      image: img,
+      image: img2,
     },
     {
       title: "Effortless Integrations with EN-LINC’s Plug-and-Play Solutions",
       description:
         "Enable your team to streamline workflows instantly with EN-LINC’s ready-to-use system integrations and flexible, secure API options — driving operational efficiency without the delays or complexity.",
-      image: img,
+      image: img3,
     },
   ];
   return (
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img4} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Streamline Teamwork and Boost Efficiency with EN-LINC’s Smart
@@ -95,7 +104,7 @@ const Construction = () => {
                 and enhanced operational efficiency.
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img5}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
@@ -141,7 +150,7 @@ const Construction = () => {
         </Container>
       </div>
       <div className="">
-        <Banner2 imgSrc={bannerImg}>
+        <Banner2 imgSrc={img6}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               Deliver Better Results for Your Business and Clients

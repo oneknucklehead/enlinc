@@ -1,13 +1,22 @@
 import React, { useState } from "react";
 import Container from "../../components/Container";
-import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import FormBanner from "../../sections/FormBanner";
-import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
+
+import img1 from "../../assets/images/Automobile/1.jpg";
+import img2 from "../../assets/images/Automobile/2.png";
+import img3 from "../../assets/images/Automobile/3.jpg";
+import img4 from "../../assets/images/Automobile/4.png";
+import img5 from "../../assets/images/Automobile/5.png";
+import img6 from "../../assets/images/Automobile/6.png";
+import img7 from "../../assets/images/Automobile/7.png";
+import img8 from "../../assets/images/Automobile/8.png";
+import img9 from "../../assets/images/Automobile/9.png";
+import img10 from "../../assets/images/Automobile/10.jpg";
+import img11 from "../../assets/images/Automobile/11.png";
 
 const Automotive = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -16,27 +25,27 @@ const Automotive = () => {
       title: "Connect With Customers Exactly When and Where It Matters",
       description:
         "Leverage EN-LINC’s intelligent automations and smart workflows to deliver personalized experiences that engage customers at the perfect moment — wherever they are.",
-      image: img,
+      image: img1,
     },
     {
       title:
         "Unlock Actionable Insights Across the Customer Journey to Boost Sales",
       description:
         "Gain complete visibility across every communication channel with EN-LINC’s advanced tracking tools. Identify the campaigns, keywords, and interactions that drive engagement and fuel higher conversion rates.",
-      image: img,
+      image: img2,
     },
     {
       title: "24/7 Customer Support Without the Overhead",
       description:
         "Deliver round-the-clock service with EN-LINC’s intelligent conversational AI. Whether answering questions, booking appointments, or offering tailored recommendations, our adaptive solutions connect seamlessly to your approved knowledge base — ensuring customer satisfaction without additional staffing costs.",
-      image: img,
+      image: img3,
     },
   ];
   return (
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img4} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Drive Customer Loyalty and Accelerate Business Growth
@@ -94,7 +103,7 @@ const Automotive = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img5}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
@@ -137,7 +146,7 @@ const Automotive = () => {
         </Container>
       </div>
       <div className="">
-        <Banner2 imgSrc={bannerImg}>
+        <Banner2 imgSrc={img6}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               Equip Your Team for Success with EN-LINC

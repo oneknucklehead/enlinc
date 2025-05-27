@@ -1,17 +1,18 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css/bundle"; // Optional: Comment out if you want zero CSS import
 import CardWithHoverTab from "./CardWithHoverTab";
 
 const Carousel = ({ slideContent }) => {
   return (
-    <div className="w-full px-4 py-8">
+    <div className="flex w-full px-4 py-8">
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={20}
         // navigation
+        autoplay={{ delay: 1000 }}
         loop={true}
         pagination={{ clickable: true }}
         breakpoints={{

@@ -23,39 +23,39 @@ import Carousel from "../../components/Carousel";
 import Cards from "../../components/Cards";
 import ModalButton from "../../components/ModalButton";
 import Banner2 from "../../components/Banner2";
-import img from "../../assets/images/person.jpg";
+import img from "../../assets/images/Product/1.png";
 import bannerImg from "../../assets/images/bannerImg.jpg";
 
 const slides = [
   {
     title: "Business Phone Systems",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/products/business-phone-systems",
+      "Flexible cloud and on-prem phone systems with smart features like auto attendant, call recording, and CRM integration—built for scale.",
+    link: "/our-services/business-phone-systems",
   },
   {
     title: "Managed IT Services",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/products/managed-it-services",
+      "Proactive, fully managed IT support to monitor, maintain, and secure your systems—so you can focus on growing your business.",
+    link: "/our-services/managed-it-services",
   },
   {
     title: "Security Cameras",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/products/security-cameras",
+      "Enterprise-grade CCTV and NVR systems that safeguard your premises with smart surveillance, remote access, and 24/7 peace of mind.",
+    link: "/our-services/security-cameras",
   },
   {
     title: "Internet & Voice",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/products/internet-and-voice",
+      "Fast, business-grade internet and VoIP voice solutions—custom-fit for your site, with scalable plans and rock-solid service you can trust.",
+    link: "/our-services/internet-and-voice",
   },
   {
     title: "Printers & Copiers",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/products/printers-and-copiers",
+      "Reliable, high-performance Kyocera printers and copiers designed to reduce downtime, lower costs, and support seamless business document workflows.",
+    link: "/our-services/printers-and-copiers",
   },
 ];
 const Products = () => {
@@ -95,7 +95,7 @@ const Products = () => {
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                Products
+                Services
               </h1>
               <div
                 data-aos="fade-right"
@@ -103,8 +103,9 @@ const Products = () => {
                 data-aos-duration="1000"
               >
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  One trusted provider for all your telecom hardware—secure,
+                  smart, future-ready systems for connectivity, productivity,
+                  and peace of mind.
                 </p>
               </div>
             </div>
@@ -117,7 +118,7 @@ const Products = () => {
         <Container>
           <div>
             <h1 className="pb-4 pt-24 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
-              Our Products:
+              Our Services:
             </h1>
           </div>
           <div className="max-w-7xl mx-auto">

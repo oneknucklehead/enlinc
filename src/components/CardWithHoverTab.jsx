@@ -10,7 +10,7 @@ const CardWithHoverTab = ({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div className="relative w-fit p-4">
+    <div className="relative flex h-full w-fit p-4">
       {/* Floating tab */}
       <div
         className={`absolute top-8 left-8 w-8 h-8 rounded-full flex items-center justify-center
@@ -33,7 +33,7 @@ const CardWithHoverTab = ({
         onMouseLeave={() => setHovered(false)}
       >
         <div
-          className={`rounded-xl flex flex-col justify-center items-start gap-2 bg-white transition-colors ${
+          className={`rounded-xl flex flex-col h-full justify-center items-start gap-2 bg-white transition-colors ${
             hovered ? "border-[#2A6A9E]" : "border-gray-200"
           } shadow border  p-6`}
         >

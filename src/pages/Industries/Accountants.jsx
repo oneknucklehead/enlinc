@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Container from "../../components/Container";
-import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import FormBanner from "../../sections/FormBanner";
-import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
+import img1 from "../../assets/images/Accountant/1.jpg";
+import img2 from "../../assets/images/Accountant/2.jpg";
+import img3 from "../../assets/images/Accountant/3.jpg";
+import img4 from "../../assets/images/Accountant/4.jpg";
 
 const Accountants = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -16,19 +17,19 @@ const Accountants = () => {
       title: "Unify Communication with One Powerful App",
       description:
         "Call, fax, message, and meet — all from your single dedicated business number, using EN-LINC’s seamless all-in-one platform.",
-      image: img,
+      image: img1,
     },
     {
       title: "Redirect Calls Instantly with Smart Transfers",
       description:
         "Quickly transfer calls or interactions directly or through EN-LINC’s built-in virtual receptionist — saving time and resolving client issues faster.",
-      image: img,
+      image: img2,
     },
     {
       title: "Instant Integration, Infinite Flexibility",
       description:
         "Our plug-and-play library offers ready-to-use connections with platforms like Microsoft Workspace — plus a secure, configurable API that lets you build custom solutions without the complexity.",
-      image: img,
+      image: img3,
     },
   ];
   return (
@@ -128,7 +129,7 @@ const Accountants = () => {
         </Container>
       </div>
       <div className="">
-        <Banner2 imgSrc={bannerImg}>
+        <Banner2 imgSrc={img4}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               Smarter Workflows. Stronger Client Protection.

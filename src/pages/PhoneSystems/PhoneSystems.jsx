@@ -19,7 +19,39 @@ import {
 import FeatureCard3 from "../../components/FeatureCard3";
 import Banner from "../../components/Banner";
 import FormBanner from "../../sections/FormBanner";
-
+import Carousel from "../../components/Carousel";
+const slides = [
+  {
+    title: "Small Business",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    link: "/phone-systems/small-business",
+  },
+  {
+    title: "Medium Business",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    link: "/phone-systems/medium-business",
+  },
+  {
+    title: "Enterprise",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    link: "/phone-systems/enterprise",
+  },
+  {
+    title: "Office",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    link: "/phone-systems/office",
+  },
+  {
+    title: "Brands",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    link: "/phone-systems/brands",
+  },
+];
 const PhoneSystems = () => {
   const cardData = [
     {
@@ -242,6 +274,18 @@ const PhoneSystems = () => {
               </div>
             </div>
           </ContentSection>
+        </Container>
+      </div>
+      <div>
+        <Container>
+          <div>
+            <h1 className="pb-4 pt-24 text-center text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
+              Our Phone Systems:
+            </h1>
+          </div>
+          <div className="max-w-7xl mx-auto">
+            <Carousel slideContent={slides} />
+          </div>
         </Container>
       </div>
       <div className="px-4 py-24">

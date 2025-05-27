@@ -9,6 +9,11 @@ import Banner2 from "../../components/Banner2";
 import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
 
+import img1 from "../../assets/images/RealEstate/1.webp";
+import img2 from "../../assets/images/RealEstate/2.jpg";
+import img3 from "../../assets/images/RealEstate/3.webp";
+import img4 from "../../assets/images/RealEstate/4.jpg";
+
 const RealEstate = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
@@ -16,19 +21,19 @@ const RealEstate = () => {
       title: "Flexible Communication, Your Way",
       description:
         "Stay connected and productive with EN-LINC — whether through calls, messages, or meetings — anytime, anywhere, on your terms.",
-      image: img,
+      image: img1,
     },
     {
       title: "Align Teams and Clients Instantly",
       description:
         "Share important updates quickly and clearly with EN-LINC — driving faster decisions, smoother collaboration, and accelerated deal-making.",
-      image: img,
+      image: img2,
     },
     {
       title: "Instant Meetings for Faster Results",
       description:
         "With EN-LINC, set up scheduled or on-the-spot meetings effortlessly — keeping your team connected and accelerating business outcomes.",
-      image: img,
+      image: img3,
     },
   ];
   return (
@@ -90,7 +95,7 @@ const RealEstate = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img4}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">

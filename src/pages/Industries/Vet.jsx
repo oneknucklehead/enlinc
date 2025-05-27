@@ -9,6 +9,11 @@ import Banner2 from "../../components/Banner2";
 import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
 
+import img1 from "../../assets/images/Vet/1.jpg";
+import img2 from "../../assets/images/Vet/2.jpg";
+import img3 from "../../assets/images/Vet/3.jpg";
+import img4 from "../../assets/images/Vet/4.jpg";
+
 const Vet = () => {
   const [isModalOpen, setModalOpen] = useState(false);
   const cardData = [
@@ -16,26 +21,26 @@ const Vet = () => {
       title: "Explore Solutions Designed Around Exceptional Animal Care",
       description:
         "At EN-LINC, our intelligent platforms streamline every interaction across the care journey — for pets, livestock, and wildlife. Unlock AI-driven workflows that simplify operations, enhance collaboration, and optimize outcomes, ensuring every animal receives the best possible care, every step of the way.",
-      image: img,
+      image: img1,
     },
     {
       title: "Organizational Efficiency That Powers Customized Care",
       description:
         "Enhance every clinic visit with EN-LINC’s easy-to-use, AI-driven insights. Our context-aware solutions help your team deliver the most accurate, up-to-date treatments — ensuring personalized care for every patient and improving overall operational efficiency.",
-      image: img,
+      image: img2,
     },
     {
       title: "Transform Animal Care with Intelligent Technology",
       description:
         "Unlock new levels of efficiency and precision with EN-LINC’s AI-enhanced platforms. Equip your team to deliver faster treatments, make smarter decisions, and provide exceptional care for pets, livestock, and wildlife — building healthier outcomes across every interaction.",
-      image: img,
+      image: img3,
     },
   ];
   return (
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img4} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Revolutionize Animal Healthcare with Smart Automation and

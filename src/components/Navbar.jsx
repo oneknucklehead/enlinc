@@ -9,16 +9,21 @@ const navItems = [
     label: "Phone Systems",
     link: "/phone-systems",
     subMenu: [
-      { name: "Small Business", link: "/phone-systems/small-business" },
-      { name: "Medium Business", link: "/phone-systems/medium-business" },
-      { name: "Enterprise", link: "/phone-systems/enterprise" },
-      { name: "Office", link: "/phone-systems/office" },
-      { name: "Brands", link: "/phone-systems/brands" },
+      // { name: "Small Business", link: "/phone-systems/small-business" },
+      // { name: "Medium Business", link: "/phone-systems/medium-business" },
+      // { name: "Enterprise", link: "/phone-systems/enterprise" },
+      // { name: "Office", link: "/phone-systems/office" },
+      // { name: "Brands", link: "/phone-systems/brands" },
     ],
   },
   {
-    label: "Products",
-    link: "/products",
+    label: "Networking",
+    link: "/networking",
+    subMenu: [],
+  },
+  {
+    label: "Our Services",
+    link: "/our-services",
     subMenu: [
       // {
       //   name: "Business Phone Systems",

@@ -10,7 +10,7 @@ const Banner = ({ imgSrc = img, children }) => {
           data-aos-duration="1000"
           src={imgSrc}
           alt="banner image"
-          className=""
+          className="max-h-[500px]"
         />
         {children ? (
           <div>{children}</div>

@@ -27,6 +27,7 @@ import InternetAndVoice from "./pages/Products/InternetAndVoice";
 import PrintersAndCopiers from "./pages/Products/PrintersAndCopiers";
 import Industries from "./pages/Industries/Industries";
 import Products from "./pages/Products/Products";
+import Networking from "./pages/Networking/Networking";
 
 function App() {
   return (
@@ -65,29 +66,30 @@ function App() {
           <Route path="/industries/vet" element={<Vet />} />
           <Route path="/industries/wellness" element={<Wellness />} />
           {/* PRODUCTS */}
-          <Route path="/products" element={<Products />} />
+          <Route path="/our-services" element={<Products />} />
           <Route
-            path="/products/business-phone-systems"
+            path="/our-services/business-phone-systems"
             element={<BusinessPhoneSystems />}
           />
           <Route
-            path="/products/managed-it-services"
+            path="/our-services/managed-it-services"
             element={<ManagedITServices />}
           />
           <Route
-            path="/products/security-cameras"
+            path="/our-services/security-cameras"
             element={<SecurityCameras />}
           />
           <Route
-            path="/products/internet-and-voice"
+            path="/our-services/internet-and-voice"
             element={<InternetAndVoice />}
           />
           <Route
-            path="/products/printers-and-copiers"
+            path="/our-services/printers-and-copiers"
             element={<PrintersAndCopiers />}
           />
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/networking" element={<Networking />} />
         </Routes>
       </div>
       <Footer />

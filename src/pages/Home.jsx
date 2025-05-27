@@ -167,7 +167,12 @@ const Home = () => {
             <div className="flex w-full justify-center py-12">
               <div className="hidden xl:block  animate-float -rotate-12 p-[2px] h-fit rounded-lg bg-gradient-to-r from-[#0EA4DE] to-[#142462]">
                 <div className="rounded-md  bg-white flex justify-center items-center gap-2  py-2 pl-2">
-                  <img loading="lazy" src={googleLogo} alt="google" />
+                  <img
+                    loading="lazy"
+                    src={googleLogo}
+                    alt="google"
+                    className="h-32"
+                  />
                   <div className="pr-3">
                     <div className="flex gap-2">
                       <Star className="fill-yellow-400 text-yellow-400" />
@@ -200,12 +205,10 @@ const Home = () => {
                   <img loading="lazy" src={headphoneLogo} alt="headphone" />
                   <div className="pr-3">
                     <div className="text-lg text-[#F3C200] font-gabarito-semibold-600">
-                      24/7 Australia
+                      Australian
                     </div>
-                    <p className="text-base xl:text-lg">Based Dedicated</p>
-                    <p className="text-base xl:text-lg">
-                      Personalised Service!
-                    </p>
+                    <p className="text-base xl:text-lg">Dedicated Support</p>
+                    <p className="text-base xl:text-lg">Team!</p>
                   </div>
                 </div>
               </div>

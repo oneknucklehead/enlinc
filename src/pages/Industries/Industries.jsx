@@ -9,65 +9,68 @@ import Banner2 from "../../components/Banner2";
 import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
 import Carousel from "../../components/Carousel";
+
+import img1 from "../../assets/images/Industries/1.jpg";
+
 const slides = [
   {
     title: "Automotive",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Seamless communication systems for dealerships and service centres—boost productivity, manage appointments, and stay connected across multiple locations.",
     link: "/industries/automotive",
   },
   {
     title: "Construction",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Rugged, reliable telecom solutions for job sites—connect teams, share plans, and secure your site with CCTV and fast networks.",
     link: "/industries/construction",
   },
   {
     title: "Wellness",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Enable smooth bookings, virtual consultations, and secure member data with our flexible internet, phone, and digital signage solutions.",
     link: "/industries/wellness",
   },
   {
     title: "Small business",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Custom-built, scalable phone and internet systems designed to grow with your business—cost-effective, secure, and fully managed.",
     link: "/industries/small-business",
   },
   {
-    title: "Vet",
+    title: "Veterinary Clinics",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Ensure round-the-clock connectivity for emergencies and streamline client communications with secure phone systems and remote access capabilities.",
     link: "/industries/vet",
   },
   {
-    title: "Legal",
+    title: "Legal Firms",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Secure, compliant communication systems for legal professionals—confidential client calls, call recording, and CRM integration made simple.",
     link: "/industries/legal",
   },
   {
     title: "Accountants",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Protect sensitive financial data while enhancing team collaboration with encrypted internet, VoIP, and managed IT support.",
     link: "/industries/accountants",
   },
   {
     title: "Real Estate",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Stay mobile and close every deal faster with click-to-call CRM integration, cloud phones, and nationwide high-speed internet.",
     link: "/industries/real-estate",
   },
   {
     title: "Education",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Support learning with reliable campus-wide internet, cloud phone systems, and interactive digital signage for schools and universities.",
     link: "/industries/education",
   },
   {
     title: "Health Care",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "High-speed, HIPAA-ready communication infrastructure for clinics, hospitals, and allied health—support telehealth, admin, and patient care securely.",
     link: "/industries/health-care",
   },
 ];
@@ -98,7 +101,7 @@ const Industries = () => {
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Industries
@@ -106,8 +109,9 @@ const Industries = () => {
 
               <div>
                 <p className="text-center md:text-start xl:text-lg font-gabarito-reg-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Smart, scalable telecom solutions tailored to the unique needs
+                  of every industry—from small businesses to enterprise
+                  operations.
                 </p>
               </div>
             </div>

@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import Container from "../../components/Container";
-import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import FormBanner from "../../sections/FormBanner";
-import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
+
+import img1 from "../../assets/images/Education/1.webp";
+import img2 from "../../assets/images/Education/2.jpg";
+import img3 from "../../assets/images/Education/3.jpg";
+import img4 from "../../assets/images/Education/4.jpg";
+import img5 from "../../assets/images/Education/5.jpg";
+import img6 from "../../assets/images/Education/6.jpg";
+import img7 from "../../assets/images/Education/7.png";
 
 const Education = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -16,26 +21,26 @@ const Education = () => {
       title: "Empower Students with Interactive Virtual Classrooms",
       description:
         "Boost engagement and collaboration through EN-LINC’s dynamic online learning environments — making education more accessible and connected.",
-      image: img,
+      image: img1,
     },
     {
       title: "Empower Educators with Smarter Tools",
       description:
         "Boost flexibility and productivity with EN-LINC’s faculty workspace — giving instant access to all classes, communications, and resources, past and present.",
-      image: img,
+      image: img2,
     },
     {
       title: "Smarter Communication Control for Administrators",
       description:
         "Manage messaging with precision and instantly connect with any group of stakeholders — anytime, anywhere — through EN-LINC’s intelligent platform.",
-      image: img,
+      image: img3,
     },
   ];
   return (
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img4} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Smarter Connections for Modern Education
@@ -90,7 +95,7 @@ const Education = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img5}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
@@ -125,7 +130,7 @@ const Education = () => {
         </Container>
       </div>
       <div className="">
-        <Banner2 imgSrc={bannerImg}>
+        <Banner2 imgSrc={img7}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               Ready to Accelerate Learning?
