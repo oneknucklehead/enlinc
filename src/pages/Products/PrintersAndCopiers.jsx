@@ -4,6 +4,8 @@ import Container from "../../components/Container";
 import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import { PhoneForwarded } from "lucide-react";
+import img1 from "../../assets/images/Product/PrinterAndCopier/1.jpg";
+import img2 from "../../assets/images/Product/PrinterAndCopier/2.jpg";
 
 const PrintersAndCopiers = () => {
   const cardData = [
@@ -29,7 +31,7 @@ const PrintersAndCopiers = () => {
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Business Printers and Copiers
@@ -60,7 +62,7 @@ const PrintersAndCopiers = () => {
               collaboration, and security for businesses of all sizes.
             </p>
           </div> */}
-          <ContentSection>
+          <ContentSection img={img2}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Why Business Printers and Copiers Matter

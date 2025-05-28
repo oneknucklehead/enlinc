@@ -77,7 +77,7 @@ const Construction = () => {
           </div>
           <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
             {cardData.map((data, index) => (
-              <div className="flex" key={index}>
+              <div className="flex h-full" key={index}>
                 <Cards
                   img={data.image}
                   title={data.title}

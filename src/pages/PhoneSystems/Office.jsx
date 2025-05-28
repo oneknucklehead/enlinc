@@ -5,6 +5,9 @@ import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import Banner from "../../components/Banner";
 import FormBanner from "../../sections/FormBanner";
+import img1 from "../../assets/images/PhoneSystems/office/1.jpg";
+import img2 from "../../assets/images/PhoneSystems/office/2.jpg";
+import img3 from "../../assets/images/PhoneSystems/office/3.jpg";
 
 const Office = () => {
   const cardData = [
@@ -30,7 +33,7 @@ const Office = () => {
       {/* HERO SECTION */}
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Office Phone Systems
@@ -48,7 +51,7 @@ const Office = () => {
       <FormBanner />
       <div className="px-4 py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img2} reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Choosing the Right Office Phone System for Your Business
@@ -98,7 +101,7 @@ const Office = () => {
       <Banner />
       <div className="px-4 py-24">
         <Container>
-          <ContentSection>
+          <ContentSection img={img3}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Why Choose EN-LINC’s Hybrid Phone Systems?

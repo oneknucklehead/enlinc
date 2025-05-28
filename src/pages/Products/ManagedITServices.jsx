@@ -4,6 +4,7 @@ import FeatureCard2 from "../../components/FeatureCard2";
 import ContentSection from "../../sections/ContentSection";
 import Button from "../../components/Button";
 import { PhoneForwarded } from "lucide-react";
+import img1 from "../../assets/images/Product/IT/1.jpg";
 
 const ManagedITServices = () => {
   const cardData = [
@@ -47,7 +48,7 @@ const ManagedITServices = () => {
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Managed IT Services

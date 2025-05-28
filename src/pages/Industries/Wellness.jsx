@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 import Container from "../../components/Container";
-import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import FormBanner from "../../sections/FormBanner";
-import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
+
+import img1 from "../../assets/images/Wellness/1.webp";
+import img2 from "../../assets/images/Wellness/2.png";
+import img3 from "../../assets/images/Wellness/3.webp";
+import img4 from "../../assets/images/Wellness/4.jpg";
+import img5 from "../../assets/images/Wellness/5.jpg";
+import img6 from "../../assets/images/Wellness/6.jpg";
 
 const Wellness = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -16,26 +20,26 @@ const Wellness = () => {
       title: "Create Powerful Connections with Clients and Teams",
       description:
         "Use EN-LINC’s intelligent automations, dynamic workflows, timely alerts, and smart resources to deliver consistent, high-impact programs — ensuring outstanding results, every time.",
-      image: img,
+      image: img1,
     },
     {
       title: "Empowering Personalized Care with Efficiency and Reliability",
       description:
         "Give your team instant access to AI-powered resources tailored to each client interaction — anytime, anywhere. Seamlessly collaborate with clients and colleagues through EN-LINC’s all-in-one platform, ensuring outstanding service no matter the location.",
-      image: img,
+      image: img2,
     },
     {
       title: "Enhance Client Journeys with Smart, Automated Care",
       description:
         "Boost client wellbeing and engagement using EN-LINC’s intelligent workflows throughout every step of their wellness journey. Effortlessly share session summaries, action plans, and automate schedules, reminders, and follow-ups — ensuring consistent, personalized care at every touchpoint.",
-      image: img,
+      image: img3,
     },
   ];
   return (
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img4} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Inspire Wellness and Achieve More with Smart Collaboration
@@ -66,7 +70,7 @@ const Wellness = () => {
           </div>
           <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
             {cardData.map((data, index) => (
-              <div className="flex" key={index}>
+              <div className="flex h-full" key={index}>
                 <Cards
                   img={data.image}
                   title={data.title}
@@ -92,7 +96,7 @@ const Wellness = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img5}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
@@ -148,7 +152,7 @@ const Wellness = () => {
         </Container>
       </div>
       <div className="">
-        <Banner2 imgSrc={bannerImg}>
+        <Banner2 imgSrc={img6}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               Set a New Standard in Client Care with EN-LINC

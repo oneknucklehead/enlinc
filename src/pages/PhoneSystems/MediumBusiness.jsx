@@ -8,6 +8,9 @@ import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
 import Banner from "../../components/Banner";
 
+import img1 from "../../assets/images/PhoneSystems/mediumBusiness/1.jpg";
+import img2 from "../../assets/images/PhoneSystems/mediumBusiness/2.jpg";
+
 const MediumBusiness = () => {
   const cardData = [
     {
@@ -55,7 +58,7 @@ const MediumBusiness = () => {
     <div>
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection video={true} reverse={true}>
+          <ContentSection noImg={true} reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Medium Business Phone Systems
@@ -73,7 +76,7 @@ const MediumBusiness = () => {
       <FormBanner />
       <div className="px-4 py-24">
         <Container>
-          <ContentSection>
+          <ContentSection img={img1}>
             <div className="flex flex-col justify-center gap-6">
               <h1 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Medium Business Phone Systems Built to Grow With You
@@ -131,7 +134,7 @@ const MediumBusiness = () => {
 
       <div className="px-4 py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection reverse={true} img={img2}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 See Why EN-LINC Is Australia’s Trusted Telecom Partner

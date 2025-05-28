@@ -9,6 +9,8 @@ import img1 from "../../assets/images/Accountant/1.jpg";
 import img2 from "../../assets/images/Accountant/2.jpg";
 import img3 from "../../assets/images/Accountant/3.jpg";
 import img4 from "../../assets/images/Accountant/4.jpg";
+import img5 from "../../assets/images/Accountant/5.jpg";
+import img6 from "../../assets/images/Accountant/6.jpg";
 
 const Accountants = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -36,7 +38,7 @@ const Accountants = () => {
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img5} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Collaboration That Drives Efficiency and Profitability
@@ -66,7 +68,7 @@ const Accountants = () => {
           </div>
           <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
             {cardData.map((data, index) => (
-              <div className="flex" key={index}>
+              <div className="flex h-full" key={index}>
                 <Cards
                   img={data.image}
                   title={data.title}
@@ -91,7 +93,7 @@ const Accountants = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img6}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">

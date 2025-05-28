@@ -9,6 +9,9 @@ import { Phone, PhoneForwarded } from "lucide-react";
 import FeatureCard3 from "../../components/FeatureCard3";
 import Banner from "../../components/Banner";
 
+import img1 from "../../assets/images/PhoneSystems/smallBusiness/1.jpg";
+import img2 from "../../assets/images/PhoneSystems/smallBusiness/2.jpg";
+
 const SmallBusiness = () => {
   const cardData = [
     {
@@ -68,7 +71,7 @@ const SmallBusiness = () => {
   ];
 
   return (
-    <div className=" py-12">
+    <div className="pt-12">
       <div className="px-4 mt-[92px] py-24">
         <Container>
           <ContentSection noImg={true} reverse={true}>
@@ -130,7 +133,7 @@ const SmallBusiness = () => {
       </div>
       <div className=" py-24">
         <Container>
-          <ContentSection>
+          <ContentSection img={img1}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Small Business Phone Systems
@@ -186,7 +189,7 @@ const SmallBusiness = () => {
       <div className="">
         <Container>
           <div className="py-24">
-            <ContentSection reverse={true}>
+            <ContentSection img={img2} reverse={true}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                   See Why EN-LINC Is Australia’s Trusted Telecom Partner
@@ -241,7 +244,7 @@ const SmallBusiness = () => {
             </div>
           </Banner>
         </div>
-        <Container>
+        {/* <Container>
           <div className="text-center pt-24 pb-12">
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               Most popular small business phone systems
@@ -259,7 +262,7 @@ const SmallBusiness = () => {
               ))}
             </div>
           </div>
-        </Container>
+        </Container> */}
       </div>
     </div>
   );

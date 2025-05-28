@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import Container from "../../components/Container";
-import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import FormBanner from "../../sections/FormBanner";
-import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
+import img1 from "../../assets/images/Healthcare/1.jpg";
+import img2 from "../../assets/images/Healthcare/2.webp";
+import img3 from "../../assets/images/Healthcare/3.jpg";
+import img4 from "../../assets/images/Healthcare/4.jpg";
+import img5 from "../../assets/images/Healthcare/5.jpg";
+import img6 from "../../assets/images/Healthcare/6.jpg";
 
 const Healthcare = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -16,26 +19,26 @@ const Healthcare = () => {
       title: "Streamline the Patient Journey with Smart Workflows",
       description:
         "Unlock EN-LINC’s patient-focused solutions to simplify interactions, improve care delivery, and elevate patient experiences.",
-      image: img,
+      image: img2,
     },
     {
       title: "Smarter Tools for Better Patient Care",
       description:
         "Use EN-LINC’s AI-powered solutions to boost team performance, streamline workflows, and deliver consistently positive patient outcomes.",
-      image: img,
+      image: img3,
     },
     {
       title: "Efficiency That Powers Personalized Care",
       description:
         "Leverage EN-LINC’s simple, AI-driven insights to deliver high-engagement, tailored care across every step of the patient journey.",
-      image: img,
+      image: img4,
     },
   ];
   return (
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Transform Healthcare with Smart Automation and Collaboration
@@ -65,7 +68,7 @@ const Healthcare = () => {
           </div>
           <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
             {cardData.map((data, index) => (
-              <div className="flex" key={index}>
+              <div className="flex h-full" key={index}>
                 <Cards
                   img={data.image}
                   title={data.title}
@@ -90,7 +93,7 @@ const Healthcare = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img5}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
@@ -130,7 +133,7 @@ const Healthcare = () => {
         </Container>
       </div>
       <div className="">
-        <Banner2 imgSrc={bannerImg}>
+        <Banner2 imgSrc={img6}>
           <div className="px-4 text-white max-w-xl flex flex-col gap-4 justify-center h-full">
             <h1 className="text-center lg:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
               Lead the Future of Patient Care

@@ -6,6 +6,8 @@ import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
 import Banner from "../../components/Banner";
+import img1 from "../../assets/images/Product/BusinessPhoneSolutions/1.jpg";
+import img2 from "../../assets/images/Product/BusinessPhoneSolutions/2.jpg";
 
 const BusinessPhoneSystems = () => {
   const cardData = [
@@ -44,7 +46,7 @@ const BusinessPhoneSystems = () => {
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Business Phone Solutions
@@ -77,7 +79,7 @@ const BusinessPhoneSystems = () => {
               collaboration, and security for businesses of all sizes.
             </p>
           </div> */}
-          <ContentSection>
+          <ContentSection img={img2}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Future-Ready Business Phone Systems

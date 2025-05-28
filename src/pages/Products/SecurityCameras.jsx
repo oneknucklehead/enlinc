@@ -4,6 +4,8 @@ import Container from "../../components/Container";
 import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
+import img1 from "../../assets/images/Product/CameraSec/1.jpg";
+import img2 from "../../assets/images/Product/CameraSec/2.jpg";
 
 const SecurityCameras = () => {
   const cardData = [
@@ -42,7 +44,7 @@ const SecurityCameras = () => {
     <div className=" py-12">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Business Security Camera Solutions
@@ -75,7 +77,7 @@ const SecurityCameras = () => {
               collaboration, and security for businesses of all sizes.
             </p>
           </div> */}
-          <ContentSection>
+          <ContentSection img={img2}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Why Security Cameras Are Essential for Your Business

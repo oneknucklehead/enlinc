@@ -5,6 +5,9 @@ import Button from "../../components/Button";
 import FormBanner from "../../sections/FormBanner";
 import FeatureCard2 from "../../components/FeatureCard2";
 import Banner from "../../components/Banner";
+import img1 from "../../assets/images/PhoneSystems/enterprise/1.jpg";
+import img2 from "../../assets/images/PhoneSystems/enterprise/2.jpg";
+import img3 from "../../assets/images/PhoneSystems/enterprise/3.jpg";
 
 const Enterprise = () => {
   const cardData = [
@@ -29,7 +32,7 @@ const Enterprise = () => {
       {/* HERO SECTION */}
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Enterprise Phone Systems
@@ -49,7 +52,7 @@ const Enterprise = () => {
       <FormBanner />
       <div className="px-4 py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img2} reverse={true}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Everything You Need to Know About Enterprise Phone Systems
@@ -98,7 +101,7 @@ const Enterprise = () => {
       <Banner />
       <div className="px-4 py-24">
         <Container>
-          <ContentSection>
+          <ContentSection img={img3}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Why Choose EN-LINC for Your Enterprise Phone System?
