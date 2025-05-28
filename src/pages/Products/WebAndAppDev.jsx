@@ -4,6 +4,8 @@ import Container from "../../components/Container";
 import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
+import img1 from "../../assets/images/WebAppDev/1.jpg";
+import img2 from "../../assets/images/WebAppDev/2.jpg";
 
 const WebAndAppDev = () => {
   const cardData = [
@@ -42,7 +44,7 @@ const WebAndAppDev = () => {
     <div className=" py-12">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection img={img1} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Website & App Development Solutions
@@ -78,7 +80,7 @@ const WebAndAppDev = () => {
               collaboration, and security for businesses of all sizes.
             </p>
           </div> */}
-          <ContentSection>
+          <ContentSection img={img2}>
             <div className="flex flex-col gap-6">
               <h3 className="text-center md:text-start text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Why Custom Websites & Apps Are Essential for Your Business
@@ -104,6 +106,7 @@ const WebAndAppDev = () => {
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
                         <b>Build Powerful Digital Experiences That Convert</b>
+                        <br />
                         From custom websites to mobile apps, we design and
                         develop high-performance digital platforms that are
                         fast, scalable, and tailored to your business goals.
