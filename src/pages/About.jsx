@@ -156,7 +156,7 @@ function About() {
             </ContentSection>
           </div>
           {/* TEAM SECTION */}
-          <div className="py-4">
+          {/* <div className="py-4">
             <h3 className="text-4xl text-center pb-4">Executive Team</h3>
             <p className="text-center text-gray-500">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -167,11 +167,11 @@ function About() {
               <ProfileCard />
               <ProfileCard />
             </div>
-          </div>
+          </div> */}
           {/* HISTORY SECTION */}
-          <div>
+          <div className="pb-24">
             <h3 className="text-4xl pb-4 font-gabarito-semibold-600">
-              Our History
+              Our Vision
             </h3>
             <p className="text-gray-500">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -195,7 +195,7 @@ function About() {
               it to make a type specimen book.
             </p>
           </div>
-          <div className="py-8">
+          {/* <div className="py-8">
             <div className="relative">
               <Swiper
                 spaceBetween={30}
@@ -231,10 +231,9 @@ function About() {
                 ))}
               </Swiper>
 
-              {/* Pagination Dots */}
               <div className="nav-dots mt-4 flex justify-center"></div>
             </div>
-          </div>
+          </div> */}
         </Container>
       </div>
       {/* <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] h-fit py-12 px-4">

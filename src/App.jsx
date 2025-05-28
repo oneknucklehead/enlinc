@@ -28,12 +28,15 @@ import PrintersAndCopiers from "./pages/Products/PrintersAndCopiers";
 import Industries from "./pages/Industries/Industries";
 import Products from "./pages/Products/Products";
 import Networking from "./pages/Networking/Networking";
+import ScrollToTop from "./components/ScrollToTop";
+import WebAndAppDev from "./pages/Products/WebAndAppDev";
 
 function App() {
   return (
     <div className="font-gabarito-reg-400">
       <Navbar />
       <div className="">
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -86,6 +89,10 @@ function App() {
           <Route
             path="/our-services/printers-and-copiers"
             element={<PrintersAndCopiers />}
+          />
+          <Route
+            path="/our-services/web-and-app-development"
+            element={<WebAndAppDev />}
           />
 
           <Route path="/contact" element={<Contact />} />

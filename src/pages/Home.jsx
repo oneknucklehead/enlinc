@@ -12,6 +12,7 @@ import logo4 from "../assets/images/brands/Logo-4.png";
 import logo5 from "../assets/images/brands/Logo-5.png";
 import logo6 from "../assets/images/brands/Logo-6.png";
 import logo7 from "../assets/images/brands/Logo-7.png";
+import lady from "../assets/images/Filler/2.png";
 
 import dummy from "../assets/images/dummy.jpg";
 
@@ -109,8 +110,8 @@ const Home = () => {
               data-aos-duration="1000"
             >
               <p className="text-sm xl:text-base text-center">
-                We empower Australian small businesses with reliable,
-                cost-effective business phone systems that are built to scale.
+                We empower Australian businesses with reliable, cost-effective
+                business phone systems that are built to scale.
                 <br /> Our future-ready VoIP and hosted PBX solutions come
                 backed by 24/7 local support, ensuring secure, uninterrupted
                 communication every step of the way.
@@ -429,7 +430,7 @@ const Home = () => {
                 {/* Foreground image card */}
                 <div className="relative z-10 w-full aspect-square overflow-hidden rounded-xl border-2 border-[#0EA4DE] shadow-lg">
                   <img
-                    src={dummy}
+                    src={lady}
                     alt="Person on call"
                     className="w-full h-full object-cover aspect-square"
                   />
@@ -445,8 +446,8 @@ const Home = () => {
                     <div className="relative flex gap-4 items-center z-10 bg-white border-2 rounded-2xl p-4 shadow-md border-[#142462]">
                       <Webhook className="h-8 w-8" />
                       <h3 className="font-gabarito-semibold-600 text-lg text-gray-800">
-                        24/7 Australian
-                        <br /> Based Support
+                        Australian
+                        <br /> Local Support
                       </h3>
                     </div>
                   </div>

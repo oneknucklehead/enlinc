@@ -6,7 +6,7 @@ import FormBanner from "../../sections/FormBanner";
 import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
+import bannerImg from "../../assets/images/Filler/1.jpg";
 import ModalButton from "../../components/ModalButton";
 import Carousel from "../../components/Carousel";
 

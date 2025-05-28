@@ -20,36 +20,35 @@ import FeatureCard3 from "../../components/FeatureCard3";
 import Banner from "../../components/Banner";
 import FormBanner from "../../sections/FormBanner";
 import Carousel from "../../components/Carousel";
+import CardWithHoverTab from "../../components/CardWithHoverTab";
+
+import img1 from "../../assets/images/Filler/4.png";
+import img2 from "../../assets/images/Filler/7.png";
+
 const slides = [
   {
     title: "Small Business",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Reliable VoIP phone systems with advanced features and local support—crucial for maintaining professional communication, customer trust, operational efficiency, and sustainable growth.",
     link: "/phone-systems/small-business",
   },
   {
     title: "Medium Business",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Purpose-built phone systems with multi-site connectivity, VoIP clarity, and advanced tools—vital for medium businesses navigating growth, complexity, and evolving customer expectations.",
     link: "/phone-systems/medium-business",
   },
   {
     title: "Enterprise",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "High-performance communication systems engineered for enterprises—scalable, feature-rich solutions that handle high call volumes and complex, multi-site operations.",
     link: "/phone-systems/enterprise",
   },
   {
     title: "Office",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Tailored office phone systems—PBX, VoIP, or hybrid—essential for streamlining operations, enabling remote work, and supporting scalable, future-focused office communication.",
     link: "/phone-systems/office",
-  },
-  {
-    title: "Brands",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-    link: "/phone-systems/brands",
   },
 ];
 const PhoneSystems = () => {
@@ -123,7 +122,22 @@ const PhoneSystems = () => {
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection video={true} reverse={true}>
+          <ContentSection
+            videoLink={
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/UNUn51YWVrM?si=Jo_xuN9rvFwtI3xS"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            }
+            video={true}
+            reverse={true}
+          >
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1
                 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
@@ -284,13 +298,23 @@ const PhoneSystems = () => {
             </h1>
           </div>
           <div className="max-w-7xl mx-auto">
-            <Carousel slideContent={slides} />
+            <div className="grid sm:grid-cols-2">
+              {slides.map((data, index) => (
+                <div key={index}>
+                  <CardWithHoverTab
+                    title={data.title}
+                    description={data.description}
+                    link={data.link}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </Container>
       </div>
       <div className="px-4 py-24">
         <Container>
-          <ContentSection reverse={true}>
+          <ContentSection reverse={true} img={img1}>
             <div className="flex flex-col gap-6">
               <h3
                 data-aos="fade-right"
@@ -359,7 +383,7 @@ const PhoneSystems = () => {
       <div className="">
         <Container>
           <div className="py-24">
-            <ContentSection>
+            <ContentSection img={img2}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <h1
                   data-aos="fade-left"

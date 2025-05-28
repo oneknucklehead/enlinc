@@ -23,8 +23,11 @@ import Carousel from "../../components/Carousel";
 import Cards from "../../components/Cards";
 import ModalButton from "../../components/ModalButton";
 import Banner2 from "../../components/Banner2";
-import img from "../../assets/images/Product/1.png";
-import bannerImg from "../../assets/images/bannerImg.jpg";
+import img1 from "../../assets/images/Filler/4.png";
+import img2 from "../../assets/images/Filler/5.jpg";
+import img3 from "../../assets/images/Filler/6.png";
+import bannerImg from "../../assets/images/Filler/9.jpg";
+import CardWithHoverTab from "../../components/CardWithHoverTab";
 
 const slides = [
   {
@@ -57,6 +60,12 @@ const slides = [
       "Reliable, high-performance Kyocera printers and copiers designed to reduce downtime, lower costs, and support seamless business document workflows.",
     link: "/our-services/printers-and-copiers",
   },
+  {
+    title: "Website & App Development",
+    description:
+      "Build fast, responsive, and scalable websites and mobile apps tailored to your business needs. From UI/UX design to full-stack development, we deliver performance-driven digital experiences.",
+    link: "/our-services/web-and-app-development",
+  },
 ];
 const Products = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -66,20 +75,20 @@ const Products = () => {
       title: "Connect With Customers Exactly When and Where It Matters",
       description:
         "Leverage EN-LINC’s intelligent automations and smart workflows to deliver personalized experiences that engage customers at the perfect moment — wherever they are.",
-      image: img,
+      image: img1,
     },
     {
       title:
         "Unlock Actionable Insights Across the Customer Journey to Boost Sales",
       description:
         "Gain complete visibility across every communication channel with EN-LINC’s advanced tracking tools. Identify the campaigns, keywords, and interactions that drive engagement and fuel higher conversion rates.",
-      image: img,
+      image: img2,
     },
     {
       title: "24/7 Customer Support Without the Overhead",
       description:
         "Deliver round-the-clock service with EN-LINC’s intelligent conversational AI. Whether answering questions, booking appointments, or offering tailored recommendations, our adaptive solutions connect seamlessly to your approved knowledge base — ensuring customer satisfaction without additional staffing costs.",
-      image: img,
+      image: img3,
     },
   ];
 
@@ -122,7 +131,17 @@ const Products = () => {
             </h1>
           </div>
           <div className="max-w-7xl mx-auto">
-            <Carousel slideContent={slides} />
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3">
+              {slides.map((data, index) => (
+                <div key={index}>
+                  <CardWithHoverTab
+                    title={data.title}
+                    description={data.description}
+                    link={data.link}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </Container>
       </div>

@@ -12,7 +12,7 @@ const Carousel = ({ slideContent }) => {
         modules={[Pagination, Autoplay]}
         spaceBetween={20}
         // navigation
-        autoplay={{ delay: 1000 }}
+        autoplay={{ delay: 2000 }}
         loop={true}
         pagination={{ clickable: true }}
         breakpoints={{

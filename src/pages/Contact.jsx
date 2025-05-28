@@ -339,7 +339,7 @@ const Contact = () => {
           </div>
         </Container>
       </div>
-      <FAQSection />
+      {/* <FAQSection /> */}
     </div>
   );
 };
