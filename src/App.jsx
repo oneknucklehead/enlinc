@@ -30,6 +30,9 @@ import Products from "./pages/Products/Products";
 import Networking from "./pages/Networking/Networking";
 import ScrollToTop from "./components/ScrollToTop";
 import WebAndAppDev from "./pages/Products/WebAndAppDev";
+import PrivPolicy from "./pages/PrivPolicy";
+import FinancePolicy from "./pages/FinancePolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
   return (
@@ -97,6 +100,12 @@ function App() {
 
           <Route path="/contact" element={<Contact />} />
           <Route path="/networking" element={<Networking />} />
+          <Route path="/privacy-policy" element={<PrivPolicy />} />
+          <Route path="/finance-policy" element={<FinancePolicy />} />
+          <Route
+            path="/terms-and-conditions"
+            element={<TermsAndConditions />}
+          />
         </Routes>
       </div>
       <Footer />

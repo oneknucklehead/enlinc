@@ -11,6 +11,10 @@ import ModalButton from "../../components/ModalButton";
 import Carousel from "../../components/Carousel";
 
 import img1 from "../../assets/images/Industries/1.jpg";
+import img2 from "../../assets/images/Industries/2.jpg";
+import img3 from "../../assets/images/Industries/3.jpg";
+import img4 from "../../assets/images/Industries/4.jpg";
+import img5 from "../../assets/images/Industries/5.jpg";
 
 const slides = [
   {
@@ -31,12 +35,12 @@ const slides = [
       "Enable smooth bookings, virtual consultations, and secure member data with our flexible internet, phone, and digital signage solutions.",
     link: "/industries/wellness",
   },
-  {
-    title: "Small business",
-    description:
-      "Custom-built, scalable phone and internet systems designed to grow with your business—cost-effective, secure, and fully managed.",
-    link: "/industries/small-business",
-  },
+  // {
+  //   title: "Small business",
+  //   description:
+  //     "Custom-built, scalable phone and internet systems designed to grow with your business—cost-effective, secure, and fully managed.",
+  //   link: "/industries/small-business",
+  // },
   {
     title: "Veterinary Clinics",
     description:
@@ -81,20 +85,20 @@ const Industries = () => {
       title: "Connect With Customers Exactly When and Where It Matters",
       description:
         "Leverage EN-LINC’s intelligent automations and smart workflows to deliver personalized experiences that engage customers at the perfect moment — wherever they are.",
-      image: img,
+      image: img3,
     },
     {
       title:
         "Unlock Actionable Insights Across the Customer Journey to Boost Sales",
       description:
         "Gain complete visibility across every communication channel with EN-LINC’s advanced tracking tools. Identify the campaigns, keywords, and interactions that drive engagement and fuel higher conversion rates.",
-      image: img,
+      image: img4,
     },
     {
       title: "24/7 Customer Support Without the Overhead",
       description:
         "Deliver round-the-clock service with EN-LINC’s intelligent conversational AI. Whether answering questions, booking appointments, or offering tailored recommendations, our adaptive solutions connect seamlessly to your approved knowledge base — ensuring customer satisfaction without additional staffing costs.",
-      image: img,
+      image: img5,
     },
   ];
   return (
@@ -142,7 +146,7 @@ const Industries = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img2}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
@@ -196,7 +200,7 @@ const Industries = () => {
             </div>
             <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
               {cardData.map((data, index) => (
-                <div className="flex" key={index}>
+                <div className="flex h-full" key={index}>
                   <Cards
                     img={data.image}
                     title={data.title}

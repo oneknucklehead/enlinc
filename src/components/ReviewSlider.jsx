@@ -8,21 +8,21 @@ import StarRating from "./StarRating";
 const slides = [
   {
     // img: "https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp",
-    stars: 4,
-    title: "Lorem Ipsum Dolor",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?",
+    stars: 5,
+    title: "Dentistry IQ",
+    text: "We're new customers with En-Linc and glad to say we're extremely satisfied with the services and support we're receiving. The team go above and beyond and are very professional at what they do. Highly recommend their services!",
   },
   {
     // img: "https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp",
-    stars: 2,
-    title: "Lorem Ipsum Dolor2",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?",
+    stars: 5,
+    title: "Caterina Alafaci",
+    text: "We recently switched our phone system over to En-Linc, and we couldn’t be happier with the experience. Everything went smoothly, and the service has been great. Ezekiel and Lincoln were an absolute pleasure to deal with, along with the rest of the team – professional, friendly, and extremely helpful throughout the entire process. We’re very satisfied with the results and highly recommend their services!",
   },
   {
     // img: "https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp",
-    stars: 3,
-    title: "Lorem Ipsum Dolor3",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?",
+    stars: 5,
+    title: "The Gas Man TGM",
+    text: "THANKS EN-LINC AND THE TEAM GREAT SERVICE AND VERY HAPPY WITH MY PHONE SYSTEM BEST DECISION I MADE MOVING TO THESES GUYS!!!!!",
   },
 ];
 

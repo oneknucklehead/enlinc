@@ -24,6 +24,7 @@ import CardWithHoverTab from "../../components/CardWithHoverTab";
 
 import img1 from "../../assets/images/Filler/4.png";
 import img2 from "../../assets/images/Filler/7.png";
+import img3 from "../../assets/images/PhoneSystems/1.jpg";
 
 const slides = [
   {
@@ -164,7 +165,7 @@ const PhoneSystems = () => {
       <FormBanner />
       <div className="px-4 py-24">
         <Container>
-          <ContentSection>
+          <ContentSection img={img3}>
             <div className="flex flex-col gap-6">
               <h3
                 data-aos="fade-left"

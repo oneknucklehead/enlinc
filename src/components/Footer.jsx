@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logoNoBG.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -10,34 +10,58 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 pb-4 gap-8">
           <div>
             <h3 className="text-2xl">Get in touch</h3>
-            <p>
-               72 Fergusson Street,
-              <br /> Fairy Hill
+            <p className="">
+              Level 1/394 Lane Cove Rd,
+              <br />
+              Macquarie Park NSW 2113
             </p>
             <div className="flex flex-col">
-              <p>+91 9846632178</p>
-              <p>email@enlinc.com</p>
+              <p className="font-semibold">1300 952 380</p>
+              <a
+                href="mailto:customer.service@en-linc.com"
+                className="hover:underline transition"
+              >
+                customer.service@en-linc.com
+              </a>
             </div>
           </div>
           <div>
             <h3 className="text-2xl">Services</h3>
             <div className="flex flex-col">
-              <Link to={"/our-services/business-phone-systems"}>
+              <Link
+                className="hover:underline"
+                to={"/our-services/business-phone-systems"}
+              >
                 Business Phone Systems
               </Link>
-              <Link to={"/our-services/managed-it-services"}>
+              <Link
+                className="hover:underline"
+                to={"/our-services/managed-it-services"}
+              >
                 Managed IT Services
               </Link>
-              <Link to={"/our-services/security-cameras"}>
+              <Link
+                className="hover:underline"
+                to={"/our-services/security-cameras"}
+              >
                 Security Cameras
               </Link>
-              <Link to={"/our-services/internet-and-voice"}>
+              <Link
+                className="hover:underline"
+                to={"/our-services/internet-and-voice"}
+              >
                 Internet & Voice
               </Link>
-              <Link to={"/our-services/printers-and-copiers"}>
+              <Link
+                className="hover:underline"
+                to={"/our-services/printers-and-copiers"}
+              >
                 Printers & Copiers
               </Link>
-              <Link to={"/our-services/web-and-app-development"}>
+              <Link
+                className="hover:underline"
+                to={"/our-services/web-and-app-development"}
+              >
                 Website & App Development
               </Link>
             </div>
@@ -45,26 +69,42 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl">Navigation</h3>
             <div className="flex flex-col">
-              <Link to={"/about"}>About Us</Link>
-              <a href="https://enlinc.speedtestcustom.com/">
+              <Link className="hover:underline" to={"/about"}>
+                About Us
+              </Link>
+              <a
+                href="https://enlinc.speedtestcustom.com/"
+                className="hover:underline"
+              >
                 Enlinc Speed Test
               </a>
-              <Link to={"/contact"}>Contact Us</Link>
+              <Link className="hover:underline" to={"/contact"}>
+                Contact Us
+              </Link>
             </div>
           </div>
           <div>
             <h3 className="text-2xl">Policies</h3>
             <div className="flex flex-col">
-              <a href="#">Lorem Ipsum dolor</a>
-              <a href="#">Lorem Ipsum dolor</a>
-              <a href="#">Lorem Ipsum dolor</a>
-              <a href="#">Lorem Ipsum dolor</a>
+              <Link to={"/privacy-policy"} className="hover:underline">
+                Privacy Policy
+              </Link>
+              <Link to={"/terms-and-conditions"} className="hover:underline">
+                Terms & Conditions
+              </Link>
+              <Link to={"/finance-policy"} className="hover:underline">
+                Finance Policy
+              </Link>
             </div>
           </div>
         </div>
         <div className="h-[2px] w-full bg-white/50 my-4"></div>
         <div className="flex justify-between items-center ">
-          <img src={logo} alt="brand logo" className="hidden sm:block" />
+          <img
+            src={logo}
+            alt="brand logo"
+            className="hidden max-w-24 sm:block"
+          />
           <p>&copy; {new Date().getFullYear()} En-linc.</p>
           <div className="flex flex-wrap gap-4 items-center">
             <a

@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = ({ img, title, description }) => {
   return (
-    <div className="border max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl p-4 rounded-lg justify-center items-center scale-95 hover:border-black hover:shadow-lg hover:scale-100 transition duration-300 flex flex-col gap-4">
+    <div className="h-full border max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl p-4 rounded-lg justify-center items-center scale-95 hover:border-black hover:shadow-lg hover:scale-100 transition duration-300 flex flex-col gap-4">
       <img
         src={img}
         alt="card image"

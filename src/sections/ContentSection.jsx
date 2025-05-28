@@ -19,6 +19,7 @@ const ContentSection = ({
     ></iframe>
   ),
   img = dummy,
+  noImg = false,
   children,
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -35,7 +36,7 @@ const ContentSection = ({
             >
               {videoLink}
             </div>
-          ) : (
+          ) : noImg ? null : (
             <div
               data-aos={`fade-${reverse ? "left" : "right"}`}
               data-aos-delay="100"

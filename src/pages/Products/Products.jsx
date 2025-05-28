@@ -24,8 +24,9 @@ import Cards from "../../components/Cards";
 import ModalButton from "../../components/ModalButton";
 import Banner2 from "../../components/Banner2";
 import img1 from "../../assets/images/Filler/4.png";
-import img2 from "../../assets/images/Filler/5.jpg";
+import img2 from "../../assets/images/Product/3.jpg";
 import img3 from "../../assets/images/Filler/6.png";
+import img4 from "../../assets/images/Product/2.jpg";
 import bannerImg from "../../assets/images/Filler/9.jpg";
 import CardWithHoverTab from "../../components/CardWithHoverTab";
 
@@ -96,7 +97,7 @@ const Products = () => {
     <div className="">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection video={true} reverse={true}>
+          <ContentSection noImg={true} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1
                 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
@@ -156,7 +157,7 @@ const Products = () => {
                 Maximise The Success Of Your Sales Team
               </h1>
             </div>
-            <ContentSection>
+            <ContentSection img={img4}>
               <div className="text-center md:text-start flex flex-col gap-6">
                 <div>
                   <h1 className="text-2xl md:text-3xl font-gabarito-semibold-600">
@@ -208,9 +209,9 @@ const Products = () => {
                 solutions.
               </h1>
             </div>
-            <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
+            <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full h-full max-w-6xl mx-auto">
               {cardData.map((data, index) => (
-                <div className="flex" key={index}>
+                <div className="flex h-full" key={index}>
                   <Cards
                     img={data.image}
                     title={data.title}

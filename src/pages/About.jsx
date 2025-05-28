@@ -2,7 +2,7 @@ import Button from "../components/Button";
 import Container from "../components/Container";
 import ProfileCard from "../components/ProfileCard";
 
-import logo from "../assets/images/brands/Logo-7.png";
+// import logo from "../assets/images/brands/Logo-7.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -15,71 +15,75 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 import ContentSection from "../sections/ContentSection";
+
+import img1 from "../assets/images/about1.jpg";
+import img2 from "../assets/images/about2.jpg";
+
 function About() {
-  const data = [
-    {
-      year: 2010,
-      details: [
-        "18 employees.",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-        "Relocated Parramata",
-      ],
-      logo: logo,
-    },
-    {
-      year: 2015,
-      details: [
-        "18 employees.",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-      ],
-      logo: logo,
-    },
-    {
-      year: 2011,
-      details: [
-        "18 employees.",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-        "Relocated Parramata",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-      ],
-      logo: logo,
-    },
-    {
-      year: 2010,
-      details: [
-        "18 employees.",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-        "Relocated Parramata",
-      ],
-      logo: logo,
-    },
-    {
-      year: 2015,
-      details: [
-        "18 employees.",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-      ],
-      logo: logo,
-    },
-    {
-      year: 2011,
-      details: [
-        "18 employees.",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-        "Relocated Parramata",
-        "Launched & Commenced ES Oki.",
-        "Launched range of Omniview",
-      ],
-      logo: logo,
-    },
-  ];
+  // const data = [
+  //   {
+  //     year: 2010,
+  //     details: [
+  //       "18 employees.",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //       "Relocated Parramata",
+  //     ],
+  //     logo: logo,
+  //   },
+  //   {
+  //     year: 2015,
+  //     details: [
+  //       "18 employees.",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //     ],
+  //     logo: logo,
+  //   },
+  //   {
+  //     year: 2011,
+  //     details: [
+  //       "18 employees.",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //       "Relocated Parramata",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //     ],
+  //     logo: logo,
+  //   },
+  //   {
+  //     year: 2010,
+  //     details: [
+  //       "18 employees.",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //       "Relocated Parramata",
+  //     ],
+  //     logo: logo,
+  //   },
+  //   {
+  //     year: 2015,
+  //     details: [
+  //       "18 employees.",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //     ],
+  //     logo: logo,
+  //   },
+  //   {
+  //     year: 2011,
+  //     details: [
+  //       "18 employees.",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //       "Relocated Parramata",
+  //       "Launched & Commenced ES Oki.",
+  //       "Launched range of Omniview",
+  //     ],
+  //     logo: logo,
+  //   },
+  // ];
 
   return (
     <div>
@@ -87,7 +91,7 @@ function About() {
       <div className="px-4 mt-[92px]">
         <Container>
           <div className="py-24">
-            <ContentSection btnEnabled={false} reverse={true}>
+            <ContentSection img={img1} btnEnabled={false} reverse={true}>
               <div className="flex flex-col gap-6">
                 <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
                   Your Partner in Intelligent, Customizable Communication
@@ -107,7 +111,7 @@ function About() {
             </ContentSection>
           </div>
           <div className="py-24">
-            <ContentSection btnEnabled={false}>
+            <ContentSection img={img2} btnEnabled={false}>
               <div className="flex flex-col gap-6">
                 <h3 className="text-3xl xl:text-4xl font-gabarito-semibold-600">
                   About Us
@@ -174,25 +178,21 @@ function About() {
               Our Vision
             </h3>
             <p className="text-gray-500">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. Lorem Ipsum is
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book.
+              We strive to be very different to all the other telecommunication
+              providers in Australia. Our main focus at EN-LINC is our clients,
+              we understand that you are the most important part of our business
+              and that telecommunications is one of the most important assets to
+              your business.
             </p>
             <br />
             <p className="text-gray-500">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. Lorem Ipsum is
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book.
+              Whether its big things like your Business telephony systems or
+              your Printers, to the small things like branded Stationary and
+              your Toner cartridges. EN-LINC will have you covered in all
+              aspects. Security without compromise is another important aspect
+              of our business. Our Dedicated Servers along with our Network
+              Enabled CCTV monitoring system will also give you the peace of
+              mind at the swipe of your fingertips
             </p>
           </div>
           {/* <div className="py-8">

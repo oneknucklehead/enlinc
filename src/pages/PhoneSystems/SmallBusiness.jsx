@@ -71,7 +71,7 @@ const SmallBusiness = () => {
     <div className=" py-12">
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection video={true} reverse={true}>
+          <ContentSection noImg={true} reverse={true}>
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600">
                 Small Business Phone Systems
