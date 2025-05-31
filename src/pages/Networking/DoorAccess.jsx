@@ -7,6 +7,13 @@ import videoSrc from "../../assets/images/Networking/CloudGateways/3.mp4";
 import VideoCardSwitcher from "../../components/VideoCardSwitcher";
 import { EthernetPort } from "lucide-react";
 import VideoCardHoverPlay from "../../components/VideoCardHoverPlay";
+import videoSrc1 from "../../assets/images/Networking/DoorAccess/2.mp4";
+import videoSrc3 from "../../assets/images/Networking/DoorAccess/4.mp4";
+import videoSrc4 from "../../assets/images/Networking/DoorAccess/5.mp4";
+import videoSrc5 from "../../assets/images/Networking/DoorAccess/6.mp4";
+import videoSrc6 from "../../assets/images/Networking/DoorAccess/9.mp4";
+import img1 from "../../assets/images/Networking/DoorAccess/7.jpg";
+import img2 from "../../assets/images/Networking/DoorAccess/1.jpg";
 
 const DoorAccess = () => {
   return (
@@ -53,7 +60,7 @@ const DoorAccess = () => {
             </p>
           </div>
           <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
-            <VideoCard src={videoSrc} title={"hello"} />
+            <VideoCard src={videoSrc1} title={"hello"} />
           </div>
         </div>
         <div className="py-12 space-y-4">
@@ -68,25 +75,31 @@ const DoorAccess = () => {
 
           <div className="grid grid-cols-7 gap-4 max-w-6xl mx-auto">
             <div className="col-span-3">
-              <VideoCardHoverPlay src={videoSrc} />
+              <VideoCardHoverPlay src={videoSrc3} />
             </div>
             <div className="col-span-4">
-              <VideoCardHoverPlay src={videoSrc} />
+              <VideoCardHoverPlay src={videoSrc4} />
             </div>
           </div>
           <div className="grid grid-cols-8 grid-rows-2 gap-4 max-w-6xl mx-auto">
             <div className="col-span-5 row-span-2">
-              <VideoCardHoverPlay src={videoSrc} />
+              <VideoCardHoverPlay src={videoSrc5} />
+            </div>
+            <div className="relative col-span-3 row-span-1">
+              <img
+                src={img1}
+                className="object-cover w-full h-full rounded-xl"
+              />
             </div>
             <div className="col-span-3 row-span-1">
-              <VideoCardHoverPlay src={videoSrc} />
-            </div>
-            <div className="col-span-3 row-span-1">
-              <VideoCardHoverPlay src={videoSrc} />
+              <img
+                src={img2}
+                className="object-cover w-full h-full rounded-xl"
+              />
             </div>
           </div>
           <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
-            <VideoCardHoverPlay src={videoSrc} />
+            <VideoCardHoverPlay src={videoSrc6} />
           </div>
         </div>
         <div className="py-12">
