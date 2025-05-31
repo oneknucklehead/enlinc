@@ -1,46 +1,55 @@
-import React from "react";
+import { useState } from "react";
 import img from "../../assets/images/Networking/1.png";
-import imgDummy from "../../assets/images/person.jpg";
-
-import dummy from "../../assets/images/Networking/dummy.png";
-import { ArrowUpRight } from "lucide-react";
+import wifiImg from "../../assets/images/Networking/Wifi/1.jpg";
+import doorAccess from "../../assets/images/Networking/DoorAccess/1.jpg";
+import cloudGateways from "../../assets/images/Networking/CloudGateways/1.webp";
+import videoSrc from "../../assets/images/Networking/CloudGateways/3.mp4";
+import { ArrowUpRight, DoorClosedIcon } from "lucide-react";
 import Cards2 from "../../components/Cards2";
 
 import imgDesign from "../../assets/images/Networking/design.png";
+import ModalButton from "../../components/ModalButton";
+import FormBanner from "../../sections/FormBanner";
+import Container from "../../components/Container";
+import VideoCardHoverPlay from "../../components/VideoCardHoverPlay";
 
 const Networking = () => {
-  const cardData = [
-    {
-      image: dummy,
-      title: "Professional Phone Support",
-      description:
-        "Get priority site support from world-class UniFi Network Engineers.",
-    },
-    {
-      image: dummy,
-      title: "Professional Phone Support",
-      description:
-        "Get priority site support from world-class UniFi Network Engineers.",
-    },
-  ];
+  const [isModalOpen, setModalOpen] = useState(false);
+  // const cardData = [
+  //   {
+  //     image: dummy,
+  //     title: "Professional Phone Support",
+  //     description:
+  //       "Get priority site support from world-class UniFi Network Engineers.",
+  //   },
+  //   {
+  //     image: dummy,
+  //     title: "Professional Phone Support",
+  //     description:
+  //       "Get priority site support from world-class UniFi Network Engineers.",
+  //   },
+  // ];
   const cardData2 = [
     {
       subtitle: "The Original",
-      title: "Flagship",
+      title: "Cloud Gateways",
       description: "WiFi Perfected",
-      image: imgDummy,
+      image: cloudGateways,
+      link: "/networking/cloud-gateways",
     },
     {
       subtitle: "The Original",
-      title: "Flagship",
+      title: "WiFi",
       description: "WiFi Perfected",
-      image: imgDummy,
+      image: wifiImg,
+      link: "/networking/wifi",
     },
     {
       subtitle: "The Original",
-      title: "Flagship",
+      title: "Door Access",
       description: "WiFi Perfected",
-      image: imgDummy,
+      image: doorAccess,
+      link: "/networking/door-access",
     },
   ];
   return (
@@ -72,7 +81,7 @@ const Networking = () => {
               className="w-full object-cover max-w-lg md:max-w-xl"
               alt="networking banner"
             />
-            <div className="w-max text-wrap flex flex-col items-center justify-center gap-4">
+            <div className="w-max text-wrap flex flex-col gap-4">
               <div className="bg-white/10 text-white p-4 flex gap-2 rounded-lg">
                 <svg
                   width="52"
@@ -133,20 +142,45 @@ const Networking = () => {
                 </svg>
 
                 <div>
-                  <h3 className="font-semibold md:text-lg">
-                    Seamless Connectivity
-                  </h3>
+                  <h3 className="font-semibold md:text-lg">Cloud Gateways</h3>
                   <p className="text-xs md:text-sm">
                     Cutting-Edge WiFi Engineered for Performance
                   </p>
                 </div>
+              </div>
+              <div className="bg-white/10 text-white p-4 flex gap-2 rounded-lg">
+                <DoorClosedIcon height={48} width={48} />
+
+                <div>
+                  <h3 className="font-semibold md:text-lg">Door Access</h3>
+                  <p className="text-xs md:text-sm">
+                    Cutting-Edge WiFi Engineered for Performance
+                  </p>
+                </div>
+              </div>
+              <div className="text-[#2A6A9E] flex justify-center gap-2 font-semibold items-center py-2 px-4 rounded-md bg-white">
+                <p>Authorised partner of ubiquiti</p>
+                <span>
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 1C12 0.447714 11.5523 -7.61451e-07 11 -3.39982e-07L2 -2.13542e-07C1.44772 -5.50717e-07 1 0.447715 1 0.999999C1 1.55228 1.44772 2 2 2L10 2L10 10C10 10.5523 10.4477 11 11 11C11.5523 11 12 10.5523 12 10L12 1ZM1 11L1.70711 11.7071L11.7071 1.70711L11 0.999999L10.2929 0.292893L0.292893 10.2929L1 11Z"
+                      fill="#2A6A9E"
+                    />
+                  </svg>
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
       {/* HELP FROM EXPERTS SECTION */}
-      <div className=" bg-gradient-to-r from-[#142462] to-[#2A6A9E] py-12">
+      {/* <div className=" bg-gradient-to-r from-[#142462] to-[#2A6A9E] py-12">
         <div className="">
           <h1 className="text-2xl pb-12 md:text-5xl text-center text-white">
             Get Help from the Experts
@@ -179,11 +213,45 @@ const Networking = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* LEADING WIFI SECTION */}
+      <Container>
+        <div className="py-12">
+          <div className="text-center pb-5">
+            <h1 className="text-5xl text-[#142462] font-semibold">
+              Welcome to UniFi Enterprise 7
+            </h1>
+            <p className="text-[#142462] opacity-60  pt-2 ">
+              Incredible 1,000+ client capacity, long-range 6 GHz performance,
+              and 10 GbE PoE connectivity with native high availability
+              <br />
+              architecture for critical enterprise environments.
+            </p>
+          </div>
+          <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
+            {/* Text Overlay */}
+            {/* <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
+              <h2 className="text-white text-xl font-semibold">Door Access</h2>
+            </div> */}
+
+            {/* Video */}
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            >
+              <source src={videoSrc} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </Container>
+
       <div className="py-12">
         <h1 className="text-center pb-5 font-semibold text-[#142462] text-5xl">
-          Industry-Leading WiFi
+          Industry-Leading Products
         </h1>
         <div className="grid sm:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-4 w-full max-w-6xl mx-auto">
           {cardData2.map((data, index) => (
@@ -193,11 +261,14 @@ const Networking = () => {
                 subtitle={data.subtitle}
                 title={data.title}
                 description={data.description}
+                link={data.link}
               />
             </div>
           ))}
         </div>
       </div>
+      <FormBanner />
+
       {/* DESIGN CENTER SECTION */}
       <div className="py-12">
         <h1 className="text-center text-[#142462] text-3xl md:text-5xl font-semibold pb-12">
@@ -210,7 +281,7 @@ const Networking = () => {
               Powerful visualization and planning tool that allows you to
               simulate a complete UniFi system.
             </p>
-            <button className="flex w-fit border-white border-2 rounded-lg items-center gap-2 py-2 px-4">
+            {/* <button className="flex w-fit border-white border-2 rounded-lg items-center gap-2 py-2 px-4">
               <span>Learn More</span>
               <span>
                 <svg
@@ -226,7 +297,7 @@ const Networking = () => {
                   />
                 </svg>
               </span>
-            </button>
+            </button> */}
           </div>
           <div>
             <img

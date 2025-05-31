@@ -33,6 +33,9 @@ import WebAndAppDev from "./pages/Products/WebAndAppDev";
 import PrivPolicy from "./pages/PrivPolicy";
 import FinancePolicy from "./pages/FinancePolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import DoorAccess from "./pages/Networking/DoorAccess";
+import CloudGateways from "./pages/Networking/CloudGateways";
+import Wifi from "./pages/Networking/Wifi";
 
 function App() {
   return (
@@ -100,6 +103,12 @@ function App() {
 
           <Route path="/contact" element={<Contact />} />
           <Route path="/networking" element={<Networking />} />
+          <Route path="/networking/wifi" element={<Wifi />} />
+          <Route path="/networking/door-access" element={<DoorAccess />} />
+          <Route
+            path="/networking/cloud-gateways"
+            element={<CloudGateways />}
+          />
           <Route path="/privacy-policy" element={<PrivPolicy />} />
           <Route path="/finance-policy" element={<FinancePolicy />} />
           <Route
