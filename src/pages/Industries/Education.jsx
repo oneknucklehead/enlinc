@@ -7,12 +7,12 @@ import Banner2 from "../../components/Banner2";
 import ModalButton from "../../components/ModalButton";
 
 import img1 from "../../assets/images/Education/1.webp";
-import img2 from "../../assets/images/Education/2.jpg";
-import img3 from "../../assets/images/Education/3.jpg";
-import img4 from "../../assets/images/Education/4.jpg";
-import img5 from "../../assets/images/Education/5.jpg";
-import img6 from "../../assets/images/Education/6.jpg";
-import img7 from "../../assets/images/Education/7.png";
+import img2 from "../../assets/images/Education/2.webp";
+import img3 from "../../assets/images/Education/3.webp";
+import img4 from "../../assets/images/Education/4.webp";
+import img5 from "../../assets/images/Education/5.webp";
+import img6 from "../../assets/images/Education/6.webp";
+import img7 from "../../assets/images/Education/7.webp";
 
 const Education = () => {
   const [isModalOpen, setModalOpen] = useState(false);
