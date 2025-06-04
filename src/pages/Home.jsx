@@ -4,14 +4,6 @@ import googleLogo from "../assets/images/google.png";
 import headphoneLogo from "../assets/images/headphone.png";
 import homeMainImg from "../assets/images/home-mainImg.png";
 import Container from "../components/Container";
-import logo from "../assets/images/brands/Logo.png";
-import logo1 from "../assets/images/brands/Logo-1.png";
-import logo2 from "../assets/images/brands/Logo-2.png";
-import logo3 from "../assets/images/brands/Logo-3.png";
-import logo4 from "../assets/images/brands/Logo-4.png";
-import logo5 from "../assets/images/brands/Logo-5.png";
-import logo6 from "../assets/images/brands/Logo-6.png";
-import logo7 from "../assets/images/brands/Logo-7.png";
 import lady from "../assets/images/Filler/2.png";
 
 import dummy from "../assets/images/dummy.jpg";
@@ -27,8 +19,9 @@ import { Star, Webhook } from "lucide-react";
 import FAQSection from "../sections/FAQSection";
 import Modal from "../components/Modal";
 import ModalButton from "../components/ModalButton";
+import logos from "../data/TrustedCompany";
 
-const brandArr = [logo, logo1, logo2, logo3, logo4, logo5, logo6, logo7];
+// const brandArr = [logo, logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
 const Home = () => {
   const featureData = [
@@ -234,10 +227,14 @@ const Home = () => {
             >
               Trusted by over 2k+ companies
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-12">
-              {brandArr.map((brand, index) => (
+            <div className="flex mx-auto flex-wrap justify-center items-center gap-12">
+              {logos.map((logo, index) => (
                 <div key={index} className="">
-                  <img loading="lazy" src={brand} />
+                  <img
+                    loading="lazy"
+                    src={logo}
+                    className="w-40 object-cover h-fit"
+                  />
                 </div>
               ))}
             </div>

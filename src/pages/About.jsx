@@ -18,6 +18,7 @@ import ContentSection from "../sections/ContentSection";
 
 import img1 from "../assets/images/about1.jpg";
 import img2 from "../assets/images/about2.jpg";
+import clientelle from "../data/Clientelle";
 
 function About() {
   // const data = [
@@ -109,6 +110,30 @@ function About() {
                 </div>
               </div>
             </ContentSection>
+          </div>
+          <div classname="w-full">
+            <Container>
+              <div className="py-12 px-4">
+                <p
+                  className="text-3xl text-center pb-12"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  Our Partners
+                </p>
+                <div className="flex mx-auto flex-wrap justify-between items-center gap-12">
+                  {clientelle.map((logo, index) => (
+                    <div key={index} className="">
+                      <img
+                        loading="lazy"
+                        src={logo}
+                        className="w-40 object-cover h-fit"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Container>
           </div>
           <div className="py-24">
             <ContentSection img={img2} btnEnabled={false}>
