@@ -25,7 +25,7 @@ const Carousel = ({ slideContent }) => {
   }, []);
 
   return (
-    <div className="relative w-full px-4 py-8">
+    <div className="relative flex w-full px-4 py-8">
       {/* Custom Navigation Buttons */}
       <button
         ref={prevRef}
@@ -59,7 +59,7 @@ const Carousel = ({ slideContent }) => {
         className="!pb-12"
       >
         {slideContent.map((slide, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="">
             <CardWithHoverTab
               title={slide.title}
               description={slide.description}
