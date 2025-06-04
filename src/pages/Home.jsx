@@ -113,8 +113,8 @@ const Home = () => {
                 We empower Australian businesses with reliable, cost-effective
                 business phone systems that are built to scale.
                 <br /> Our future-ready VoIP and hosted PBX solutions come
-                backed by 24/7 local support, ensuring secure, uninterrupted
-                communication every step of the way.
+                backed by Australian local support, ensuring secure,
+                uninterrupted communication every step of the way.
               </p>
             </div>
             <div className="flex gap-2">
@@ -172,7 +172,7 @@ const Home = () => {
                     loading="lazy"
                     src={googleLogo}
                     alt="google"
-                    className="h-32"
+                    className="h-32 rotate-6"
                   />
                   <div className="pr-3">
                     <div className="flex gap-2">
@@ -203,7 +203,12 @@ const Home = () => {
               </div>
               <div className="hidden xl:block  animate-float  rotate-12 p-[2px] h-fit rounded-lg bg-gradient-to-r from-[#0EA4DE] to-[#142462]">
                 <div className="rounded-md bg-white flex justify-center items-center gap-2  py-2 pl-2">
-                  <img loading="lazy" src={headphoneLogo} alt="headphone" />
+                  <img
+                    loading="lazy"
+                    src={headphoneLogo}
+                    alt="headphone"
+                    className="-rotate-6"
+                  />
                   <div className="pr-3">
                     <div className="text-lg text-[#F3C200] font-gabarito-semibold-600">
                       Australian
@@ -504,7 +509,7 @@ const Home = () => {
                     data-aos-delay="500"
                     data-aos-duration="1000"
                   >
-                    24/7 Australian-Based Support You Can Count On
+                    Australian-Based Support You Can Count On
                   </p>
                   <p
                     className="text-sm xl:text-base"
