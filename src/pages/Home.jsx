@@ -221,11 +221,11 @@ const Home = () => {
         <Container>
           <div className="py-12 px-4">
             <p
-              className="text-3xl text-center pb-12"
+              className="text-3xl text-center font-semibold pb-12"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              Trusted by over 2k+ companies
+              Our Clientelle
             </p>
             <div className="flex mx-auto flex-wrap justify-center items-center gap-12">
               {logos.map((logo, index) => (

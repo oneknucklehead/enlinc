@@ -2,6 +2,9 @@ import React from "react";
 import Container from "../../components/Container";
 import ContentSection from "../../sections/ContentSection";
 import videoSrc from "../../assets/images/Networking/CloudGateways/3.mp4";
+import video1 from "../../assets/images/Networking/Wifi/7.mp4";
+import video2 from "../../assets/images/Networking/Wifi/8.mp4";
+import video3 from "../../assets/images/Networking/Wifi/9.mp4";
 import FormBanner from "../../sections/FormBanner";
 import VideoCard from "../../components/VideoCard";
 import VideoCardSwitcher from "../../components/VideoCardSwitcher";
@@ -49,13 +52,11 @@ const Wifi = () => {
         <div className="py-12">
           <div className="text-center pb-5">
             <h1 className="text-5xl text-[#142462] font-semibold">
-              Welcome to UniFi Enterprise 7
+              Explore UniFi 7
             </h1>
             <p className="text-[#142462] opacity-60  pt-2 ">
-              Incredible 1,000+ client capacity, long-range 6 GHz performance,
-              and 10 GbE PoE connectivity with native high availability
-              <br />
-              architecture for critical enterprise environments.
+              A massively scalable WiFi 7 platform capable of delivering
+              wired-like user experiences.
             </p>
           </div>
           <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
@@ -72,7 +73,7 @@ const Wifi = () => {
               playsInline
               className="w-full h-full object-cover"
             >
-              <source src={videoSrc} type="video/mp4" />
+              <source src={video1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -81,39 +82,59 @@ const Wifi = () => {
         <div className="py-12">
           <div className="text-center pb-5">
             <h1 className="text-5xl text-[#142462] font-semibold">
-              Welcome to UniFi Enterprise 7
+              Take Your WiFi to Massive Scale
             </h1>
             <p className="text-[#142462] opacity-60  pt-2 ">
-              Incredible 1,000+ client capacity, long-range 6 GHz performance,
-              and 10 GbE PoE connectivity with native high availability
-              <br />
-              architecture for critical enterprise environments.
+              Start with one AP and effortlessly scale to hundreds.
             </p>
           </div>
           <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
-            <VideoCard src={videoSrc} title={"hello"} />
+            <VideoCard src={video2} title={"hello"} />
           </div>
         </div>
-
         <div className="py-12">
           <div className="text-center pb-5">
             <h1 className="text-5xl text-[#142462] font-semibold">
-              Welcome to UniFi Enterprise 7
+              Total WiFi Wizardry
             </h1>
             <p className="text-[#142462] opacity-60  pt-2 ">
-              Incredible 1,000+ client capacity, long-range 6 GHz performance,
-              and 10 GbE PoE connectivity with native high availability
-              <br />
-              architecture for critical enterprise environments.
+              Precision radio system control.
             </p>
           </div>
-          <VideoCardSwitcher
-            videos={[
-              { title: "Door Access", src: videoSrc, svg: <EthernetPort /> },
-              { title: "EV Charger", src: videoSrc, svg: <EthernetPort /> },
-              { title: "Surveillance", src: videoSrc, svg: <EthernetPort /> },
-            ]}
-          />
+          <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
+            <VideoCard src={video3} title={"hello"} />
+          </div>
+        </div>
+
+        <div className="flex flex-wrap justify-center items-center gap-2 bg-white">
+          <button
+            className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+          >
+            {/* <span className="w-fit">{vid.svg}</span> */}
+            <p className="text-sm md:text-base">Coverage Visualisation</p>
+          </button>
+          <button
+            className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+          >
+            {/* <span className="w-fit">{vid.svg}</span> */}
+            <p className="text-sm md:text-base">Precise Radio Controls</p>
+          </button>
+          <button
+            className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+          >
+            {/* <span className="w-fit">{vid.svg}</span> */}
+            <p className="text-sm  md:text-base">
+              Powerful VLAN Configurations
+            </p>
+          </button>
+          <button
+            className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+          >
+            {/* <span className="w-fit">{vid.svg}</span> */}
+            <p className="text-sm md:text-base">
+              Flexible Authentication Support
+            </p>
+          </button>
         </div>
         <div className="py-12 space-y-4">
           <div className="text-center pb-5">
@@ -131,8 +152,8 @@ const Wifi = () => {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute text-center top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                <p className=" text-xl sm:text-2xl font-semibold">Product</p>
-                <p className="">Lorem Ipsum is simply dummy text</p>
+                <p className=" text-xl sm:text-2xl font-semibold">In-Wall</p>
+                {/* <p className="">Lorem Ipsum is simply dummy text</p> */}
               </div>
             </div>
             <div className="relative col-span-8 md:col-span-3 md:row-span-1 rounded-lg">
@@ -141,11 +162,13 @@ const Wifi = () => {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute text-center top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                <p className=" text-xl sm:text-2xl font-semibold">Product</p>
-                <p className="">
+                <p className=" text-xl sm:text-2xl font-semibold">
+                  Flexible & Outdoor
+                </p>
+                {/* <p className="">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="relative col-span-8 md:col-span-3 md:row-span-1 rounded-lg">
@@ -154,11 +177,13 @@ const Wifi = () => {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute text-center top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                <p className=" text-xl sm:text-2xl font-semibold">Product</p>
-                <p className="">
+                <p className=" text-xl sm:text-2xl font-semibold">
+                  Enterprise 7
+                </p>
+                {/* <p className="">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -169,11 +194,13 @@ const Wifi = () => {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute text-center top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                <p className=" text-xl sm:text-2xl font-semibold">Product</p>
-                <p className="">
+                <p className=" text-xl sm:text-2xl font-semibold">
+                  Mega Capacity
+                </p>
+                {/* <p className="">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="relative rounded-lg">
@@ -182,11 +209,13 @@ const Wifi = () => {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute text-center top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                <p className=" text-xl sm:text-2xl font-semibold">Product</p>
-                <p className="">
+                <p className=" text-xl sm:text-2xl font-semibold">
+                  Building Bridge
+                </p>
+                {/* <p className="">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="relative rounded-lg">
@@ -195,11 +224,13 @@ const Wifi = () => {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute text-center top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                <p className=" text-xl sm:text-2xl font-semibold">Product</p>
-                <p className="">
+                <p className=" text-xl sm:text-2xl font-semibold">
+                  Device Bridge
+                </p>
+                {/* <p className="">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="relative rounded-lg">
@@ -208,11 +239,11 @@ const Wifi = () => {
                 className="w-full h-full object-cover rounded-lg"
               />
               <div className="absolute text-center top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                <p className=" text-xl sm:text-2xl font-semibold">Product</p>
-                <p className="">
+                <p className=" text-xl sm:text-2xl font-semibold">Flagship</p>
+                {/* <p className="">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
