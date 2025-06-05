@@ -12,8 +12,16 @@ import videoSrc3 from "../../assets/images/Networking/DoorAccess/4.mp4";
 import videoSrc4 from "../../assets/images/Networking/DoorAccess/5.mp4";
 import videoSrc5 from "../../assets/images/Networking/DoorAccess/6.mp4";
 import videoSrc6 from "../../assets/images/Networking/DoorAccess/9.mp4";
+import videoSrc7 from "../../assets/images/Networking/DoorAccess/11.mp4";
+import videoSrc8 from "../../assets/images/Networking/DoorAccess/10.mp4";
+import videoSrc9 from "../../assets/images/Networking/DoorAccess/13.mp4";
+import videoSrc10 from "../../assets/images/Networking/DoorAccess/14.mp4";
 import img1 from "../../assets/images/Networking/DoorAccess/7.jpg";
 import img2 from "../../assets/images/Networking/DoorAccess/1.jpg";
+import img3 from "../../assets/images/Networking/DoorAccess/12.jpg";
+import img4 from "../../assets/images/Networking/DoorAccess/15.jpg";
+import img5 from "../../assets/images/Networking/DoorAccess/16.jpg";
+import img6 from "../../assets/images/Networking/DoorAccess/17.jpg";
 
 const DoorAccess = () => {
   return (
@@ -50,13 +58,11 @@ const DoorAccess = () => {
         <div className="py-12">
           <div className="text-center pb-12">
             <h1 className="text-5xl text-[#142462] font-semibold">
-              Welcome to UniFi Enterprise 7
+              Powerful Management Within UniFi
             </h1>
             <p className="text-[#142462] opacity-60  pt-2 ">
-              Incredible 1,000+ client capacity, long-range 6 GHz performance,
-              and 10 GbE PoE connectivity with native high availability
-              <br />
-              architecture for critical enterprise environments.
+              Professional networking, security, and more. All powered by a
+              single platform.
             </p>
           </div>
           <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
@@ -66,55 +72,183 @@ const DoorAccess = () => {
         <div className="py-12 space-y-4">
           <div className="text-center pb-12">
             <h1 className="text-5xl text-[#142462] font-semibold">
-              Welcome to UniFi Enterprise 7
+              An Incredible User Experience
             </h1>
           </div>
           <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
-            <VideoCardHoverPlay src={videoSrc} />
+            <VideoCardHoverPlay
+              title={"Touch Pass for UniFi Access"}
+              src={videoSrc7}
+            />
           </div>
 
           <div className="grid grid-cols-7 gap-4 max-w-6xl mx-auto">
             <div className="col-span-3">
-              <VideoCardHoverPlay src={videoSrc3} />
+              <VideoCardHoverPlay
+                title={"Unlock with Face Recognition"}
+                src={videoSrc3}
+              />
             </div>
             <div className="col-span-4">
-              <VideoCardHoverPlay src={videoSrc4} />
+              <VideoCardHoverPlay
+                title={"One-Click Mobile Unlock"}
+                src={videoSrc4}
+              />
             </div>
           </div>
           <div className="grid grid-cols-8 grid-rows-2 gap-4 max-w-6xl mx-auto">
             <div className="col-span-5 row-span-2">
-              <VideoCardHoverPlay src={videoSrc5} />
+              <VideoCardHoverPlay title={"Pocket Keyfob"} src={videoSrc5} />
             </div>
-            <div className="relative col-span-3 row-span-1">
+            <div className="relative col-span-3 row-span-1 rounded-xl overflow-hidden">
               <img
                 src={img1}
-                className="object-cover w-full h-full rounded-xl"
+                className="absolute object-cover w-full h-full"
+                alt="Background"
               />
+              {/* Overlay */}
+              {/* <div className="absolute inset-0 bg-black/50 z-10"></div> */}
+              {/* Text */}
+              <div className="absolute inset-0 z-20 p-4 flex justify-center text-white text-2xl font-semibold">
+                PIN Code
+              </div>
             </div>
-            <div className="col-span-3 row-span-1">
+            <div className="relative col-span-3 row-span-1 rounded-xl overflow-hidden">
               <img
                 src={img2}
-                className="object-cover w-full h-full rounded-xl"
+                className="absolute object-cover w-full h-full"
+                alt="Background"
               />
+              {/* Overlay */}
+              {/* <div className="absolute inset-0 bg-black/50 z-10"></div> */}
+              {/* Text */}
+              <div className="absolute inset-0 z-20 p-4 flex justify-center text-white text-2xl font-semibold">
+                Access Card
+              </div>
             </div>
           </div>
           <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
-            <VideoCardHoverPlay src={videoSrc6} />
+            <VideoCardHoverPlay title={"Intercom"} src={videoSrc6} />
+          </div>
+        </div>
+        <div className="py-12">
+          <div className="text-center pb-5">
+            <h1 className="text-5xl text-[#142462] font-semibold">
+              One-Click Visitor Access
+            </h1>
+          </div>
+          <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
+            <VideoCard src={videoSrc8} title={"hello"} />
+          </div>
+
+          <div className="pt-12 flex flex-wrap justify-center items-center gap-2 bg-white">
+            <button
+              className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+            >
+              {/* <span className="w-fit">{vid.svg}</span> */}
+              <p className="text-sm md:text-base">Touch Pass Support</p>
+            </button>
+            <button
+              className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+            >
+              {/* <span className="w-fit">{vid.svg}</span> */}
+              <p className="text-sm md:text-base">
+                Intercom Viewer Door Unlock
+              </p>
+            </button>
+            <button
+              className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+            >
+              {/* <span className="w-fit">{vid.svg}</span> */}
+              <p className="text-sm  md:text-base">Talk Phone Integration</p>
+            </button>
+            <button
+              className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+            >
+              {/* <span className="w-fit">{vid.svg}</span> */}
+              <p className="text-sm md:text-base">Mobile Phone Door Unlock</p>
+            </button>
+            <button
+              className={`px-3 py-1 border bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${" text-[#2A6A9E]"}`}
+            >
+              {/* <span className="w-fit">{vid.svg}</span> */}
+              <p className="text-sm md:text-base">Web Interface Door Unlock</p>
+            </button>
           </div>
         </div>
         <div className="py-12">
           <div className="text-center pb-12">
             <h1 className="text-5xl text-[#142462] font-semibold">
-              Welcome to UniFi Enterprise 7
+              Pair Readers and Cameras for Integrated Security
             </h1>
           </div>
-          <VideoCardSwitcher
-            videos={[
-              { title: "Door Access", src: videoSrc, svg: <EthernetPort /> },
-              { title: "EV Charger", src: videoSrc, svg: <EthernetPort /> },
-              { title: "Surveillance", src: videoSrc, svg: <EthernetPort /> },
-            ]}
-          />
+          <div className="relative w-full max-w-6xl aspect-video mx-auto rounded-xl overflow-hidden">
+            <img
+              src={img3}
+              className="object-cover w-full h-full"
+              alt="Background"
+            />
+          </div>
+        </div>
+        <div className="py-12 max-w-6xl mx-auto space-y-4">
+          <div className="text-center pb-5">
+            <h1 className="text-5xl text-[#142462] font-semibold">
+              Resilient by Design
+            </h1>
+            <p className="text-[#142462] opacity-60  pt-2 ">
+              Build resilient access solutions with fail-safe and fail-secure
+              locks, emergency mode, and battery backup.
+            </p>
+          </div>
+          <div className="grid grid-cols-8 grid-rows-2 gap-4">
+            <div className="relative col-span-8 md:col-span-5 md:row-span-2 rounded-lg">
+              <img
+                src={img4}
+                className="absolute object-cover w-full h-full"
+                alt="Background"
+              />
+              {/* Overlay */}
+              {/* <div className="absolute inset-0 bg-black/50 z-10"></div> */}
+              {/* Text */}
+              <div className="absolute inset-0 z-20 p-4 flex justify-center text-2xl font-semibold">
+                Emergency Mode
+              </div>
+            </div>
+            <div className="relative col-span-8 md:col-span-3 md:row-span-1 rounded-lg">
+              <VideoCardHoverPlay title={"Fail-Secure Locks"} src={videoSrc9} />
+            </div>
+            <div className="relative col-span-8 md:col-span-3 md:row-span-1 rounded-lg">
+              <VideoCardHoverPlay title={"Fail-Safe Locks"} src={videoSrc10} />
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="relative rounded-xl">
+              <img
+                src={img5}
+                className="object-cover rounded-xl w-full h-full"
+                alt="Background"
+              />
+              {/* Overlay */}
+              {/* <div className="absolute inset-0 bg-black/50 z-10"></div> */}
+              {/* Text */}
+              <div className="absolute text-white inset-0 z-20 p-4 flex justify-center text-2xl font-semibold">
+                Emergency Mode
+              </div>
+            </div>
+            <div className="relative rounded-lg">
+              <img
+                src={img6}
+                className="object-cover rounded-xl w-full h-full"
+                alt="Background"
+              />
+              {/* Overlay */}
+              {/* <div className="absolute inset-0 bg-black/50 z-10"></div> */}
+              {/* Text */}
+              <div className="absolute text-white inset-0 z-20 p-4 flex justify-center text-2xl font-semibold">
+                Emergency Mode
+              </div>
+            </div>
+          </div>
         </div>
       </Container>
     </div>

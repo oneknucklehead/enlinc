@@ -39,7 +39,7 @@ export default function VideoCardHoverPlay({ src, title }) {
       />
 
       {/* Overlay Title */}
-      <h2 className="absolute top-4 left-1/2 -translate-x-1/2 text-white text-xl font-semibold z-10">
+      <h2 className="absolute top-4 left-1/2 -translate-x-1/2 text-white text-2xl text-center font-semibold z-10">
         {title}
       </h2>
     </div>
