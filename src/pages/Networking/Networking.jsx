@@ -77,10 +77,10 @@ const Networking = () => {
               Design Interference-Free WiFi with UniFi
             </p>
           </div>
-          <div className="grid md:grid-cols-2 h-fit justify-center items-center max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-8 h-fit justify-center items-center max-w-6xl">
             <img
               src={img}
-              className="w-full object-cover max-w-lg md:max-w-xl"
+              className="w-full object-cover max-w-lg md:max-w-xm"
               alt="networking banner"
             />
             <div className="w-max text-wrap flex flex-col gap-4">
