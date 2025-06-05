@@ -201,10 +201,10 @@ const DoorAccess = () => {
             </p>
           </div>
           <div className="grid grid-cols-8 grid-rows-2 gap-4">
-            <div className="relative col-span-8 md:col-span-5 md:row-span-2 rounded-lg">
+            <div className="relative col-span-8 md:col-span-5 md:row-span-2 rounded-xl">
               <img
                 src={img4}
-                className="absolute object-cover w-full h-full"
+                className="absolute rounded-xl object-cover w-full h-full"
                 alt="Background"
               />
               {/* Overlay */}

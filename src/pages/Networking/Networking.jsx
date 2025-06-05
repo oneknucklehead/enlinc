@@ -12,6 +12,8 @@ import ModalButton from "../../components/ModalButton";
 import FormBanner from "../../sections/FormBanner";
 import Container from "../../components/Container";
 import VideoCardHoverPlay from "../../components/VideoCardHoverPlay";
+import { Link } from "react-router-dom";
+import ubiquiti from "../../assets/images/brands/2.webp";
 
 const Networking = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -82,7 +84,10 @@ const Networking = () => {
               alt="networking banner"
             />
             <div className="w-max text-wrap flex flex-col gap-4">
-              <div className="bg-white/10 text-white p-4 flex gap-2 rounded-lg">
+              <Link
+                to={"/networking/wifi"}
+                className="bg-white/10 text-white p-4 flex gap-2 rounded-lg"
+              >
                 <svg
                   width="52"
                   height="52"
@@ -126,8 +131,11 @@ const Networking = () => {
                     Cutting-Edge WiFi Engineered for Performance
                   </p>
                 </div>
-              </div>
-              <div className="bg-white/10 text-white p-4 flex gap-2 rounded-lg">
+              </Link>
+              <Link
+                to={"/networking/cloud-gateways"}
+                className="bg-white/10 text-white p-4 flex gap-2 rounded-lg"
+              >
                 <svg
                   width="48"
                   height="48"
@@ -147,8 +155,11 @@ const Networking = () => {
                     Cutting-Edge WiFi Engineered for Performance
                   </p>
                 </div>
-              </div>
-              <div className="bg-white/10 text-white p-4 flex gap-2 rounded-lg">
+              </Link>
+              <Link
+                to={"/networking/door-access"}
+                className="bg-white/10 text-white p-4 flex gap-2 rounded-lg"
+              >
                 <DoorClosedIcon height={48} width={48} />
 
                 <div>
@@ -157,23 +168,10 @@ const Networking = () => {
                     Cutting-Edge WiFi Engineered for Performance
                   </p>
                 </div>
-              </div>
-              <div className="text-[#2A6A9E] flex justify-center gap-2 font-semibold items-center py-2 px-4 rounded-md bg-white">
+              </Link>
+              <div className="text-[#2A6A9E] flex flex-col justify-center gap-2 font-semibold items-center py-2 px-4 rounded-md bg-white">
                 <p>Authorised partner of ubiquiti</p>
-                <span>
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 1C12 0.447714 11.5523 -7.61451e-07 11 -3.39982e-07L2 -2.13542e-07C1.44772 -5.50717e-07 1 0.447715 1 0.999999C1 1.55228 1.44772 2 2 2L10 2L10 10C10 10.5523 10.4477 11 11 11C11.5523 11 12 10.5523 12 10L12 1ZM1 11L1.70711 11.7071L11.7071 1.70711L11 0.999999L10.2929 0.292893L0.292893 10.2929L1 11Z"
-                      fill="#2A6A9E"
-                    />
-                  </svg>
-                </span>
+                <img src={ubiquiti} className="w-40" />
               </div>
             </div>
           </div>
