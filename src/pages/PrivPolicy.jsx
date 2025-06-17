@@ -18,7 +18,7 @@ const PrivPolicy = () => {
               to personal information in any form, including electronic and
               digital form. The APPs can be accessed at the website of the
               office of the Australian Information Commissioner:
-              www.privacy.gov.au.
+              <a href="www.privacy.gov.au.">www.privacy.gov.au.</a>
             </p>
             <br />
             <p>
@@ -470,10 +470,14 @@ const PrivPolicy = () => {
               information, please contact:
             </p>
             <ul className="list-disc ml-8">
-              <li>Attn: Privacy Officer </li>
-              <li>Email: support@EN-LINC.com.au </li>
-              <li>Address: PO BOX 2267 North Parramatta NSW 1750 </li>
-              <li>ABN 24 606 252 484 </li>
+              <li>Attn: Customer Service </li>
+              <li>Email: customer.service@en-linc.com </li>
+              <li>
+                Address: Level 1/394 Lane Cove Rd,
+                <br />
+                Macquarie Park NSW 2113
+              </li>
+              <li>ABN 86 162 782 612</li>
             </ul>
             <br />
             <h1 className="text-xl font-semibold">
@@ -667,13 +671,13 @@ const PrivPolicy = () => {
               Privacy and Credit Reporting Policy
             </p>
             <p>
-              The clauses below describe how EN-LINC Investment Group Pty Ltd
-              Trading As EN-LINC Australia – ABN 88 606 251 503 (“we”/”us”) may
-              collect, use, handle and disclose your personal information. They
-              also describe the privacy‐related matters to which you give your
-              consent in applying for a rental facility from us. Your personal
-              information will be treated in accordance with the Privacy Act
-              1988 (“Privacy Act”) as well as the Credit Reporting Privacy Code.
+              The clauses below describe how EN-LINC – ABN 86 162 782 612
+              (“we”/”us”) may collect, use, handle and disclose your personal
+              information. They also describe the privacy‐related matters to
+              which you give your consent in applying for a rental facility from
+              us. Your personal information will be treated in accordance with
+              the Privacy Act 1988 (“Privacy Act”) as well as the Credit
+              Reporting Privacy Code.
             </p>
             <br />
             <p>The clauses below set out:</p>

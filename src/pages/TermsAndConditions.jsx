@@ -152,8 +152,11 @@ const TermsAndConditions = () => {
                 </p>
                 <p className="mb-2">
                   If you wish to opt out of Google AdWords Remarketing, visit
-                  the Google Ads Preferences Manager and update your opt-out
-                  settings.
+                  the
+                  <a href="https://www.google.com/settings/ads">
+                    Google Ads Preferences Manager and update your opt-out
+                    settings.
+                  </a>
                 </p>
               </div>
             </div>
@@ -218,12 +221,12 @@ const TermsAndConditions = () => {
                 <p className="mb-2">
                   By accessing this Website, you consent to receiving commercial
                   electronic communications from EN-LINC. You may opt out at any
-                  time by sending a blank email to:{" "}
+                  time by sending a blank email to:
                   <a
                     href="mailto:unsubscribe@en-linc.com.au"
                     className="hover:underline"
                   >
-                    unsubscribe@en-linc.com.au
+                    unsubscribe@en-linc.com
                   </a>
                 </p>
               </div>
@@ -309,13 +312,12 @@ const TermsAndConditions = () => {
                   </li>
                   <li>
                     <b>"Website"</b> refers to all web pages hosted at
-                    https://www.en-linc.com.au, including the code, content,
+                    https://www.en-linc.com, including the code, content,
                     design, and functionality.
                   </li>
                   <li>
-                    <b>"We", "us", and "our"</b> refer to EN-LINC Australia Pty
-                    Ltd, and similar grammatical references are to be
-                    interpreted accordingly.
+                    <b>"We", "us", and "our"</b> refer to EN-LINC, and similar
+                    grammatical references are to be interpreted accordingly.
                   </li>
                 </ul>
                 <p className="mb-2">
