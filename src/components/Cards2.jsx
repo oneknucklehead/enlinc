@@ -17,9 +17,11 @@ const Cards2 = ({
         className="aspect-square rounded-lg object-cover"
       />
       <div className="py-4">
-        <h5 className="text-center text-xl">{subtitle}</h5>
+        {subtitle && <h5 className="text-center text-xl">{subtitle}</h5>}
         <h4 className="text-center font-semibold pb-1 text-3xl">{title}</h4>
-        <p className="text-center text-gray-500">{description}</p>
+        {description && (
+          <p className="text-center text-gray-500">{description}</p>
+        )}
       </div>
       <Link
         to={link}

@@ -4,6 +4,18 @@ import Container from "../../components/Container";
 import { Gauge } from "lucide-react";
 import CloudGatewayCard from "../../components/CloudGatewayCard";
 import videoSrc from "../../assets/images/Networking/CloudGateways/3.mp4";
+import vid1 from "../../assets/images/Networking/CloudGateways/new1.mp4";
+import vid2 from "../../assets/images/Networking/CloudGateways/new2.mp4";
+import vid3 from "../../assets/images/Networking/CloudGateways/new3.mp4";
+import vid4 from "../../assets/images/Networking/CloudGateways/new4.mp4";
+import v1 from "../../assets/images/Networking/CloudGateways/sec2/1.mp4";
+import v2 from "../../assets/images/Networking/CloudGateways/sec2/2.mp4";
+import v3 from "../../assets/images/Networking/CloudGateways/sec2/3.mp4";
+import v4 from "../../assets/images/Networking/CloudGateways/sec2/4.mp4";
+import v5 from "../../assets/images/Networking/CloudGateways/sec2/5.mp4";
+import v6 from "../../assets/images/Networking/CloudGateways/sec2/6.mp4";
+import VideoCardSwitcher from "../../components/VideoCardSwitcher";
+import FormBanner from "../../sections/FormBanner";
 
 const CloudGateways = () => {
   const featureCard = [
@@ -145,7 +157,23 @@ const CloudGateways = () => {
     <div>
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection noImg={true} reverse={true}>
+          <ContentSection
+            // noImg={true}
+            video={true}
+            videoLink={
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/FbotQHGdW3Y?si=LUrJaqmLHDNensef"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            }
+            reverse={true}
+          >
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1
                 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
@@ -155,7 +183,7 @@ const CloudGateways = () => {
               >
                 Cloud Gateways
               </h1>
-              <div
+              {/* <div
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1000"
@@ -165,152 +193,76 @@ const CloudGateways = () => {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s
                 </p>
-              </div>
+              </div> */}
             </div>
           </ContentSection>
         </Container>
       </div>
-      <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] py-12">
-        <Container>
-          <div className="px-4 py-24 text-white">
-            <h1 className="text-5xl text-center font-semibold">
-              A Feature-Complete Gateway Platform
-            </h1>
-            <p className=" text-center pt-2">
-              Deploy advanced routing and security features with just a few
-              clicks.
-            </p>
-            {/* <Container> */}
-            <div className="grid lg:grid-cols-3 divide-y-2 lg:divide-y-0 divide-x-0 lg:divide-x-2 divide-white/75 justify-center items-center py-12 gap-4">
-              {featureCard.map((feature, index) => (
-                <div className="flex flex-col items-center justify-center p-6 lg:p-4 gap-y-8">
-                  <h4 className="text-2xl text-center">{feature.title}</h4>
-                  <div className="grid grid-cols-2 gap-12 lg:gap-4">
-                    {feature.icons.map((icon, index) => (
-                      <div className="flex flex-col items-center opacity-75">
-                        {icon.icon}
-                        <p className="text-center text-sm md:text-lg">
-                          {icon.description}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-            {/* </Container> */}
-          </div>
-        </Container>
+      <FormBanner />
+      <div className="py-12">
+        <VideoCardSwitcher
+          videos={[
+            {
+              src: vid1,
+              label: "Industry Leading Hardware",
+              heading: "Industry Leading Hardware",
+            },
+            {
+              src: vid2,
+              label: "Intuitive Setup and Install",
+              heading: "Intuitive Setup and Install",
+            },
+            {
+              src: vid3,
+              label: "Scales Wide, Scales tall",
+              heading: "Scales Wide, Scales tall",
+            },
+            {
+              src: vid4,
+              label: "Software Updates that Keep Giving",
+              heading: "Software Updates that Keep Giving",
+            },
+          ]}
+        />
       </div>
       <div className="py-12">
-        <Container>
-          <div className="flex flex-col items-center pb-4">
-            <h1 className="text-4xl font-semibold">
-              Identity Mobile App Ready
-            </h1>
-            <p>An IT Manager's dream.</p>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-4">
-            <div className="lg:col-span-2 ">
-              <div className="relative w-full mx-auto rounded-xl overflow-hidden">
-                {/* Text Overlay */}
-                <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
-                  <h2 className="text-white text-xl font-semibold">
-                    Door Access
-                  </h2>
-                </div>
-
-                {/* Video */}
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-full object-cover"
-                >
-                  <source src={videoSrc} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col gap-4">
-                {/* Top Image Card */}
-                <div className="relative rounded-xl overflow-hidden">
-                  <div className="relative w-full rounded-xl overflow-hidden">
-                    {/* Text Overlay */}
-                    <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
-                      <h2 className="text-white text-xl font-semibold">
-                        Door Access
-                      </h2>
-                    </div>
-
-                    {/* Video */}
-                    <video
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      className="w-full h-auto object-cover"
-                    >
-                      <source src={videoSrc} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-
-                {/* Bottom Image Card with title */}
-                <div className="relative rounded-xl overflow-hidden">
-                  <div className="relative w-full rounded-xl overflow-hidden">
-                    {/* Text Overlay */}
-                    <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
-                      <h2 className="text-white text-xl font-semibold">
-                        Door Access
-                      </h2>
-                    </div>
-
-                    {/* Video */}
-                    <video
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      className="w-full h-auto object-cover"
-                    >
-                      <source src={videoSrc} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </div>
-      <div className="py-12">
-        <Container>
-          <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-8">
-              {productCards.map((product, index) => (
-                <CloudGatewayCard
-                  key={index}
-                  line1={product.line1}
-                  line1Value={product.line1Value}
-                  line1Bar={product.line1Bar}
-                  line2={product.line2}
-                  line2Value={product.line2Value}
-                  line2Bar={product.line2Bar}
-                  line3={product.line3}
-                  line3Value={product.line3Value}
-                  line3Bar={product.line3Bar}
-                  title={product.title}
-                  subtitle={product.subtitle}
-                  description={product.description}
-                />
-              ))}
-            </div>
-          </div>
-        </Container>
+        <h1 className=" text-3xl sm:text-4xl font-semibold text-center mb-4">
+          AI Enhanced Cybersecurity Platform
+        </h1>
+        <VideoCardSwitcher
+          videos={[
+            {
+              src: v1,
+              label: "Firewall Zone Matrix",
+              // heading: "Industry Leading Hardware",
+            },
+            {
+              src: v2,
+              label: "Seamless VPN & SD-WAN",
+              // heading: "Intuitive Setup and Install",
+            },
+            {
+              src: v3,
+              label: "Intelligent Failover",
+              // heading: "Scales Wide, Scales tall",
+            },
+            {
+              src: v4,
+              label: "Detailed Traffic & Activity Logs",
+              // heading: "Software Updates that Keep Giving",
+            },
+            {
+              src: v5,
+              label: "Advanced Intrusion Prevention & Anti Malware",
+              // heading: "Software Updates that Keep Giving",
+            },
+            {
+              src: v6,
+              label: "Layer 7 Application & Web Filtering",
+              // heading: "Software Updates that Keep Giving",
+            },
+          ]}
+        />
       </div>
     </div>
   );

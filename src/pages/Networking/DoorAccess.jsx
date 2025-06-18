@@ -28,7 +28,23 @@ const DoorAccess = () => {
     <div>
       <div className="px-4 mt-[92px] py-24">
         <Container>
-          <ContentSection noImg={true} reverse={true}>
+          <ContentSection
+            // noImg={true}
+            video={true}
+            videoLink={
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/pz2HtmQN6ok?si=c8YCA6-SZMLx8CI8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            }
+            reverse={true}
+          >
             <div className="text-center md:text-start flex flex-col gap-6">
               <h1
                 className="text-4xl md:text-5xl xl:text-6xl font-gabarito-semibold-600"
@@ -38,7 +54,7 @@ const DoorAccess = () => {
               >
                 Access Reimagined
               </h1>
-              <div
+              {/* <div
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1000"
@@ -48,7 +64,7 @@ const DoorAccess = () => {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s
                 </p>
-              </div>
+              </div> */}
             </div>
           </ContentSection>
         </Container>

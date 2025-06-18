@@ -3,7 +3,7 @@ import img from "../../assets/images/Networking/1.png";
 import wifiImg from "../../assets/images/Networking/Wifi/1.jpg";
 import doorAccess from "../../assets/images/Networking/DoorAccess/1.jpg";
 import cloudGateways from "../../assets/images/Networking/CloudGateways/1.webp";
-import videoSrc from "../../assets/images/Networking/CloudGateways/3.mp4";
+import videoSrc from "../../assets/images/Networking/2.mp4";
 import { ArrowUpRight, DoorClosedIcon } from "lucide-react";
 import Cards2 from "../../components/Cards2";
 
@@ -33,23 +33,23 @@ const Networking = () => {
   // ];
   const cardData2 = [
     {
-      subtitle: "The Original",
+      // subtitle: "The Original",
       title: "Cloud Gateways",
-      description: "WiFi Perfected",
+      // description: "WiFi Perfected",
       image: cloudGateways,
       link: "/networking/cloud-gateways",
     },
     {
-      subtitle: "The Original",
+      // subtitle: "The Original",
       title: "WiFi",
-      description: "WiFi Perfected",
+      // description: "WiFi Perfected",
       image: wifiImg,
       link: "/networking/wifi",
     },
     {
-      subtitle: "The Original",
+      // subtitle: "The Original",
       title: "Door Access",
-      description: "WiFi Perfected",
+      // description: "WiFi Perfected",
       image: doorAccess,
       link: "/networking/door-access",
     },
@@ -84,6 +84,30 @@ const Networking = () => {
               alt="networking banner"
             />
             <div className="w-max text-wrap flex flex-col gap-4">
+              <Link
+                to={"/networking/cloud-gateways"}
+                className="bg-white/10 text-white p-4 flex gap-2 rounded-lg"
+              >
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24 0C10.7456 0 0 10.7456 0 24C0 37.2544 10.7456 48 24 48C37.2544 48 48 37.2544 48 24C48 10.7456 37.2544 0 24 0ZM16.1448 3.90084C13.8072 6.44325 11.956 10.1001 10.824 14.4001H4.66397C7.04803 9.63197 11.144 5.86163 16.1448 3.90084ZM2.4 24C2.4 21.4688 2.87597 19.0568 3.68081 16.8H10.2896C9.85763 19.0776 9.6 21.484 9.6 24C9.6 26.516 9.85763 28.9224 10.2888 31.2H3.68081C2.87597 28.9432 2.4 26.5312 2.4 24ZM4.66397 33.6H10.824C11.9568 37.9 13.8072 41.5567 16.1448 44.0992C11.144 42.1384 7.04803 38.368 4.66397 33.6ZM22.8 45.4864C18.6928 44.7127 15.124 40.0264 13.2976 33.6H22.8V45.4864ZM22.8 31.2H12.7256C12.264 28.9344 12 26.5128 12 24C12 21.4872 12.264 19.0656 12.7256 16.8H22.8V31.2ZM22.8 14.4H13.2976C15.124 7.97363 18.6928 3.28716 22.8 2.51363V14.4ZM43.336 14.4H37.176C36.0432 10.1 34.1928 6.44316 31.8552 3.90075C36.856 5.86163 40.952 9.63197 43.336 14.4ZM25.2 2.51363C29.3072 3.28725 32.876 7.97363 34.7024 14.4H25.2V2.51363ZM25.2 16.8H35.2744C35.736 19.0656 36 21.4872 36 24C36 26.5128 35.736 28.9344 35.2744 31.2H25.2V16.8ZM25.2 45.4864V33.6H34.7024C32.876 40.0264 29.3072 44.7128 25.2 45.4864ZM31.8552 44.0992C34.1928 41.556 36.0432 37.8999 37.176 33.6H43.336C40.952 38.368 36.856 42.1384 31.8552 44.0992ZM37.7104 31.2C38.1424 28.9224 38.4 26.516 38.4 24C38.4 21.484 38.1424 19.0776 37.7112 16.8H44.32C45.124 19.0568 45.6 21.4688 45.6 24C45.6 26.5312 45.124 28.9432 44.3192 31.2H37.7104Z"
+                    fill="white"
+                  />
+                </svg>
+
+                <div>
+                  <h3 className="font-semibold md:text-lg">Cloud Gateways</h3>
+                  <p className="text-xs md:text-sm">
+                    Cutting-Edge WiFi Engineered for Performance
+                  </p>
+                </div>
+              </Link>
               <Link
                 to={"/networking/wifi"}
                 className="bg-white/10 text-white p-4 flex gap-2 rounded-lg"
@@ -132,30 +156,7 @@ const Networking = () => {
                   </p>
                 </div>
               </Link>
-              <Link
-                to={"/networking/cloud-gateways"}
-                className="bg-white/10 text-white p-4 flex gap-2 rounded-lg"
-              >
-                <svg
-                  width="48"
-                  height="48"
-                  viewBox="0 0 48 48"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M24 0C10.7456 0 0 10.7456 0 24C0 37.2544 10.7456 48 24 48C37.2544 48 48 37.2544 48 24C48 10.7456 37.2544 0 24 0ZM16.1448 3.90084C13.8072 6.44325 11.956 10.1001 10.824 14.4001H4.66397C7.04803 9.63197 11.144 5.86163 16.1448 3.90084ZM2.4 24C2.4 21.4688 2.87597 19.0568 3.68081 16.8H10.2896C9.85763 19.0776 9.6 21.484 9.6 24C9.6 26.516 9.85763 28.9224 10.2888 31.2H3.68081C2.87597 28.9432 2.4 26.5312 2.4 24ZM4.66397 33.6H10.824C11.9568 37.9 13.8072 41.5567 16.1448 44.0992C11.144 42.1384 7.04803 38.368 4.66397 33.6ZM22.8 45.4864C18.6928 44.7127 15.124 40.0264 13.2976 33.6H22.8V45.4864ZM22.8 31.2H12.7256C12.264 28.9344 12 26.5128 12 24C12 21.4872 12.264 19.0656 12.7256 16.8H22.8V31.2ZM22.8 14.4H13.2976C15.124 7.97363 18.6928 3.28716 22.8 2.51363V14.4ZM43.336 14.4H37.176C36.0432 10.1 34.1928 6.44316 31.8552 3.90075C36.856 5.86163 40.952 9.63197 43.336 14.4ZM25.2 2.51363C29.3072 3.28725 32.876 7.97363 34.7024 14.4H25.2V2.51363ZM25.2 16.8H35.2744C35.736 19.0656 36 21.4872 36 24C36 26.5128 35.736 28.9344 35.2744 31.2H25.2V16.8ZM25.2 45.4864V33.6H34.7024C32.876 40.0264 29.3072 44.7128 25.2 45.4864ZM31.8552 44.0992C34.1928 41.556 36.0432 37.8999 37.176 33.6H43.336C40.952 38.368 36.856 42.1384 31.8552 44.0992ZM37.7104 31.2C38.1424 28.9224 38.4 26.516 38.4 24C38.4 21.484 38.1424 19.0776 37.7112 16.8H44.32C45.124 19.0568 45.6 21.4688 45.6 24C45.6 26.5312 45.124 28.9432 44.3192 31.2H37.7104Z"
-                    fill="white"
-                  />
-                </svg>
 
-                <div>
-                  <h3 className="font-semibold md:text-lg">Cloud Gateways</h3>
-                  <p className="text-xs md:text-sm">
-                    Cutting-Edge WiFi Engineered for Performance
-                  </p>
-                </div>
-              </Link>
               <Link
                 to={"/networking/door-access"}
                 className="bg-white/10 text-white p-4 flex gap-2 rounded-lg"

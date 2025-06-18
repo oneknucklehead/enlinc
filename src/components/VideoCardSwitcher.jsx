@@ -3,9 +3,11 @@ import { Play, Pause } from "lucide-react";
 
 export default function VideoCardSwitcher({ videos = [] }) {
   const videoRef = useRef(null);
+  const buttonRefs = useRef([]);
   const [isPlaying, setIsPlaying] = useState(true);
   const [progress, setProgress] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [buttonSizes, setButtonSizes] = useState([]);
 
   const currentVideo = videos[currentIndex];
 
@@ -36,73 +38,121 @@ export default function VideoCardSwitcher({ videos = [] }) {
       if (total > 0) setProgress((current / total) * 100);
     };
 
+    const handleEnded = () => {
+      setProgress(0);
+      setCurrentIndex((prevIndex) =>
+        prevIndex === videos.length - 1 ? 0 : prevIndex + 1
+      );
+    };
+
     video.addEventListener("timeupdate", handleTimeUpdate);
+    video.addEventListener("ended", handleEnded);
     video.play();
 
-    return () => video.removeEventListener("timeupdate", handleTimeUpdate);
-  }, [currentIndex]);
+    return () => {
+      video.removeEventListener("timeupdate", handleTimeUpdate);
+      video.removeEventListener("ended", handleEnded);
+    };
+  }, [currentIndex, videos.length]);
+
+  // Measure button sizes after mount or update
+  useEffect(() => {
+    const sizes = buttonRefs.current.map((ref) =>
+      ref ? ref.getBoundingClientRect() : { width: 160, height: 40 }
+    );
+    setButtonSizes(sizes);
+  }, [videos]);
 
   return (
-    <div>
-      <div className="relative w-full max-w-6xl mx-auto rounded-xl overflow-hidden bg-black shadow-lg">
-        <div className="relative w-full aspect-video">
-          <video
-            ref={videoRef}
-            src={currentVideo.src}
-            className="w-full h-full object-cover"
-            autoPlay
-            muted
-            loop
-            playsInline
-          />
+    <div className="w-full max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+      {currentVideo.heading && (
+        <h2 className=" text-3xl sm:text-4xl font-semibold text-center text-gray-800 mb-4">
+          {currentVideo.heading}
+        </h2>
+      )}
+      {/* Pills */}
+      <div className="flex flex-wrap justify-center items-center gap-4 py-6">
+        {videos.map((vid, idx) => {
+          const isActive = idx === currentIndex;
+          const size = buttonSizes[idx] || { width: 160, height: 40 };
+          const width = size.width + 12;
+          const height = size.height + 12;
+          const radius = size.height / 2;
+          const perimeter =
+            2 * (size.width + size.height - 2 * radius) + 2 * Math.PI * radius;
+          const dashOffset = perimeter * (1 - (isActive ? progress : 0) / 100);
 
-          {/* Overlay Title */}
-          <h2 className="absolute top-4 left-1/2 -translate-x-1/2 text-white text-lg font-semibold z-10">
-            {currentVideo.title}
-          </h2>
+          return (
+            <button
+              key={idx}
+              onClick={() => changeVideo(idx)}
+              className="relative group"
+            >
+              {/* Progress Ring */}
+              <svg
+                width={width}
+                height={height}
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+              >
+                <rect
+                  x="6"
+                  y="6"
+                  rx={radius}
+                  ry={radius}
+                  width={size.width}
+                  height={size.height}
+                  fill="none"
+                  stroke={isActive ? "#2A6A9E" : "#d1d5db"}
+                  strokeWidth="3"
+                  strokeDasharray={perimeter}
+                  strokeDashoffset={dashOffset}
+                  className="transition-all duration-300 ease-linear"
+                />
+              </svg>
 
-          {/* Play/Pause Button with Progress Ring */}
-          <button
-            onClick={togglePlay}
-            className="absolute bottom-4 right-4 z-20 w-12 h-12 rounded-full bg-black/70 flex items-center justify-center group"
-          >
-            <svg className="absolute -z-10 w-12 h-12">
-              <circle
-                cx="24"
-                cy="24"
-                r="20"
-                stroke="#2A6A9E"
-                strokeWidth="3"
-                fill="transparent"
-                strokeDasharray={2 * Math.PI * 20}
-                strokeDashoffset={2 * Math.PI * 20 * (1 - progress / 100)}
-                className="transition-all duration-300 ease-linear"
-              />
-            </svg>
-            {isPlaying ? (
-              <Pause className="text-white w-5 h-5" />
-            ) : (
-              <Play className="text-white w-5 h-5" />
-            )}
-          </button>
-        </div>
+              {/* Pill Button */}
+              <span
+                ref={(el) => (buttonRefs.current[idx] = el)}
+                className={`relative z-10 inline-block shadow-md text-center px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ease-in-out whitespace-nowrap
+                  ${
+                    isActive
+                      ? "bg-white text-[#2A6A9E]"
+                      : "bg-gray-50 text-gray-800 hover:bg-gray-200"
+                  }
+                `}
+              >
+                {vid.label || `Video ${idx + 1}`}
+              </span>
+            </button>
+          );
+        })}
       </div>
-      {/* Video Switch Buttons */}
-      <div className="flex justify-center items-center gap-2 py-4 bg-white">
-        {videos.map((vid, idx) => (
-          <button
-            key={idx}
-            onClick={() => changeVideo(idx)}
-            className={`px-3 py-1 bg-white flex flex-col items-center gap-2 rounded-md text-sm font-medium ${
-              idx === currentIndex
-                ? " text-[#2A6A9E]"
-                : " text-gray-500 hover:bg-gray-50"
-            }`}
-          >
-            <span className="w-fit">{vid.svg}</span>
-            <p className="text-sm md:text-base">{vid.title}</p>
-          </button>
-        ))}
+
+      {/* Video Player */}
+      <div className="relative w-full aspect-video bg-black rounded-xl overflow-hidden shadow-xl">
+        <video
+          ref={videoRef}
+          src={currentVideo.src}
+          className="w-full h-full object-cover"
+          autoPlay
+          muted
+          // loop
+          playsInline
+        />
+        <h2 className="absolute top-4 left-1/2 -translate-x-1/2 text-white text-sm md:text-lg font-semibold z-10">
+          {currentVideo.title}
+        </h2>
+
+        <button
+          onClick={togglePlay}
+          className="absolute bottom-4 right-4 z-20 w-12 h-12 rounded-full bg-black/70 flex items-center justify-center hover:scale-110 transition-transform"
+        >
+          {isPlaying ? (
+            <Pause className="text-white w-5 h-5" />
+          ) : (
+            <Play className="text-white w-5 h-5" />
+          )}
+        </button>
       </div>
     </div>
   );
