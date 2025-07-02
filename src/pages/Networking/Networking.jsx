@@ -61,21 +61,21 @@ const Networking = () => {
         <div className="relative flex flex-col gap-8 justify-center items-center h-full w-full">
           <div className="text-center max-w-5xl">
             <h1
-              className="text-4xl text-white md:text-6xl"
+              className="text-3xl text-white md:text-6xl"
               data-aos="fade-down"
               data-aos-delay="150"
               data-aos-duration="1000"
             >
-              Lorem Ipsum is simply dummy text
+              Design Interference-Free WiFi with UniFi
             </h1>
-            <p
+            {/* <p
               className="text-xl md:text-2xl text-white text-center"
               data-aos="fade-down"
               data-aos-delay="350"
               data-aos-duration="1000"
             >
               Design Interference-Free WiFi with UniFi
-            </p>
+            </p> */}
           </div>
           <div className="grid md:grid-cols-2 gap-8 h-fit justify-center items-center max-w-6xl">
             <img

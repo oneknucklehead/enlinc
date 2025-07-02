@@ -5,43 +5,84 @@ import ContentSection from "../../sections/ContentSection";
 import Button from "../../components/Button";
 import { PhoneForwarded } from "lucide-react";
 import img1 from "../../assets/images/Product/IT/1.webp";
-
+import logo1 from "../../assets/icons/ManagedITService/PNG/SystemMonitoring.png";
+import logo2 from "../../assets/icons/ManagedITService/PNG/DataBackup.png";
+import logo3 from "../../assets/icons/ManagedITService/PNG/Cybersecurity.png";
+import logo4 from "../../assets/icons/ManagedITService/PNG/ITSupport.png";
+import logo5 from "../../assets/icons/ManagedITService/PNG/OptimizedNetwork.png";
+import logo6 from "../../assets/icons/ManagedITService/PNG/TailoredCloud.png";
+import logo7 from "../../assets/icons/ManagedITService/PNG/ITConsulting.png";
 const ManagedITServices = () => {
   const cardData = [
     {
       title: "Proactive System Monitoring and Maintenance",
       description:
         "We keep your systems healthy with real-time monitoring, automated updates, and preventive maintenance—resolving issues before they can disrupt your operations.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo1} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Secure Data Backup and Rapid Recovery",
       description:
         "Protect critical business data with our secure backup solutions. If unexpected data loss occurs, our fast recovery processes minimise downtime and restore your information quickly and safely.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo2} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Advanced Cybersecurity Protection",
       description:
         "Safeguard your business with multi-layered security strategies, including threat detection, managed firewalls, endpoint protection, and ransomware defence.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo3} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Round-the-Clock IT Support",
       description:
         "Our dedicated Australian-based support team is available 24/7 to troubleshoot technical issues, ensuring your systems stay operational and your teams stay productive.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo4} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Optimised Network Management",
       description:
         "We oversee your entire network environment—from routers to Wi-Fi access points—to guarantee fast, stable, and secure connectivity across all your business locations.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo5} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Tailored Cloud Solutions",
       description:
         "EN-LINC helps you transition to the cloud seamlessly, offering cloud infrastructure management, data migration services, and scalable hosting options to enhance business agility.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo6} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Strategic IT Consulting Services",
       description:
         "Plan smarter and scale faster with expert guidance from EN-LINC’s IT consultants, ensuring every technology investment drives real business results.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo7} alt="logo" />
+        </div>
+      ),
     },
   ];
   return (

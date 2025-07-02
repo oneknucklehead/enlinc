@@ -1,7 +1,14 @@
 import React from "react";
 import Container from "../../components/Container";
 import ContentSection from "../../sections/ContentSection";
-
+import logo1 from "../../assets/icons/PhoneSystemsPage/PNG/VoicetoEmail.png";
+import logo2 from "../../assets/icons/PhoneSystemsPage/PNG/SmartCallDistribution.png";
+import logo3 from "../../assets/icons/PhoneSystemsPage/PNG/VirtualReceptionist.png";
+import logo4 from "../../assets/icons/PhoneSystemsPage/PNG/HoldMusicFeature.png";
+import logo5 from "../../assets/icons/PhoneSystemsPage/PNG/CallAnywhereAnytime.png";
+import logo6 from "../../assets/icons/PhoneSystemsPage/PNG/AudioConferencing.png";
+import logo7 from "../../assets/icons/PhoneSystemsPage/PNG/CallRecording.png";
+import logo8 from "../../assets/icons/PhoneSystemsPage/PNG/ReportingAndAnalytics.png";
 import FeatureCard2 from "../../components/FeatureCard2";
 import {
   CircleDot,
@@ -56,49 +63,81 @@ const PhoneSystems = () => {
       title: "Voicemail-to-Email Integration",
       description:
         "Get voicemail messages delivered directly to your email inbox—access and listen to them anytime, anywhere from your mobile phone or computer. Perfect for staying connected and responsive on the go.",
-      logo: <Mail className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo1} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Smart Call Distribution (Hunt Group Feature)",
       description:
         "Automatically transfer incoming calls using a voice menu system—no receptionist or manual operator needed. Improve efficiency and ensure callers reach the right team or department with ease.",
-      logo: <Share2 className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo2} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Virtual Receptionist (Auto Attendant Feature)",
       description:
         "Keep callers engaged with on-hold music or messages, reducing hang-ups while they wait to be connected to the right person.",
-      logo: <Settings className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo3} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Hold Music Feature",
       description:
         "Keep callers engaged with on-hold music or messages, reducing hang-ups while they wait to be connected to the right person.",
-      logo: <Database className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo4} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Call Anywhere, Anytime",
       description:
         "Access all the features of a full business phone system on your mobile device—stay connected and manage calls from anywhere, anytime.",
-      logo: <Music className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo5} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Built-In Audio Conferencing",
       description:
         "Host virtual meetings with multiple participants using high-quality business conference calling—ideal for seamless team collaboration and client communication.",
-      logo: <Phone className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo6} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Recorded Calls Made Easy",
       description:
         "Improve customer service by recording business calls and saving them as digital audio files—ideal for quality control, staff training, and compliance.",
-      logo: <Users className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo7} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Call Reporting & Analytics",
       description:
         "Track all phone activity, call usage, and costs in real time with our advanced call accounting software—ideal for monitoring performance and managing telecom expenses.",
-      logo: <CircleDot className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo8} alt="logo" />
+        </div>
+      ),
     },
   ];
 

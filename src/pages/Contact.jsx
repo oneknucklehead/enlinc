@@ -252,11 +252,11 @@ const Contact = () => {
                 </svg>
               </span>
               <div className="flex flex-col justify-center">
-                <h3>New South Wales</h3>
-                <p>Level 6/379 Kent St, Sydney NSW 2000</p>
+                <h3>Level 1/394 Lane Cove Rd,</h3>
+                <p>Macquarie Park NSW 2113</p>
               </div>
             </div>
-            <div className="flex text-white items-center gap-4">
+            {/* <div className="flex text-white items-center gap-4">
               <span className="bg-white rounded-full py-3 px-4">
                 <svg
                   width="24"
@@ -335,7 +335,7 @@ const Contact = () => {
                 <h3>New South Wales</h3>
                 <p>Level 6/379 Kent St, Sydney NSW 2000</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>

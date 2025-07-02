@@ -17,7 +17,9 @@ const FeatureCard2 = ({
     >
       <div
         className={`${
-          image ? "bg-transparent" : "bg-[#2A6A9E]"
+          image
+            ? "bg-transparent"
+            : "bg-white border-2 rounded-full border-[#2A6A9E]"
         } p-2 rounded-full text-white`}
       >
         {logo}

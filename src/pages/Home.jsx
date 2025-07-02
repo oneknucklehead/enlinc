@@ -189,7 +189,7 @@ const Home = () => {
         <Container>
           <div className="py-12 px-4">
             <p
-              className="text-3xl text-center font-semibold pb-12"
+              className="text-3xl text-center font-semibold pb-4"
               data-aos="fade-up"
               data-aos-duration="1000"
             >

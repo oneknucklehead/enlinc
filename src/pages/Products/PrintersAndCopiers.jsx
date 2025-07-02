@@ -6,22 +6,39 @@ import ContentSection from "../../sections/ContentSection";
 import { PhoneForwarded } from "lucide-react";
 import img1 from "../../assets/images/Product/PrinterAndCopier/1.webp";
 import img2 from "../../assets/images/Product/PrinterAndCopier/2.webp";
+import logo1 from "../../assets/icons/PrinterAndCopies/PNG/SmallBusiness.png";
+import logo2 from "../../assets/icons/PrinterAndCopies/PNG/MediumToLarge.png";
+import logo3 from "../../assets/icons/PrinterAndCopies/PNG/IndustrySpecifcSolution.png";
 
 const PrintersAndCopiers = () => {
   const cardData = [
     {
-      logo: <PhoneForwarded className="h-5 w-5" />,
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo1} alt="logo" />
+        </div>
+      ),
 
       title: "Small Businesses",
       description:
         "Compact and efficient printers that provide high-quality output without taking up much space, perfect for small offices.",
     },
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo2} alt="logo" />
+        </div>
+      ),
       title: "Medium to Large Enterprises",
       description:
         "High-capacity printers and copiers that handle large volumes of work efficiently, equipped with advanced features to support busy office environments.",
     },
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo3} alt="logo" />
+        </div>
+      ),
       title: "Industry-Specific Solutions",
       description:
         "Specialised printers and copiers designed for industries such as healthcare, legal, and education, providing features that cater to their unique demands.",

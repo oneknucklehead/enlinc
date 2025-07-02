@@ -8,6 +8,9 @@ import Banner from "../../components/Banner";
 import img1 from "../../assets/images/Product/InternetAndVoice/1.webp";
 import img2 from "../../assets/images/Product/InternetAndVoice/2.webp";
 import img3 from "../../assets/images/Product/InternetAndVoice/3.webp";
+import logo1 from "../../assets/icons/InternetAndVoice/PNG/Fiber.png";
+import logo2 from "../../assets/icons/InternetAndVoice/PNG/Ethernet.png";
+import logo3 from "../../assets/icons/InternetAndVoice/PNG/InternetPackages.png";
 
 const InternetAndVoice = () => {
   const cardData = [
@@ -15,16 +18,32 @@ const InternetAndVoice = () => {
       title: "Ultra-Fast Fibre Connectivity",
       description:
         "Harness the power of high-speed fibre networks, providing your business with the speed and reliability needed for intensive tasks like cloud operations, video meetings, and large-scale data transfers.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo1} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Enterprise-Grade Ethernet Solutions",
       description:
         "For organisations requiring dedicated bandwidth and maximum uptime, ENLINC’s Enterprise Ethernet delivers a private, high-capacity connection with symmetrical upload and download speeds, backed by guaranteed service levels.",
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo2} alt="logo" />
+        </div>
+      ),
     },
     {
       title: "Customisable Internet Packages",
       description:
         "Whether you’re launching a startup or expanding a national enterprise, ENLINC offers flexible Internet options that adapt as your business grows — ensuring you always stay connected without compromise.",
+
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo3} alt="logo" />
+        </div>
+      ),
     },
   ];
   return (

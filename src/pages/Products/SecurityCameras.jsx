@@ -6,35 +6,70 @@ import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
 import img1 from "../../assets/images/Product/CameraSec/1.webp";
 import img2 from "../../assets/images/Product/CameraSec/2.webp";
-
+import logo1 from "../../assets/icons/SecurityCamera/PNG/HighResolution.png";
+import logo2 from "../../assets/icons/SecurityCamera/PNG/SmartMotionDetection.png";
+import logo3 from "../../assets/icons/SecurityCamera/PNG/EnhancedNightVision.png";
+import logo4 from "../../assets/icons/SecurityCamera/PNG/AllWeatherDurability.png";
+import logo5 from "../../assets/icons/SecurityCamera/PNG/SecureRemoteMonitoring.png";
+import logo6 from "../../assets/icons/SecurityCamera/PNG/FlexibleScalableSystems.png";
 const SecurityCameras = () => {
   const cardData = [
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo1} alt="logo" />
+        </div>
+      ),
       title: "High-Resolution Imaging",
       description:
         "Capture every moment in crystal-clear detail with ENLINC’s high-resolution camera technology, ensuring critical visuals are never missed.",
     },
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo2} alt="logo" />
+        </div>
+      ),
       title: "Smart Motion Detection",
       description:
         "Stay ahead of potential threats with intelligent motion sensing. Receive real-time alerts whenever unusual activity is detected on your premises.",
     },
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo3} alt="logo" />
+        </div>
+      ),
       title: "Enhanced Night Vision",
       description:
         "Maintain full visibility even after dark. Our advanced infrared night vision technology ensures your property is monitored 24/7, regardless of lighting conditions.",
     },
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo4} alt="logo" />
+        </div>
+      ),
       title: "All-Weather Durability",
       description:
         "Designed to perform in Australia's toughest environments, ENLINC’s weatherproof cameras offer reliable surveillance in rain, heat, or storms.",
     },
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo5} alt="logo" />
+        </div>
+      ),
       title: "Secure Remote Monitoring",
       description:
         "Access live feeds and recorded footage securely from your smartphone, tablet, or computer — anytime, anywhere — giving you ultimate control and flexibility.",
     },
     {
+      logo: (
+        <div className="flex h-6 w-6">
+          <img src={logo6} alt="logo" />
+        </div>
+      ),
       title: "Flexible, Scalable Systems",
       description:
         "Our modular security solutions grow with your business. Easily upgrade or expand your network without hassle, ensuring your protection evolves alongside your needs.",
