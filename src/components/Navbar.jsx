@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Menu, X, ChevronDown, ChevronUp } from "lucide-react";
 import Container from "./Container";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.webp";
 import { Link } from "react-router-dom";
 
 const navItems = [
@@ -113,7 +113,7 @@ const Navbar = () => {
             to={"/"}
             className="flex items-center gap-2 text-black font-bold text-lg"
           >
-            <img src={logo} alt="Logo" className="h-8 w-auto" />
+            <img src={logo} alt="Logo" className="h-10 w-auto" />
             {/* <span>EN-LINC</span> */}
           </Link>
 

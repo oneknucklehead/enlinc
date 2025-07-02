@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import Container from "../../components/Container";
-import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import FormBanner from "../../sections/FormBanner";
-import img from "../../assets/images/person.jpg";
+import img from "../../assets/images/person.webp";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
+import bannerImg from "../../assets/images/bannerImg.webp";
 import ModalButton from "../../components/ModalButton";
 
 const SmallBusiness = () => {

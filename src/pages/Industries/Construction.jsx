@@ -1,21 +1,17 @@
 import React, { useState } from "react";
 import Container from "../../components/Container";
-import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import FormBanner from "../../sections/FormBanner";
-import img from "../../assets/images/person.jpg";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
-import bannerImg from "../../assets/images/bannerImg.jpg";
 import ModalButton from "../../components/ModalButton";
 
-import img1 from "../../assets/images/Construction/1.jpg";
-import img2 from "../../assets/images/Construction/2.png";
-import img3 from "../../assets/images/Construction/3.jpg";
-import img4 from "../../assets/images/Construction/4.png";
-import img5 from "../../assets/images/Construction/5.png";
-import img6 from "../../assets/images/Construction/6.jpg";
-import img7 from "../../assets/images/Construction/7.png";
+import img1 from "../../assets/images/Construction/1.webp";
+import img2 from "../../assets/images/Construction/2.webp";
+import img3 from "../../assets/images/Construction/3.webp";
+import img4 from "../../assets/images/Construction/4.webp";
+import img5 from "../../assets/images/Construction/5.webp";
+import img6 from "../../assets/images/Construction/6.webp";
 
 const Construction = () => {
   const [isModalOpen, setModalOpen] = useState(false);

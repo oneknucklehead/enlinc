@@ -4,8 +4,8 @@ import Container from "../../components/Container";
 import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
-import img1 from "../../assets/images/Product/CameraSec/1.jpg";
-import img2 from "../../assets/images/Product/CameraSec/2.jpg";
+import img1 from "../../assets/images/Product/CameraSec/1.webp";
+import img2 from "../../assets/images/Product/CameraSec/2.webp";
 
 const SecurityCameras = () => {
   const cardData = [

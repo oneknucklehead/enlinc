@@ -6,17 +6,12 @@ import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
 import ModalButton from "../../components/ModalButton";
 
-import img1 from "../../assets/images/Automobile/1.jpg";
-import img2 from "../../assets/images/Automobile/2.png";
-import img3 from "../../assets/images/Automobile/3.jpg";
-import img4 from "../../assets/images/Automobile/4.png";
-import img5 from "../../assets/images/Automobile/5.png";
-import img6 from "../../assets/images/Automobile/6.png";
-import img7 from "../../assets/images/Automobile/7.png";
-import img8 from "../../assets/images/Automobile/8.png";
-import img9 from "../../assets/images/Automobile/9.png";
-import img10 from "../../assets/images/Automobile/10.jpg";
-import img11 from "../../assets/images/Automobile/11.png";
+import img1 from "../../assets/images/Automobile/1.webp";
+import img2 from "../../assets/images/Automobile/2.webp";
+import img3 from "../../assets/images/Automobile/3.webp";
+import img4 from "../../assets/images/Automobile/4.webp";
+import img5 from "../../assets/images/Automobile/5.webp";
+import img6 from "../../assets/images/Automobile/6.webp";
 
 const Automotive = () => {
   const [isModalOpen, setModalOpen] = useState(false);

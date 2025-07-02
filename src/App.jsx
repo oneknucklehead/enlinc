@@ -39,7 +39,7 @@ import Wifi from "./pages/Networking/Wifi";
 
 function App() {
   return (
-    <div className="font-gabarito-reg-400">
+    <div className="font-gabarito-reg-400 overflow-hidden">
       <Navbar />
       <div className="">
         <ScrollToTop />

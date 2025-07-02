@@ -5,9 +5,9 @@ import Button from "../../components/Button";
 import FormBanner from "../../sections/FormBanner";
 import FeatureCard2 from "../../components/FeatureCard2";
 import Banner from "../../components/Banner";
-import img1 from "../../assets/images/PhoneSystems/enterprise/1.jpg";
-import img2 from "../../assets/images/PhoneSystems/enterprise/2.jpg";
-import img3 from "../../assets/images/PhoneSystems/enterprise/3.jpg";
+import img1 from "../../assets/images/PhoneSystems/enterprise/1.webp";
+import img2 from "../../assets/images/PhoneSystems/enterprise/2.webp";
+import img3 from "../../assets/images/PhoneSystems/enterprise/3.webp";
 
 const Enterprise = () => {
   const cardData = [

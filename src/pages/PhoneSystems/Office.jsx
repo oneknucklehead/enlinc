@@ -5,9 +5,9 @@ import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import Banner from "../../components/Banner";
 import FormBanner from "../../sections/FormBanner";
-import img1 from "../../assets/images/PhoneSystems/office/1.jpg";
-import img2 from "../../assets/images/PhoneSystems/office/2.jpg";
-import img3 from "../../assets/images/PhoneSystems/office/3.jpg";
+import img1 from "../../assets/images/PhoneSystems/office/1.webp";
+import img2 from "../../assets/images/PhoneSystems/office/2.webp";
+import img3 from "../../assets/images/PhoneSystems/office/3.webp";
 
 const Office = () => {
   const cardData = [

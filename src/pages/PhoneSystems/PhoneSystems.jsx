@@ -20,9 +20,9 @@ import FormBanner from "../../sections/FormBanner";
 import Carousel from "../../components/Carousel";
 import CardWithHoverTab from "../../components/CardWithHoverTab";
 
-import img1 from "../../assets/images/Filler/4.png";
-import img2 from "../../assets/images/Filler/7.png";
-import img3 from "../../assets/images/PhoneSystems/1.jpg";
+import img1 from "../../assets/images/Filler/4.webp";
+import img2 from "../../assets/images/Filler/7.webp";
+import img3 from "../../assets/images/PhoneSystems/1.webp";
 
 const slides = [
   {
@@ -124,8 +124,8 @@ const PhoneSystems = () => {
           <ContentSection
             videoLink={
               <iframe
-                width="560"
-                height="315"
+                width="100%"
+                height="100%"
                 src="https://www.youtube.com/embed/UNUn51YWVrM?si=Jo_xuN9rvFwtI3xS"
                 title="YouTube video player"
                 frameborder="0"

@@ -103,7 +103,7 @@ const Footer = () => {
           <img
             src={logo}
             alt="brand logo"
-            className="hidden max-w-24 sm:block"
+            className="hidden max-w-28 sm:block"
           />
           <p>&copy; {new Date().getFullYear()} En-linc.</p>
           <div className="flex flex-wrap gap-4 items-center">

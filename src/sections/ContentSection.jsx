@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import dummy from "../assets/images/dummy.jpg";
+import dummy from "../assets/images/dummy.webp";
 import ModalButton from "../components/ModalButton";
 
 const ContentSection = ({
@@ -34,7 +34,12 @@ const ContentSection = ({
               data-aos-duration="1000"
               className={`col-span-1 ${reverse ? "order-2" : "order-1"}`}
             >
-              {videoLink}
+              {/* Responsive wrapper for any passed iframe */}
+              <div className="relative w-full pt-[56.25%] rounded-xl overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-full [&>iframe]:w-full [&>iframe]:h-full [&>iframe]:absolute [&>iframe]:top-0 [&>iframe]:left-0">
+                  {videoLink}
+                </div>
+              </div>
             </div>
           ) : noImg ? null : (
             <div

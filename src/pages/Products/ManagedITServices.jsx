@@ -4,7 +4,7 @@ import FeatureCard2 from "../../components/FeatureCard2";
 import ContentSection from "../../sections/ContentSection";
 import Button from "../../components/Button";
 import { PhoneForwarded } from "lucide-react";
-import img1 from "../../assets/images/Product/IT/1.jpg";
+import img1 from "../../assets/images/Product/IT/1.webp";
 
 const ManagedITServices = () => {
   const cardData = [

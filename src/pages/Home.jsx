@@ -1,12 +1,12 @@
 import bgImg from "../assets/images/bg.png";
 import Button from "../components/Button";
-import googleLogo from "../assets/images/google.png";
-import headphoneLogo from "../assets/images/headphone.png";
+import googleLogo from "../assets/images/google.webp";
+import headphoneLogo from "../assets/images/headphone.webp";
 import homeMainImg from "../assets/images/home-mainImg.png";
 import Container from "../components/Container";
-import lady from "../assets/images/Filler/2.png";
+import lady from "../assets/images/Filler/2.webp";
 
-import dummy from "../assets/images/dummy.jpg";
+import dummy from "../assets/images/dummy.webp";
 
 import savings from "../assets/images/Savings.png";
 import MultiStepForm from "../components/MultiStepForm";
@@ -14,7 +14,6 @@ import FeatureCard from "../components/FeatureCard";
 import tabs from "../data/ContentSwitcherData";
 import { useEffect, useState } from "react";
 import ReviewSlider from "../components/ReviewSlider";
-import Accordion from "../components/Accordion";
 import { Star, Webhook } from "lucide-react";
 import FAQSection from "../sections/FAQSection";
 import Modal from "../components/Modal";

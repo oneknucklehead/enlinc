@@ -4,8 +4,8 @@ import Container from "../../components/Container";
 import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
-import img1 from "../../assets/images/WebAppDev/1.jpg";
-import img2 from "../../assets/images/WebAppDev/2.jpg";
+import img1 from "../../assets/images/WebAppDev/1.webp";
+import img2 from "../../assets/images/WebAppDev/2.webp";
 
 const WebAndAppDev = () => {
   const cardData = [

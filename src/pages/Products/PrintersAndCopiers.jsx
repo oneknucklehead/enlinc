@@ -4,8 +4,8 @@ import Container from "../../components/Container";
 import Button from "../../components/Button";
 import ContentSection from "../../sections/ContentSection";
 import { PhoneForwarded } from "lucide-react";
-import img1 from "../../assets/images/Product/PrinterAndCopier/1.jpg";
-import img2 from "../../assets/images/Product/PrinterAndCopier/2.jpg";
+import img1 from "../../assets/images/Product/PrinterAndCopier/1.webp";
+import img2 from "../../assets/images/Product/PrinterAndCopier/2.webp";
 
 const PrintersAndCopiers = () => {
   const cardData = [

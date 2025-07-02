@@ -1,9 +1,4 @@
-import Button from "../components/Button";
 import Container from "../components/Container";
-import ProfileCard from "../components/ProfileCard";
-
-// import logo from "../assets/images/brands/Logo-7.png";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -12,12 +7,10 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Pagination } from "swiper/modules";
-import { Link } from "react-router-dom";
 import ContentSection from "../sections/ContentSection";
 
-import img1 from "../assets/images/about1.jpg";
-import img2 from "../assets/images/about2.jpg";
+import img1 from "../assets/images/about1.webp";
+import img2 from "../assets/images/about2.webp";
 import clientelle from "../data/Clientelle";
 
 function About() {

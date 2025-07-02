@@ -41,7 +41,7 @@ const Contact = () => {
     console.log(data);
     axios.defaults.headers.post["Content-Type"] = "application/json";
     axios
-      .post("https://formsubmit.co/ajax/zohebahmed1542@gmail.com", data)
+      .post("https://formsubmit.co/ajax/sales@en-linc.com", data)
       .then((response) => {
         console.log(response);
         // setLoader(false);

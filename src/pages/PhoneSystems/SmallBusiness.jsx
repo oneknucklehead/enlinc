@@ -1,16 +1,13 @@
-import React from "react";
 import Container from "../../components/Container";
 import ContentSection from "../../sections/ContentSection";
-import Button from "../../components/Button";
 import MultiStepForm from "../../components/MultiStepForm";
 import savings from "../../assets/images/Savings.png";
 import FeatureCard2 from "../../components/FeatureCard2";
 import { Phone, PhoneForwarded } from "lucide-react";
-import FeatureCard3 from "../../components/FeatureCard3";
 import Banner from "../../components/Banner";
 
-import img1 from "../../assets/images/PhoneSystems/smallBusiness/1.jpg";
-import img2 from "../../assets/images/PhoneSystems/smallBusiness/2.jpg";
+import img1 from "../../assets/images/PhoneSystems/smallBusiness/1.webp";
+import img2 from "../../assets/images/PhoneSystems/smallBusiness/2.webp";
 
 const SmallBusiness = () => {
   const cardData = [

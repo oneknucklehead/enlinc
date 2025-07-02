@@ -7,10 +7,10 @@ import Banner2 from "../../components/Banner2";
 import ModalButton from "../../components/ModalButton";
 
 import img1 from "../../assets/images/RealEstate/1.webp";
-import img2 from "../../assets/images/RealEstate/2.jpg";
+import img2 from "../../assets/images/RealEstate/2.webp";
 import img3 from "../../assets/images/RealEstate/3.webp";
-import img4 from "../../assets/images/RealEstate/4.jpg";
-import img5 from "../../assets/images/RealEstate/5.jpg";
+import img4 from "../../assets/images/RealEstate/4.webp";
+import img5 from "../../assets/images/RealEstate/5.webp";
 
 const RealEstate = () => {
   const [isModalOpen, setModalOpen] = useState(false);

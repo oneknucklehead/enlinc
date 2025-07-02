@@ -5,12 +5,12 @@ import FormBanner from "../../sections/FormBanner";
 import Cards from "../../components/Cards";
 import Banner2 from "../../components/Banner2";
 import ModalButton from "../../components/ModalButton";
-import img1 from "../../assets/images/Accountant/1.jpg";
-import img2 from "../../assets/images/Accountant/2.jpg";
-import img3 from "../../assets/images/Accountant/3.jpg";
-import img4 from "../../assets/images/Accountant/4.jpg";
-import img5 from "../../assets/images/Accountant/5.jpg";
-import img6 from "../../assets/images/Accountant/6.jpg";
+import img1 from "../../assets/images/Accountant/1.webp";
+import img2 from "../../assets/images/Accountant/2.webp";
+import img3 from "../../assets/images/Accountant/3.webp";
+import img4 from "../../assets/images/Accountant/4.webp";
+import img5 from "../../assets/images/Accountant/5.webp";
+import img6 from "../../assets/images/Accountant/6.webp";
 
 const Accountants = () => {
   const [isModalOpen, setModalOpen] = useState(false);

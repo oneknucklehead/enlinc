@@ -8,8 +8,8 @@ import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
 import Banner from "../../components/Banner";
 
-import img1 from "../../assets/images/PhoneSystems/mediumBusiness/1.jpg";
-import img2 from "../../assets/images/PhoneSystems/mediumBusiness/2.jpg";
+import img1 from "../../assets/images/PhoneSystems/mediumBusiness/1.webp";
+import img2 from "../../assets/images/PhoneSystems/mediumBusiness/2.webp";
 
 const MediumBusiness = () => {
   const cardData = [

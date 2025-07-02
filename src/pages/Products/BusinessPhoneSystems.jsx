@@ -6,8 +6,8 @@ import Button from "../../components/Button";
 import FeatureCard2 from "../../components/FeatureCard2";
 import { PhoneForwarded } from "lucide-react";
 import Banner from "../../components/Banner";
-import img1 from "../../assets/images/Product/BusinessPhoneSolutions/1.jpg";
-import img2 from "../../assets/images/Product/BusinessPhoneSolutions/2.jpg";
+import img1 from "../../assets/images/Product/BusinessPhoneSolutions/1.webp";
+import img2 from "../../assets/images/Product/BusinessPhoneSolutions/2.webp";
 
 const BusinessPhoneSystems = () => {
   const cardData = [

@@ -1,4 +1,4 @@
-import productDummy from "../assets/images/productdummy.png";
+import productDummy from "../assets/images/productdummy.webp";
 
 const yeaLink = [
     {

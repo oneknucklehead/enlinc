@@ -1,33 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Container from "../../components/Container";
 import ContentSection from "../../sections/ContentSection";
-import Button from "../../components/Button";
-import MultiStepForm from "../../components/MultiStepForm";
-import savings from "../../assets/images/Savings.png";
-import FeatureCard2 from "../../components/FeatureCard2";
-import {
-  CircleDot,
-  Database,
-  Mail,
-  Music,
-  Phone,
-  PhoneForwarded,
-  Settings,
-  Share2,
-  Users,
-} from "lucide-react";
-import FeatureCard3 from "../../components/FeatureCard3";
-import Banner from "../../components/Banner";
+
 import FormBanner from "../../sections/FormBanner";
-import Carousel from "../../components/Carousel";
 import Cards from "../../components/Cards";
 import ModalButton from "../../components/ModalButton";
 import Banner2 from "../../components/Banner2";
-import img1 from "../../assets/images/Filler/4.png";
-import img2 from "../../assets/images/Product/3.jpg";
-import img3 from "../../assets/images/Filler/6.png";
-import img4 from "../../assets/images/Product/2.jpg";
-import bannerImg from "../../assets/images/Filler/9.jpg";
+import img1 from "../../assets/images/Filler/4.webp";
+import img2 from "../../assets/images/Product/3.webp";
+import img3 from "../../assets/images/Filler/6.webp";
+import img4 from "../../assets/images/Product/2.webp";
+import bannerImg from "../../assets/images/Filler/9.webp";
 import CardWithHoverTab from "../../components/CardWithHoverTab";
 
 const slides = [
