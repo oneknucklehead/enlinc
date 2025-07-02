@@ -19,6 +19,8 @@ import FAQSection from "../sections/FAQSection";
 import Modal from "../components/Modal";
 import ModalButton from "../components/ModalButton";
 import logos from "../data/TrustedCompany";
+import { Link } from "react-router-dom";
+import LogoCarousel from "../components/LogoCarousel";
 
 // const brandArr = [logo, logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
@@ -115,47 +117,14 @@ const Home = () => {
                 isModalOpen={isModalOpen}
                 setModalOpen={setModalOpen}
               />
-              <Button
-                onClick={() => setModalOpen2(true)}
-                classname={"py-[6px] px-4 text-[#142462] text-sm xl:text-base"}
-                outline={true}
+              <Link
+                to={"/our-services"}
+                className={
+                  "py-[6px] border-2 border-[#142462] rounded-md px-4 text-[#142462] text-sm xl:text-base"
+                }
               >
-                <div className="flex gap-2">
-                  <svg
-                    width="21"
-                    height="21"
-                    viewBox="0 0 21 21"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M14.5047 10.6457L8.73161 13.9788L8.73161 7.31257L14.5047 10.6457Z"
-                      fill="#142462"
-                    />
-                    <circle
-                      cx="10.6559"
-                      cy="10.6456"
-                      r="8.98401"
-                      stroke="#142462"
-                      stroke-width="2"
-                    />
-                  </svg>
-
-                  <p>How we help</p>
-                </div>
-              </Button>
-              <Modal isOpen={isModalOpen2} onClose={() => setModalOpen2(false)}>
-                <iframe
-                  width="100%"
-                  height="500px"
-                  src="https://www.youtube.com/embed/3rMIoH0Ye_M"
-                  title="Nothing Phone (3a) &amp; (3a) Pro Unboxing &amp; First Look⚡Don&#39;t Make The Mistake!"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </Modal>
+                <p>Learn More</p>
+              </Link>
             </div>
             <div className="flex w-full justify-center py-12">
               <div className="hidden xl:block  animate-float -rotate-12 p-[2px] h-fit rounded-lg bg-gradient-to-r from-[#0EA4DE] to-[#142462]">
@@ -164,7 +133,7 @@ const Home = () => {
                     loading="lazy"
                     src={googleLogo}
                     alt="google"
-                    className="h-32 rotate-6"
+                    className="h-18 rotate-6"
                   />
                   <div className="pr-3">
                     <div className="flex gap-2">
@@ -199,7 +168,7 @@ const Home = () => {
                     loading="lazy"
                     src={headphoneLogo}
                     alt="headphone"
-                    className="-rotate-6"
+                    className="-rotate-6 h-18"
                   />
                   <div className="pr-3">
                     <div className="text-lg text-[#F3C200] font-gabarito-semibold-600">
@@ -226,7 +195,8 @@ const Home = () => {
             >
               Our Clientelle
             </p>
-            <div className="flex mx-auto flex-wrap justify-center items-center gap-12">
+            <LogoCarousel logos={logos} />
+            {/* <div className="flex mx-auto flex-wrap justify-center items-center gap-12">
               {logos.map((logo, index) => (
                 <div key={index} className="">
                   <img
@@ -236,7 +206,7 @@ const Home = () => {
                   />
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>
