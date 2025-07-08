@@ -78,10 +78,29 @@ const Footer = () => {
               >
                 Enlinc Speed Test
               </a>
+              <a
+                href="https://www.mediagroup.com.au/voice-artists/male/all/AU/Telephone"
+                className="hover:underline"
+              >
+                Male
+              </a>
+              <a
+                href="https://www.mediagroup.com.au/voice-artists/female/all/AU/Telephone"
+                className="hover:underline"
+              >
+                Female
+              </a>
+              <a
+                href="https://www.mediagroup.com.au/music-library"
+                className="hover:underline"
+              >
+                Music
+              </a>
               <Link className="hover:underline" to={"/contact"}>
                 Contact Us
               </Link>
             </div>
+            {/* <h3 className="text-2xl">Navigation</h3> */}
           </div>
           <div>
             <h3 className="text-2xl">Policies</h3>
