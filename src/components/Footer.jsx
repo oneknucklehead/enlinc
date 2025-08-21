@@ -72,7 +72,7 @@ const Footer = () => {
               <Link className="hover:underline" to={"/about"}>
                 About Us
               </Link>
-              <a
+              {/* <a
                 href="https://enlinc.speedtestcustom.com/"
                 className="hover:underline"
               >
@@ -89,13 +89,22 @@ const Footer = () => {
                 className="hover:underline"
               >
                 Female
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://www.mediagroup.com.au/music-library"
                 className="hover:underline"
               >
                 Music
-              </a>
+              </a> */}
+              <Link to={"/music/client-samples"} className="hover:underline">
+                Client Samples
+              </Link>
+              <Link to={"/music/voice-talents"} className="hover:underline">
+                Voice Talents
+              </Link>
+              <Link to={"/music/library"} className="hover:underline">
+                Music
+              </Link>
               <Link className="hover:underline" to={"/contact"}>
                 Contact Us
               </Link>

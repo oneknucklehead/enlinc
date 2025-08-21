@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 
 // import "./styles.css";
 
-// import required modules
 import ContentSection from "../sections/ContentSection";
 
 import img1 from "../assets/images/about1.webp";
@@ -14,71 +13,6 @@ import img2 from "../assets/images/about2.webp";
 import clientelle from "../data/Clientelle";
 
 function About() {
-  // const data = [
-  //   {
-  //     year: 2010,
-  //     details: [
-  //       "18 employees.",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //       "Relocated Parramata",
-  //     ],
-  //     logo: logo,
-  //   },
-  //   {
-  //     year: 2015,
-  //     details: [
-  //       "18 employees.",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //     ],
-  //     logo: logo,
-  //   },
-  //   {
-  //     year: 2011,
-  //     details: [
-  //       "18 employees.",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //       "Relocated Parramata",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //     ],
-  //     logo: logo,
-  //   },
-  //   {
-  //     year: 2010,
-  //     details: [
-  //       "18 employees.",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //       "Relocated Parramata",
-  //     ],
-  //     logo: logo,
-  //   },
-  //   {
-  //     year: 2015,
-  //     details: [
-  //       "18 employees.",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //     ],
-  //     logo: logo,
-  //   },
-  //   {
-  //     year: 2011,
-  //     details: [
-  //       "18 employees.",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //       "Relocated Parramata",
-  //       "Launched & Commenced ES Oki.",
-  //       "Launched range of Omniview",
-  //     ],
-  //     logo: logo,
-  //   },
-  // ];
-
   return (
     <div>
       {/* HERO SECTION */}
@@ -254,25 +188,6 @@ function About() {
           </div> */}
         </Container>
       </div>
-      {/* <div className="w-full bg-gradient-to-r from-[#142462] to-[#2A6A9E] h-fit py-12 px-4">
-        <Container>
-          <div className="text-white flex flex-col gap-4 justify-center items-center">
-            <h1 className="text-4xl text-center">Careers at Enlinc</h1>
-            <p className="text-center">
-              Join our dynamic team and shape the future of business
-              communication
-            </p>
-            <button className="text-white my-3">
-              <Link
-                to={"/careers"}
-                className=" border-2  px-8 py-2 border-white rounded-lg"
-              >
-                View Opportunities
-              </Link>
-            </button>
-          </div>
-        </Container>
-      </div> */}
     </div>
   );
 }

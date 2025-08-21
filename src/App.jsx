@@ -36,6 +36,9 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 import DoorAccess from "./pages/Networking/DoorAccess";
 import CloudGateways from "./pages/Networking/CloudGateways";
 import Wifi from "./pages/Networking/Wifi";
+import Music from "./pages/Music/Music";
+import VoiceTalent from "./pages/Music/VoiceTalent";
+import ClientSamples from "./pages/Music/ClientSamples";
 
 function App() {
   return (
@@ -115,6 +118,10 @@ function App() {
             path="/terms-and-conditions"
             element={<TermsAndConditions />}
           />
+          {/* Music */}
+          <Route path="/music/library" element={<Music />} />
+          <Route path="/music/voice-talents" element={<VoiceTalent />} />
+          <Route path="/music/client-samples" element={<ClientSamples />} />
         </Routes>
       </div>
       <Footer />
