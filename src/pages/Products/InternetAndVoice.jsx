@@ -203,7 +203,7 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Blazing-Fast Speeds</b>
+                        <b>Blazing-Fast Speeds </b>
                         Unlock connectivity speeds of up to 1000Mbps, enabling
                         seamless data exchange, faster cloud access, and
                         efficient digital operations.
@@ -222,7 +222,7 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Unmatched Reliability</b>
+                        <b>Unmatched Reliability </b>
                         Our business-grade Internet services are built for
                         stability, reducing downtime and maintaining continuous
                         performance to keep your operations moving without
@@ -242,7 +242,7 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>Growth-Ready Scalability</b>
+                        <b>Growth-Ready Scalability </b>
                         As your business evolves, ENLINC’s flexible Internet
                         options make it easy to scale up your bandwidth,
                         ensuring you’re always equipped for expanding demands.
@@ -261,7 +261,7 @@ const InternetAndVoice = () => {
                       </svg>
                       {/* Text */}
                       <span className="text-gray-700 transition-colors duration-300 hover:text-black">
-                        <b>24/7 Expert Support</b>
+                        <b>Local Australian Expert Support </b>
                         Our dedicated technical team is on hand around the clock
                         to resolve any connectivity issues quickly, so you can
                         focus on running your business with confidence.

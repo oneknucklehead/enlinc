@@ -93,7 +93,7 @@ const Industries = () => {
       image: img4,
     },
     {
-      title: "24/7 Customer Support Without the Overhead",
+      title: "Local Australian Customer Support Without the Overhead",
       description:
         "Deliver round-the-clock service with EN-LINC’s intelligent conversational AI. Whether answering questions, booking appointments, or offering tailored recommendations, our adaptive solutions connect seamlessly to your approved knowledge base — ensuring customer satisfaction without additional staffing costs.",
       image: img5,

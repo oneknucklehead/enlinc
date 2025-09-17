@@ -32,7 +32,7 @@ const tabs = [
     {
         title: 'Support That Never Sleeps',
         description:
-            "Our 24/7 Australian-based support team is ready to assist with everything from technical troubleshooting to account management and system updates. Whether you're running VoIP, Hosted PBX, or integrated cloud communications, we ensure your business stays online, responsive, and secure.With guaranteed SLAs, fast response times, and real human help whenever you need it, you can count on support that never sleeps—so you never miss a beat.",
+            "Our Local Australian Support team is ready to assist with everything from technical troubleshooting to account management and system updates. Whether you're running VoIP, Hosted PBX, or integrated cloud communications, we ensure your business stays online, responsive, and secure.With guaranteed SLAs, fast response times, and real human help whenever you need it, you can count on support that never sleeps—so you never miss a beat.",
         image: img5,
     },
 ];
