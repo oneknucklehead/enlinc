@@ -39,6 +39,7 @@ import Wifi from "./pages/Networking/Wifi";
 import Music from "./pages/Music/Music";
 import VoiceTalent from "./pages/Music/VoiceTalent";
 import ClientSamples from "./pages/Music/ClientSamples";
+import SmsMessaging from "./pages/Products/SmsMessaging";
 
 function App() {
   return (
@@ -94,6 +95,10 @@ function App() {
           <Route
             path="/our-services/internet-and-voice"
             element={<InternetAndVoice />}
+          />
+          <Route
+            path="/our-services/sms-messaging"
+            element={<SmsMessaging />}
           />
           <Route
             path="/our-services/printers-and-copiers"
