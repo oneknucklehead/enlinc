@@ -39,6 +39,12 @@ const slides = [
     link: "/our-services/internet-and-voice",
   },
   {
+    title: "SMS Messaging",
+    description:
+      "To avoid SMS blocking or Unverified labels from 1 July 2026, businesses must register their Sender IDs with the ACMA to comply with new anti-scam regulations.",
+    link: "/our-services/sms-messaging",
+  },
+  {
     title: "Printers & Copiers",
     description:
       "Reliable, high-performance Kyocera printers and copiers designed to reduce downtime, lower costs, and support seamless business document workflows.",

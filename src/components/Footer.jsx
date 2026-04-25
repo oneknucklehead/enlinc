@@ -54,6 +54,13 @@ const Footer = () => {
               </Link>
               <Link
                 className="hover:underline"
+                to={"/our-services/sms-messaging"}
+              >
+                SMS Messaging
+              </Link>
+
+              <Link
+                className="hover:underline"
                 to={"/our-services/printers-and-copiers"}
               >
                 Printers & Copiers
